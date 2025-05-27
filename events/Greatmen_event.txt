@@ -1,0 +1,166 @@
+namespace = great_men_check
+normal_or_historical_nations = yes
+
+country_event = {
+	id = great_men_check.1
+	title = great.men.check.1.t
+	desc = great.men.check.1.d
+	picture = ADVISOR_eventpicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = great.men.check.1.philosopher
+		trigger ={ 
+			NOT = { has_country_flag = "philosopher" }
+		}
+	}
+	option = {
+		name = great.men.check.1.naturalscientist
+		trigger ={ 
+			NOT = { has_country_flag = "natural_scientist" }
+		}
+	}
+	option = {
+		name = great.men.check.1.reformer
+		trigger ={ 
+			NOT = { has_country_flag = "army_reformer" }
+		}
+	}
+	option = {
+		name = great.men.check.1.naval
+		trigger ={ 
+			NOT = { has_country_flag = "naval_reformer" }
+		}
+	}
+	option = {
+		name = great.men.check.1.artist
+		trigger ={ 
+			NOT = { has_country_flag = "artist" }
+		}
+	}
+	option = {
+		name = great.men.check.1.treasurer
+		trigger ={ 
+			NOT = { has_country_flag = "treasurer" }
+		}
+	}
+	option = {
+		name = great.men.check.1.theologian
+		trigger ={ 
+			NOT = { has_country_flag = "theologian" }
+		}
+	}
+	option = {
+		name = great.men.check.1.governor
+		trigger ={ 
+			NOT = { has_country_flag = "colonial_governor" }
+		}
+	}
+	option = {
+		name = great.men.check.1.spymaster
+		trigger ={ 
+			NOT = { has_country_flag = "spymaster" }
+		}
+	}
+	option = {
+		name = great.men.check.1.diplomat
+		trigger ={ 
+			NOT = { has_country_flag = "diplomat" }
+		}
+	}
+	option = {
+		name = great.men.check.1.trader
+		trigger ={ 
+			NOT = { has_country_flag = "trader" }
+		}
+	}
+	option = {
+		name = great.men.check.1.mint
+		trigger ={ 
+			NOT = { has_country_flag = "master_of_mint" }
+		}
+	}
+	option = {
+		name = great.men.check.1.navigator
+		trigger ={ 
+			NOT = { has_country_flag = "navigator" }
+		}
+	}
+	option = {
+		name = great.men.check.1.captain
+		trigger ={ 
+			NOT = { has_country_flag = "grand_captain" }
+		}
+	}
+	option = {
+		name = great.men.check.1.organiser
+		trigger ={ 
+			NOT = { has_country_flag = "army_organiser" }
+		}
+	}
+	option = {
+		name = great.men.check.1.commandant
+		trigger ={ 
+			NOT = { has_country_flag = "commandant" }
+		}
+	}
+	option = {
+		name = great.men.check.1.quartermaster
+		trigger ={ 
+			NOT = { has_country_flag = "quartermaster" }
+		}
+	}
+	option = {
+		name = great.men.check.1.recruitmaster
+		trigger ={ 
+			NOT = { has_country_flag = "recruitmaster" }
+		}
+	}
+	option = {
+		name = great.men.check.1.fort
+		trigger ={ 
+			NOT = { has_country_flag = "fortification_expert" }
+		}
+	}
+	option = {
+		name = great.men.check.1.inquisitor
+		trigger ={ 
+			NOT = { has_country_flag = "inquisitor" }
+		}
+	}
+	option = {
+		name = great.men.check.1.finished
+		trigger = { 
+			AND = {
+				has_country_flag = "philosopher"
+				has_country_flag = "natural_scientist"
+				has_country_flag = "army_reformer"
+				has_country_flag = "naval_reformer"
+				has_country_flag = "artist"
+				has_country_flag = "treasurer"
+				has_country_flag = "theologian"
+				has_country_flag = "colonial_governor"
+				has_country_flag = "spymaster"
+				has_country_flag = "diplomat"
+				has_country_flag = "trader"
+				has_country_flag = "mint"
+				has_country_flag = "navigator"
+				has_country_flag = "grand_captain"
+				has_country_flag = "army_organiser"
+				has_country_flag = "commandant"
+				has_country_flag = "quartermaster"
+				has_country_flag = "recruitmaster"
+				has_country_flag = "fortification_expert"
+				has_country_flag = "inquisitor"
+				}
+			}
+			add_prestige = 50
+			add_stability_or_adm_power = yes
+			change_government_reform_progress = 50
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			set_country_flag = finished_all_men
+	}
+}

@@ -1,0 +1,35 @@
+government = monarchy
+add_government_reform = daimyo
+government_rank = 1
+primary_culture = togoku
+add_accepted_culture = japanese
+religion = shinto
+technology_group = chinese
+capital = 1030	# Owari
+
+1440.1.1 = {
+	monarch = {
+		name = "Hisanaga"
+		dynasty = "Oda"
+		birth_date = 1420.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = incorruptible_personality
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = midas_touched_personality
+	leader = {
+		name = "Saito Hideyoshi"
+		type = general
+		fire = 1
+		shock = 2
+		manuever = 3
+		siege = 3
+		birth_date = 1423.5.19
+		death_date = 1453.9.9
+		personality = siege_specialist_personality
+	}
+}
+

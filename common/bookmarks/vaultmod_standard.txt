@@ -1,0 +1,24 @@
+bookmark =
+{
+	name = "VAULTMOD_STANDARD"
+	desc = "VAULTMOD_STANDARD_DESC"
+	date = 1444.11.11
+	
+	center = 112
+	default = yes
+	
+	
+	country = CAS
+	country = POR	
+	country = FRA
+	country = ENG
+	country = BRA
+	country = FRN
+	country = LAN
+	country = HAB
+	country = SWE
+	country = MOS
+	country = POL
+	country = TUR
+	country = MAM
+}

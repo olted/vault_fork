@@ -1,0 +1,39 @@
+government = monarchy
+add_government_reform = aztec_empire_reform
+primary_culture = aztek
+religion = nahuatl
+technology_group = mesoamerican
+capital = 852	# Mexico
+fixed_capital = 852 # Cannot move capital away from this province & no power cost to move to it
+add_army_professionalism = 0.1
+if = {
+	limit = { has_dlc = "Winds of Change" }
+	set_estate_privilege = estate_nobles_AZT_triple_alliance
+}
+
+1440.8.14 = {
+	monarch = {
+		name = "Moctezuma I Ilhuicamina"
+		dynasty = "Acamapichtli"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = legendary_conqueror_personality
+	set_ruler_flag = azt_montezuma
+}
+
+1440.8.14 = {
+	heir = {
+		name = "Axayacatl"
+		monarch_name = "Axayacatl"
+		dynasty = "Acamapichtli"
+		birth_date = 1440.1.1
+		death_Date = 1481.10.30
+		claim = 95
+		adm = 5
+		dip = 2
+		mil = 4
+	}
+}

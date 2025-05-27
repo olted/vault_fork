@@ -1,0 +1,317 @@
+#Hesse and spare conquest
+frankfurt_group_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	frn_hesse = {
+		icon = mission_unite_home_region
+		position = 2
+		required_missions = { frn_initial_expansion }
+		
+		trigger = {
+			81 = { country_or_non_sovereign_subject_holds = ROOT }
+			1762 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		effect = {
+			hesse_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			westphalia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			north_westphalia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+#Starting mission, nassau then cologne and ultimate integration mission
+frankfurt_group_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	frn_initial_expansion = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = { }
+		
+		trigger = {
+				army_size_percentage = 1
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = frankfurt_expansion_start
+				duration = 10950
+			}
+			if = {
+				limit = {
+					exists = MAI
+					MAI = {
+						is_free_or_tributary_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					target = MAI
+					type = cb_vassalize_mission
+					months = 360
+				}
+			}
+			else = {
+				give_claims = { province = 78 }
+				give_claims = { province = 4718 }
+			}
+			if = {
+				limit = {
+					exists = NSA
+					NSA = {
+						is_free_or_tributary_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					target = NSA
+					type = cb_vassalize_mission
+					months = 360
+				}
+			}
+			else = {
+				give_claims = { province = 83 }
+			}
+			if = {
+				limit = {
+					exists = HES
+					HES = {
+						is_free_or_tributary_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					target = HES
+					type = cb_vassalize_mission
+					months = 360
+				}
+			}
+			else = {
+				give_claims = { province = 81 }
+				give_claims = { province = 1762 }
+			}
+		}
+	}
+	
+	frn_nassau = {
+		icon = mission_unite_home_region
+		position = 2
+		required_missions = { frn_initial_expansion }
+		
+		trigger = {
+			83 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		effect = {
+			westphalia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			north_rhine_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	frn_integration = {
+		icon = mission_unite_home_region
+		position = 2
+		required_missions = { frn_nassau frn_mainz frn_hesse }
+		
+		trigger = {
+			83 = { country_or_non_sovereign_subject_holds = ROOT }
+			78 = { country_or_non_sovereign_subject_holds = ROOT }
+			1762 = { country_or_non_sovereign_subject_holds = ROOT }
+			85 = { country_or_non_sovereign_subject_holds = ROOT }
+			80 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		effect = {
+			add_prestige_or_monarch_power = {
+				amount = 50
+			}
+			add_republican_tradition = 20
+			custom_tooltip = frankfurt_integration_effect
+			hidden_effect = {
+				if = {
+					limit = {
+						MAI = {
+							ai = yes
+							MAI = {	is_subject_of = ROOT }
+						}
+					}
+					inherit = MAI
+				}
+				else = {
+					add_dip_power = 50
+				}
+				if = {
+					limit = {
+						NSA = {
+							ai = yes
+							NSA = {	is_subject_of = ROOT }
+						}
+					}
+					inherit = NSA
+				}
+				else = {
+					add_adm_power = 50
+				}
+				if = {
+					limit = {
+						HES = {
+							ai = yes
+							HES = {	is_subject_of = ROOT }
+						}
+					}
+					inherit = HES
+				}
+				else = {
+					add_mil_power = 50
+				}
+			}
+		}
+	}	
+}
+
+#South (mainz/palatinate)
+frankfurt_group_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	frn_mainz = {
+		icon = mission_unite_home_region
+		position = 2
+		required_missions = { frn_initial_expansion }
+		
+		trigger = {
+			78 = { country_or_non_sovereign_subject_holds = ROOT }
+			4718 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		effect = {
+			palatinate_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lower_rhineland_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+}
+
+#Economic/printing press related tomfoolery
+frankfurt_group_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	frn_paper = {
+		icon = mission_early_modern_university
+		position = 1
+		required_missions = { }
+		
+		trigger = {
+			1876 = { base_production = 16 }
+		}
+		effect = {
+			add_prestige_or_monarch_power = {
+				amount = 25
+			}
+			1876 = { 
+				add_province_modifier = {
+				name = frn_printing_press
+				duration = -1
+				}
+			}
+		}
+	}
+}
+
+#Imperial/diplomatic business
+frankfurt_group_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = FRN
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	frn_imperial_support = {
+		icon = mission_war_chest
+		position = 1
+		required_missions = { }
+		
+		trigger = {
+			emperor = {
+				has_opinion = {
+					who = root
+					value = 150
+				}
+			}
+		}
+		effect = {
+			add_treasury = 200
+			add_manpower = 10
+		}
+	}
+}

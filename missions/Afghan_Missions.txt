@@ -1,0 +1,512 @@
+Afghan_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = AFG
+	}
+	has_country_shield = yes
+	
+	AFG_rightful_protector = {
+		icon = mission_protect_albania
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+		}
+		trigger = {
+			stability = 1
+			has_adm_advisor = yes
+			has_dip_advisor = yes
+			has_mil_advisor = yes
+		}
+		effect = {
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			
+		}
+	}
+	
+	AFG_defy_the_yasa = {
+		icon = mission_vedic_education
+		required_missions = { AFG_rightful_protector }
+		position = 2
+		provinces_to_highlight = {
+		}
+		trigger = {
+			monthly_adm = 10
+			monthly_dip = 10
+			monthly_mil = 10
+		}
+		effect = {
+			add_country_modifier = {
+				name = TIM_centralization_reforms
+				duration = 10950
+			}
+			
+			define_advisor = {
+				type = statesman
+				skill = 3
+				culture = ROOT
+				religion = ROOT
+				cost_multiplier = 0.5
+			}
+		}
+	}
+	
+	AFG_sufi_support = {
+		icon = mission_sufi_shrines
+		required_missions = { AFG_defy_the_yasa }
+		position = 3
+		provinces_to_highlight = {
+		}
+		trigger = {
+			OR = {
+				NOT = { piety = -0.75 }
+				AND = {
+					piety = 0.75
+					religious_unity = 0.8
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = TIM_sufi_support_effect
+			set_country_flag = TIM_piety_support
+			
+			custom_tooltip = " "
+			
+			if = {
+				limit = { 
+					has_dlc = "Golden Century"
+				}
+				custom_tooltip = TIM_give_access_to_sufi_orders
+				set_country_flag = TIM_holy_orders
+			}
+			else = {
+				add_country_modifier = {
+					name = TIM_sufi_orders
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+Afghan_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = AFG
+	}
+	has_country_shield = yes
+	
+	AFG_fresh_blood = {
+		icon = mission_reconquer_ceuta
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+		}
+		trigger = {
+			num_of_battles = { amount = 15 }
+			num_of_generals = 2
+		}
+		effect = {
+			add_country_modifier = {
+				name = TIM_fresh_blood_modifier
+				duration = 5475
+			}
+			add_yearly_manpower = 0.5
+			define_advisor = {
+							type = commandant
+							skill = 2
+							culture = ROOT
+							religion = ROOT
+							cost_multiplier = 0.5
+			}
+		}
+	}
+	
+	AFG_military = {
+		icon = per_qizilbash_loyalty
+		required_missions = { AFG_fresh_blood }
+		position = 2
+		provinces_to_highlight = {
+		}
+		trigger = {
+			num_of_battles = { amount = 25 }
+			OR = {
+				is_ahead_of_time_in_technology = { tech = mil }
+				monthly_mil = 12
+			}
+			if = {
+				limit = {
+					has_estate = estate_nobles
+				}
+				OR = {
+					estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 55
+					}
+					num_of_estate_privileges = {
+						estate = estate_nobles
+						value = 4
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = TIM_army_reorganization
+				duration = 7300
+			}
+			define_advisor = {
+				type = army_reformer 
+				skill = 2
+				culture = ROOT
+				religion = ROOT
+				cost_multiplier = 0.5
+			}
+		}
+	}
+}
+
+Afghan_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = AFG
+	}
+	has_country_shield = yes
+	
+	AFG_governors_at_bay = {
+		icon = mission_conquer_malwa_mer
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			owner = {
+				is_subject_of = ROOT
+				liberty_desire = 40
+			}
+		}
+		trigger = {
+			army_size = 20
+		}
+		effect = {
+			country_event_with_option_insight = {
+				id = flavor_tim.6
+				option_1 = "
+					custom_tooltip = TIM_upgrade_iqta_tax
+					set_country_flag = TIM_upgrade_iqta_tax_flag
+					
+					custom_tooltip = \" \"
+					
+					add_adm_power = 50
+				"
+				option_2 = "
+					custom_tooltip = TIM_upgrade_iqta_manpower
+					set_country_flag = TIM_upgrade_iqta_manpower_flag
+					
+					custom_tooltip = \" \"
+					
+					add_mil_power = 50
+				"
+				option_3 = "
+					custom_tooltip = TIM_upgrade_iqta_ld
+					set_country_flag = TIM_upgrade_iqta_ld_flag
+					
+					custom_tooltip = \" \"
+					
+					add_dip_power = 50
+				"
+			}
+		}
+	}
+	
+	AFG_afghan_empire = {
+		icon = mission_subdue_the_afghans
+		required_missions = { AFG_governors_at_bay AFG_fresh_blood }
+		position = 2
+		provinces_to_highlight = {
+		}
+		trigger = {
+			total_development = 300
+			prestige = 60
+			army_size = 40
+		}
+		effect = {
+			add_country_modifier_for_age = {
+				name = TIM_timurid_empire_modifier
+				age = age_of_discovery
+				else = "	
+					add_adm_power = 100
+					add_dip_power = 100
+					add_mil_power = 100
+				"
+			}
+		}
+	}
+}
+
+Afghan_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = AFG
+	}
+	has_country_shield = yes
+	
+	AFG_madrasa = {
+		icon = mission_gawans_madrasar
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+			province_id = 446
+		}
+		trigger = {
+			OR = {
+				is_ahead_of_time_in_technology = { tech = adm }
+				is_ahead_of_time_in_technology = { tech = dip }
+				is_ahead_of_time_in_technology = { tech = mil }
+			}
+			451 = {
+				has_tax_building_trigger = yes
+				owned_by = ROOT
+			}
+			OR = {
+				artist = 2
+				has_adm_advisor_3 = yes
+				has_estate_privilege = estate_burghers_patronage_of_the_arts
+			}
+		}
+		effect = {
+			451 = {
+				add_or_upgrade_tax_building = yes
+				add_or_upgrade_university_building = yes
+			}
+			
+			custom_tooltip = " "
+			
+			if = {
+				limit = {
+					has_estate = estate_church
+					has_dlc = "Rule Britannia"
+				}
+				custom_tooltip = TIM_unlock_privilege_for_innovativeness_gain
+				set_country_flag = TIM_unlock_privilege_for_innovativeness_gain_flag
+				
+				custom_tooltip = " "
+			}
+			else = {
+				add_country_modifier = {
+					name = TIM_ijazah
+					duration = 9125
+				}
+			}
+			
+			add_stability_or_adm_power = yes
+		}
+	}
+	
+	AFG_baluchistan = {
+		icon = mission_abu_saids_dream
+		required_missions = { AFG_east }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = kalat_area
+				area = makran_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				OR = {
+					area = kalat_area
+					area = makran_area
+				}
+				value = 3
+			}
+		}
+		effect = {
+			kalat_area = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				add_local_autonomy = -25
+				add_nationalism = -15
+			}
+			makran_area = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				add_local_autonomy = -25
+				add_nationalism = -15
+			}
+			
+			custom_tooltip = " "
+			
+			give_claims = { area = sindh_area }
+			give_claims = { area = northern_sindh_area }
+			give_claims = { area = multan_area }
+			
+			custom_tooltip = " "
+			
+			add_yearly_manpower = 0.5
+		}
+	}
+}
+
+Afghan_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = AFG
+	}
+	has_country_shield = yes
+	
+	AFG_east = {
+		icon = mission_afghan_frontier
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = {
+		}
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			give_claims = { area = makran_area }
+			give_claims = { area = kalat_area }
+			give_claims = { area = kashmir_area }
+			give_claims = { area = sind_sagar_area }
+			give_claims = { area = lahore_area }
+			give_claims = { area = sirhind_area }
+			give_claims = { area = upper_doab_area }
+			
+			custom_tooltip = " "
+			
+			if = {
+				limit = { is_year = 1750 }
+				define_general = {
+					name = "Ahmad Khan Abdali"
+					shock = 1
+					fire = 5
+					manuever = 5
+					siege = 2
+					trait = master_of_arms_personality
+				}
+			}
+			else_if = {
+				limit = { is_year = 1700 }
+				define_general = {
+					name = "Nadir Quli Beg"
+					fire = 3
+					shock = 5
+					manuever = 5
+					siege = 1
+					trait = master_of_arms_personality
+				}
+			}
+			else_if = {
+				limit = { is_year = 1650 }
+				define_general = {
+					name = "Aurangzeb Timurid"
+					shock = 5
+					fire = 5
+					manuever = 2
+					siege = 0
+					trait = master_of_arms_personality
+				}
+			}
+			else_if = {
+				limit = { is_year = 1600 }
+				define_general = {
+					name = "Akbar Timurid"
+					shock = 4
+					fire = 4
+					manuever = 2
+					siege = 2
+					trait = master_of_arms_personality
+				}
+			}
+			else_if = {
+				limit = { is_year = 1550 }
+				define_general = {
+					name = "Humayun Timurid"
+					shock = 4
+					fire = 4
+					manuever = 2
+					siege = 2
+					trait = master_of_arms_personality
+				}
+			}
+			else_if = {
+				limit = { is_year = 1500 }
+				define_general = {
+					name = "Babur Timurid"
+					shock = 5
+					fire = 5
+					manuever = 3
+					siege = 1
+					trait = master_of_arms_personality
+				}
+			}
+			else_if = {
+				limit = { is_year = 1450 }
+				define_general = {
+					name = "Abu Said Timurid"
+					shock = 5
+					fire = 4
+					manuever = 3
+					siege = 1
+					trait = master_of_arms_personality
+				}
+			}
+			else = {
+				define_general = {
+					name = "Abu Said Timurid"
+					shock = 5
+					fire = 4
+					manuever = 3
+					siege = 1
+					trait = master_of_arms_personality
+				}
+			}
+		}
+	}
+	
+	AFG_delhi = {
+		icon = mission_crush_delhi
+		required_missions = { AFG_east }
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = kashmir_area
+				area = sind_sagar_area
+				area = lahore_area
+				area = sirhind_area
+				area = upper_doab_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				OR = {
+					area = kashmir_area
+					area = sind_sagar_area
+					area = lahore_area
+					area = sirhind_area
+					area = upper_doab_area
+				}
+				value = 14
+			}
+		}
+		effect = {
+			add_power_projection_mission = { amount = 25 }
+			add_prestige = 25
+		}
+	}
+}

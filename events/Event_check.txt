@@ -1,0 +1,49 @@
+namespace = event_check
+normal_or_historical_nations = yes
+
+country_event = {
+	id = event_check.1
+	title = event.check.1.t
+	desc = event.check.1.d
+	picture = ADVISOR_eventpicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = event.check.1.radical
+		trigger ={ 
+		NOT = { has_country_flag = "radical_mercantilist_reforms" }
+		}
+	}
+	option = { 
+		name = event.check.1.military
+		trigger ={ 
+		NOT = { has_country_flag = "military_reform" }
+		}
+	}
+	option = { 
+		name = event.check.1.prosper
+		trigger ={ 
+		NOT = { has_country_flag = "prosper_time_event" }
+		}
+	}
+	option = { 
+		name = event.check.1.bank
+		trigger ={ 
+		NOT = { has_country_flag = "bank" }
+		}
+	}
+	option = { 
+		name = event.check.1.complete
+		trigger ={ 
+			AND = {
+				has_country_flag = "radical_mercantilist_reforms"
+				has_country_flag = "military_reform"
+				has_country_flag = "prosper_time_event"
+				has_country_flag = "bank"
+			}
+		}
+		set_country_flag = finished_all_events
+		change_government_reform_progress = 25
+	}
+}

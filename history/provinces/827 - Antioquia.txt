@@ -1,0 +1,14 @@
+#827 - Antioquía
+
+discovered_by = south_american
+discovered_by = MCA
+
+is_city = no
+religion = animism
+culture = muisca
+capital = "Antioquía"
+trade_goods = unknown
+hre = no
+base_tax = 2 
+base_production = 4
+base_manpower = 1

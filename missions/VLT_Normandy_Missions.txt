@@ -1,0 +1,121 @@
+normandy_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = NRM
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	nrm_invasion = { 
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = { } 
+		trigger = { 
+			army_size_percentage = 1
+			employed_advisor = {
+				category = MIL
+			}
+		}
+		effect = {
+			add_manpower = 10
+			add_sailors = 2000
+			add_treasury = 200
+			87 = {
+				add_unit_construction = {
+					type = heavy_ship
+					amount = 6
+					speed = 0.05
+					cost = 0
+				}
+			}
+			add_country_modifier = {
+					name = nrm_invasion_army
+					duration = 5475
+			}
+			home_counties_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_core = ROOT
+			}
+			wessex_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_core = ROOT
+			}
+			east_anglia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_core = ROOT
+			}
+			west_midlands_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_core = ROOT
+			}
+			east_midlands_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_core = ROOT
+			}
+		}
+	}
+}
+
+normandy_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = NRM
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	nrm_anglo = {
+		icon = the_london_steelyard
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = {
+			area = home_counties_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+		trigger = {
+			home_counties_area = {
+				type = all 
+				country_or_non_sovereign_subject_holds = ROOT 
+			}
+		}
+		effect = {
+			change_primary_culture = english
+			set_ruler_culture = english
+			set_heir_culture = english
+			add_accepted_culture = normand
+			add_prestige = 25
+			add_country_modifier = {
+					name = nrm_occupation
+					duration = -1
+				}
+			
+			british_isles_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}

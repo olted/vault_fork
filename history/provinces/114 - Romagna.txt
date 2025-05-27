@@ -1,0 +1,26 @@
+#114 - Romagna
+
+owner = RAV
+controller = RAV
+culture = romagnan 
+religion = catholic 
+hre = no 
+base_tax = 4
+base_production = 5
+trade_goods = salt
+base_manpower = 2
+capital = "Ravenna"
+is_city = yes
+add_core = RAV
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.12 = {
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+}

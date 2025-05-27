@@ -1,0 +1,84 @@
+namespace = vault_utility
+normal_or_historical_nations = yes
+
+country_event = {
+	id = vault_utility.1
+	title = vault_utility.1.t
+	desc = vault_utility.1.d
+	picture = BIG_BOOK_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = vault_utility.1.no
+	}
+	
+	option = {
+		name = vault_utility.1.30
+		custom_tooltip = add_30_dev_seats
+		hidden_effect = {
+			every_owned_province = {
+				limit = { development = 30 is_state = yes has_seat_in_parliament = no }
+				set_seat_in_parliament = yes
+			}
+		}
+	}
+	
+	option = {
+		name = vault_utility.1.20
+		custom_tooltip = add_20_dev_seats
+		hidden_effect = {
+			every_owned_province = {
+				limit = { development = 20 is_state = yes has_seat_in_parliament = no }
+				set_seat_in_parliament = yes
+			}
+		}
+	}
+	
+	option = {
+		name = vault_utility.1.10
+		custom_tooltip = add_10_dev_seats
+		hidden_effect = {
+			every_owned_province = {
+				limit = { development = 10 is_state = yes has_seat_in_parliament = no }
+				set_seat_in_parliament = yes
+			}
+		}
+	}
+	option = {
+		name = vault_utility.1.all
+		custom_tooltip = add_all_dev_seats
+		hidden_effect = {
+			every_owned_province = {
+				limit = { is_state = yes has_seat_in_parliament = no }
+				set_seat_in_parliament = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = vault_utility.2
+	title = vault_utility.2.t
+	desc = vault_utility.2.d
+	picture = BIG_BOOK_eventPicture
+	
+	trigger = {
+		was_player = no
+		ai = no
+		NOT = { has_country_flag = fixed_ai }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = vault_utility.2.a
+		set_country_flag = fixed_ai
+			add_country_modifier = { 
+				name = ai_fix
+				duration = 1825
+			}
+	}
+}

@@ -1,0 +1,22 @@
+# 4111 - Vendée
+
+owner = FRA
+controller = FRA
+capital = "Luçon"
+is_city = yes
+culture = cosmopolitan_french
+religion = catholic 
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = salt
+base_manpower = 3
+add_core = FRA
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 8
+center_of_trade = 1
+
+1444.11.12 = { owner = PRO controller = PRO add_core = PRO remove_core = FRA } 

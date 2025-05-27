@@ -1,0 +1,23 @@
+country_decisions = {
+
+	splendor_to_reformprogress = { 
+		color = { 0 51 204 }
+		potential = {
+			splendor = 1
+			}
+		allow = {
+			splendor = 800
+			}
+		effect = {
+			add_splendor = -800 
+			change_government_reform_progress = 50
+			}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 100
+				splendor = 900		
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+#1115 - Brakna
+
+culture = fulani
+capital = "Aligh"
+religion = shamanism #Fetishism
+owner = FUL 
+controller = FUL 
+add_core = FUL 
+trade_goods = slaves 
+is_city = yes
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+
+
+discovered_by = sub_saharan

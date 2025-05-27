@@ -1,0 +1,16 @@
+#2801 - Medwa
+
+culture = tunjur 
+religion = shamanism #Fetishism
+capital = "Medowa"
+is_city = yes
+owner = NUB
+controller = NUB
+add_core = NUB
+add_core = DAR
+trade_goods = slaves
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+

@@ -1,0 +1,25 @@
+name = "Quest for Jizz"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1440.1.1 = {
+	add_attacker = TUR
+	add_attacker = BYZ
+	add_attacker = KAR
+	add_attacker = RAM
+	add_attacker = DUL
+	add_defender = MAM
+}
+
+
+1444.1.1 = {
+	rem_attacker = TUR
+	rem_attacker = BYZ
+	rem_attacker = KAR
+	rem_attacker = RAM
+	rem_attacker = DUL
+	rem_defender = MAM
+
+}

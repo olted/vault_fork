@@ -1,0 +1,22 @@
+#Pontevedra
+
+owner = CAS		#Juan II of Castille
+controller = CAS
+add_core = CAS
+add_core = GAL
+culture = galician
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Pontevedra" 
+is_city = yes
+ # Santiago de Compostela pilgrimage
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.12 = { controller = GAL owner = GAL remove_core = CAS }

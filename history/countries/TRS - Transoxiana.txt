@@ -1,0 +1,41 @@
+technology_group = muslim
+primary_culture = uzbehk
+religion = sunni
+government = monarchy
+add_government_reform = iqta
+capital = 454 # Samarkand
+religious_school = hanafi_school
+
+add_army_tradition = 40	
+add_army_professionalism = 0.05
+
+1409.5.13 = {
+	monarch = {
+		name = "Ulugh Beg"
+		dynasty = "Timurid"
+		birth_date = 1394.1.1
+		claim = 50
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = naive_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+	add_ruler_personality = malevolent_personality
+	add_piety = -0.5
+}
+
+1444.11.12 = {
+	monarch = {
+		name = "Muhammad Allah"
+		dynasty = "Timurid"
+		birth_date = 1414.1.1
+		claim = 50
+		adm = 5
+		dip = 2
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = scholar_personality
+}

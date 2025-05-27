@@ -1,0 +1,61 @@
+government = monarchy
+add_government_reform = barbary_sultanate_reform
+primary_culture = moroccan
+religion = sunni
+technology_group = muslim
+capital = 344 # Marrakech
+add_accepted_culture = berber
+religious_school = maliki_school
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 5
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -10
+}
+
+1420.1.1 = {
+	monarch = {
+		name = "Abdalhaqq II"
+		dynasty = "Marinid"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1419.1.1
+	}
+	capital = 343 # Fez
+	add_piety = 0.25
+	set_estate_privilege = estate_nobles_strong_duchies
+	clear_scripted_personalities = yes
+	add_ruler_personality = fertile_personality
+	add_ruler_personality = inspiring_leader_personality
+	add_ruler_personality = midas_touched_personality
+	leader = {
+		name = "Belkhir Mansour"
+		type = general
+		fire = 1
+		shock = 4
+		manuever = 3
+		siege = 1
+		birth_date = 1409.1.1
+		death_date = 1444.11.12
+		personality = battlefield_medic_personality
+	}
+}
+
+1444.11.12 = {
+	monarch = {
+		name = "Mohammed IV"
+		dynasty = "Marinid"
+		adm = 1
+		dip = 0
+		mil = 3
+		birth_date = 1415.1.1
+	}
+}

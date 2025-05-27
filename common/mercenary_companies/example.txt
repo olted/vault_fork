@@ -1,0 +1,257 @@
+merc__local_free_company = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 0
+    cost_modifier = 0.8
+    trigger = {
+        total_development = 150
+    }
+}
+
+merc__local_small_company = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 0
+    trigger = {
+        NOT = { total_development = 150 }
+    }
+    cost_modifier = 0.75
+    modifier = {
+    }
+}
+
+merc__local_free_city_company = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 0
+    trigger = {
+        has_reform = free_city
+    }
+    cost_modifier = 0.6
+    modifier = {
+    }
+}
+
+merc_local_grand_company_1 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 0
+    cost_modifier = 0.9
+    trigger = {
+        total_development = 150
+    }
+}
+
+merc_local_grand_company_2 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 0
+    cost_modifier = 0.9
+    trigger = {
+        total_development = 150
+    }
+}
+
+merc_local_grand_company_3 = {
+    regiments_per_development = 0.075
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 0
+    cost_modifier = 0.9
+    trigger = {
+        total_development = 150
+    }
+}
+
+merc_local_grand_army_1 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 0
+    cost_modifier = 0.9
+    trigger = {
+        total_development = 150
+    }
+}
+
+merc_local_grand_army_2 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 0
+    cost_modifier = 0.9
+    trigger = {
+        total_development = 800
+    }
+}
+merc_local_grand_army_3 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 0
+    cost_modifier = 0.9
+    trigger = {
+        total_development = 800
+    }
+}
+
+merc_local_siege_specialists_1 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0
+    artillery_weight = 1
+    cavalry_cap = 0
+    cost_modifier = 0.9
+    trigger = {
+        total_development = 100
+		ai = no
+    }
+	modifier = {
+		siege_ability = 0.15
+	}
+}
+merc_local_siege_specialists_2 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0
+    artillery_weight = 1
+    cavalry_cap = 0
+    cost_modifier = 0.9
+    trigger = {
+        total_development = 100
+		ai = no
+    }
+	modifier = {
+		siege_ability = 0.15
+	}
+}
+merc_local_artillery_company = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0
+    artillery_weight = 1
+    cavalry_cap = 0
+    cost_modifier = 0.8
+    trigger = {
+        total_development = 100
+		ai = no
+    }
+	modifier = {
+	}
+}
+merc_local_artillery = {
+    regiments_per_development = 0.025
+    cavalry_weight = 0
+    artillery_weight = 1
+    cavalry_cap = 0
+    cost_modifier = 0.7
+    trigger = {
+        total_development = 100
+		ai = no
+    }
+	modifier = {
+	}
+}
+
+merc_local_cavalry_grand_army_1 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 1
+    artillery_weight = 0
+    cavalry_cap = 40
+    cost_modifier = 0.8
+    trigger = {
+        total_development = 150
+		ai = no
+    }
+	modifier = {
+		cav_to_inf_ratio = 1.0
+	}
+}
+merc_local_cavalry_grand_army_2 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 1
+    artillery_weight = 0
+    cavalry_cap = 40
+    cost_modifier = 0.8
+    trigger = {
+        total_development = 150
+		ai = no
+    }
+	modifier = {
+		cav_to_inf_ratio = 1.0
+	}
+}
+
+merc_local_cavalry_army = {
+    regiments_per_development = 0.05
+    cavalry_weight = 1
+    artillery_weight = 0
+    cavalry_cap = 40
+    cost_modifier = 0.8
+    trigger = {
+        total_development = 150
+		ai = no
+    }
+	modifier = {
+		cav_to_inf_ratio = 1.0
+	}
+}
+
+merc_local_cavalry_company = {
+    regiments_per_development = 0.025
+    cavalry_weight = 1
+    artillery_weight = 0
+    cavalry_cap = 20
+    cost_modifier = 0.8
+    trigger = {
+        total_development = 50
+		ai = no
+    }
+	modifier = {
+		cav_to_inf_ratio = 1.0
+	}
+}
+
+merc_local_all_female_company = {
+	regiments_per_development = 0.1
+	cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 0
+	trigger = {
+		has_country_flag = female_mercs
+	}
+	modifier = {
+		shock_damage_received = 0.05
+		land_morale = 0.1
+    }
+}
+
+twenty_good_men = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0
+	artillery_weight = 0
+    cavalry_cap = 0
+	cost_modifier = 0.8
+	trigger = {
+        NOT = { total_development = 150 }
+    }
+	modifier = {
+		land_morale = 0.15
+	}
+}
+
+merc_mougs_company = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0
+    artillery_weight = 0
+    cavalry_cap = 0
+    cost_modifier = 0.8
+    trigger = {
+        full_idea_group = mercenary_ideas
+    }
+	modifier = {
+		land_morale = 0.1
+	}
+}

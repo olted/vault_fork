@@ -1,0 +1,85 @@
+country_decisions = {
+
+	hetmanate_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			tag = ZAZ
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 283
+				province_id = 284
+				province_id = 1756
+				province_id = 280
+				province_id = 289
+				province_id = 291
+				province_id = 303
+				province_id = 466
+				province_id = 262
+				province_id = 257
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = GHE }
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			is_tribal = no
+			owns_core_province = 283
+			owns_core_province = 284
+			owns_core_province = 1756
+			owns_core_province = 280
+			owns_core_province = 289
+			owns_core_province = 291
+			OR = {
+				AND = {
+					owns_core_province = 303
+					owns_core_province = 466	
+				}
+				AND = {
+					owns_core_province = 262		
+					owns_core_province = 257
+				}
+			}
+		}
+		effect = {
+			change_tag = GHE
+			on_change_tag_effect = yes
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_prestige = 30
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+			if =  {
+				limit = {
+					is_revolutionary = no
+					NOT = { government = monarchy }
+					NOT = { government = theocracy }
+				}
+				change_government = republic
+				add_government_reform = hetmanate_reform
+			}
+		}
+		ai_will_do = {
+			factor = 400
+		}
+	}
+}

@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = appanage_reform
+government_rank = 1
+primary_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+capital = 184	# Orléans
+fixed_capital = 184 # Cannot move capital away from this province & no power cost to move to it
+
+
+1427.1.1 = {
+	monarch = {
+		name = "Thibaud"
+		dynasty = "de Orleannais"
+		birth_date = 1420.11.24
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+

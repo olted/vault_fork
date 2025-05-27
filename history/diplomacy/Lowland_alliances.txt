@@ -1,0 +1,12 @@
+vassal = {
+	first = BUR
+	second = NEV
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+vassal = {
+	first = HOL
+	second = FLA
+	start_date = 1444.11.10
+	end_date = 1444.11.13
+}

@@ -1,0 +1,870 @@
+#North german expansion
+hannoverian_group_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = BRU
+			tag = HAN
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	han_unite_the_welfs = {
+		icon = mission_unite_home_region
+		position = 2
+		required_missions = { han_initial_expansion }
+
+		ai_weight = {
+			factor = 5
+		}
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 53
+				province_id = 4772
+				province_id = 1758
+				province_id = 57
+				province_id = 4773
+			}
+			OR = {
+				NOT = { owned_by = root }
+				NOT = { is_core = root }
+			}
+		}
+		
+		trigger = {
+			owns_core_province = 53
+			owns_core_province = 4772
+			owns_core_province = 1758
+			owns_core_province = 57
+			owns_core_province = 4773
+		}
+
+		effect = {
+			add_prestige = 20
+			northern_saxony_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+			south_saxony_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+			thuringia_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+		}
+	}
+	
+	han_expand_into_saxony = {
+		icon = mission_unite_home_region
+		required_missions = { han_unite_the_welfs }
+		position = 3
+		provinces_to_highlight = {
+			OR = {
+				area = northern_saxony_area
+				area = south_saxony_area
+				area = thuringia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				root = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 10
+						OR = {
+							area = northern_saxony_area
+							area = south_saxony_area
+							area = thuringia_area
+						}
+					}
+				}
+			}
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				OR = {
+					area = northern_saxony_area
+					area = south_saxony_area
+					area = thuringia_area
+				}
+			}
+			tag = HAN
+		}
+
+		effect = {
+			57 = {
+				add_province_modifier = {
+					name = han_iron_mines
+					duration = -1
+				}
+			} 
+			4742 = {
+				add_province_modifier = {
+					name = han_iron_mines
+					duration = -1
+					}
+			}
+			61 = {
+				add_province_modifier = {
+					name = han_iron_mines
+					duration = -1
+				}
+			}
+			mittelmark_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+			neumark_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+		}
+	}
+	
+	han_subdue_brandenburg = {
+		icon = mission_unite_home_region
+		required_missions = { han_expand_into_saxony }
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				area = neumark_area
+					area = mittelmark_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				root = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 6
+						OR = {
+							area = neumark_area
+							area = mittelmark_area
+						}
+					}
+				}
+			}
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 6
+				OR = {
+					area = neumark_area
+					area = mittelmark_area
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = han_dominant_in_northern_germany
+				duration = -1
+			}
+		vorpommern_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+		}
+		hinter_pommern_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+		}
+		lusatia_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+		}
+	}
+}
+	
+#Hanseatic trade
+hannoverian_group_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = BRU
+			tag = HAN
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	han_initial_expansion = {
+			icon = mission_unite_home_region
+			position = 1
+			required_missions = { }
+		
+		trigger = {
+				army_size_percentage = 1
+		}
+	
+		effect = {
+			add_country_modifier = {
+					name = han_expansion_start
+					duration = 10950
+				}
+			weser_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+			lower_saxony_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+					}
+				add_permanent_claim = root
+			}
+			mecklenburg_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+			add_permanent_claim = root
+			}
+			north_westphalia_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+			westphalia_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+			4141 ={
+				add_permanent_claim = root
+			}
+			1775 ={
+				add_permanent_claim = root
+			}
+		}
+	}
+	
+	
+	han_hansa_cities = {
+		icon = mission_unite_home_region
+		position = 2
+		required_missions = { han_initial_expansion }
+
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1874 #Bremen
+				province_id = 44 #Hamburg
+				province_id = 45 #Lubeck
+			}
+			OR = {
+				NOT = { owned_by = root }
+				NOT = { is_core = root }
+			}
+		}
+		
+		trigger = {
+			owns_core_province = 1874
+			owns_core_province = 44
+			owns_core_province = 45
+			tag = HAN
+		}
+
+		effect = {
+			add_sailors = 2000
+			add_country_modifier = {
+				name = han_hansa_cities_mod
+				duration = 7300
+			}
+		}
+	}
+	han_weser_company_mission = {
+		icon = mission_hanseatic_city
+		position = 3
+		required_missions = { han_hansa_cities }
+		
+		trigger = {
+			1874 = {
+				owned_by = root
+				development = 30
+				province_has_center_of_trade_of_level = 3
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+			}
+		}
+
+		effect = {
+			add_dip_power = 200
+			1874 = { 
+				add_province_modifier = {
+				name = han_weser_company
+				duration = -1
+				}
+			}
+		}
+	}
+	
+	han_lubeck_power = {
+		icon = mission_hanseatic_city
+		position = 4
+		required_missions = { han_weser_company_mission }
+		
+		trigger = {
+			45 = {
+				trade_node_value = 40
+				trade_share = {
+						country = ROOT 
+						share = 50
+					}
+			}
+		}
+		effect = {
+			add_treasury = 1000
+			add_country_modifier = {
+				name = han_trade_secured
+				duration = -1
+			}
+		}
+	}
+	
+	han_blood_and_iron = {
+		icon = mission_unite_home_region
+		position = 5
+		required_missions = { han_lubeck_power han_complete_rhineland_control han_subdue_brandenburg }
+		
+		provinces_to_highlight = {
+			OR = {
+					region = north_german_region
+					region = south_german_region
+						}
+						NOT = { area = erzgebirge_area }
+						NOT = { area = bohemia_area }
+						NOT = { area = moravia_area }
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				root = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 60
+						OR = {
+							region = north_german_region
+							region = south_german_region
+						}
+						NOT = { area = erzgebirge_area }
+						NOT = { area = bohemia_area }
+						NOT = { area = moravia_area }
+					}
+				}
+			}
+		}
+		
+		trigger = {
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				OR = {
+					region = north_german_region
+					region = south_german_region
+				}
+				NOT = { area = erzgebirge_area }
+				NOT = { area = bohemia_area }
+				NOT = { area = moravia_area }
+				value = 60
+			}
+		}
+		
+		effect = {
+			remove_country_modifier = han_dominant_in_northern_germany
+			add_country_modifier = {
+				name = han_dominant_in_germany
+				duration = -1
+			}
+		}
+	
+	}
+}
+
+
+#rhineland
+hannoverian_group_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = BRU
+			tag = HAN
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	han_into_westphalia = {
+		icon = mission_unite_home_region
+		required_missions = { han_initial_expansion }
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+				area = north_westphalia_area
+				area = westphalia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				root = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 6
+						OR = {
+							area = north_westphalia_area
+							area = westphalia_area
+						}
+					}
+				}
+			}
+		}
+		
+		trigger = {
+			tag = HAN
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 6
+					OR = {
+						area = north_westphalia_area
+						area = westphalia_area
+					}
+			}
+		}
+			
+		effect = {
+			add_adm_power = 100
+			north_rhine_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+			lower_rhineland_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+			hesse_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+			
+		}
+	}
+	
+	han_into_rhineland = {
+		icon = mission_unite_home_region
+		required_missions = { han_into_westphalia }
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = north_rhine_area
+				area = lower_rhineland_area
+				area = hesse_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				root = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 10
+						OR = {
+							area = north_rhine_area
+							area = lower_rhineland_area
+							area = hesse_area
+						}
+					}
+				}
+			}
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 10
+					OR = {
+						area = north_rhine_area
+						area = lower_rhineland_area
+						area = hesse_area
+					}
+			}
+			tag = HAN
+		}
+		
+		effect = {
+			add_prestige_or_monarch_power = {
+				amount = 25
+			}
+			palatinate_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+			franconia_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+			upper_franconia_area = {
+				limit = {
+					NOT = { is_permanent_claim = root }
+					NOT = { is_core = root }
+				}
+				add_permanent_claim = root
+			}
+		}
+		
+	}
+	
+	han_complete_rhineland_control = {
+		icon = mission_unite_home_region
+		required_missions = { han_into_rhineland }
+		position = 4
+		
+		provinces_to_highlight = {
+			OR = {
+				area = palatinate_area
+				area = franconia_area
+				area = upper_franconia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				root = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 9
+						OR = {
+							area = palatinate_area
+							area = franconia_area
+							area = upper_franconia_area
+						}
+					}
+				}
+			}
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 9
+					OR = {
+						area = palatinate_area
+						area = franconia_area
+						area = upper_franconia_area
+					}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = han_rhineland_supremacy
+				duration = -1
+			}
+			south_german_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		
+	}
+}
+
+#Economical
+hannoverian_group_4 {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = BRU
+			tag = HAN
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	han_public_works_projects = {
+		icon = mission_early_modern_university
+		position = 1
+		required_missions = { }
+		
+		trigger = {
+			total_development = 200
+		}
+		
+		effect = {
+			add_country_modifier = {
+					name = han_public_works
+					duration = 7300
+			}
+			add_loan = {
+				fixed_interest = 1
+				duration = 60
+			}
+			add_loan = {
+				fixed_interest = 1
+				duration = 60
+			}
+			add_loan = {
+				fixed_interest = 1
+				duration = 60
+			}
+			add_loan = {
+				fixed_interest = 1
+				duration = 60
+			}
+			add_loan = {
+				fixed_interest = 1
+				duration = 60
+			}
+		}
+	}
+	
+	han_public_works_projects_complete = {
+		icon = mission_early_modern_university
+		position = 2
+		required_missions = { han_public_works_projects }
+		
+		trigger = {
+			num_of_owned_provinces_with = {
+					value = 10
+					has_manufactory_trigger = yes
+			}
+			tag = HAN
+		}
+		
+		effect = {
+			change_government_reform_progress = 200
+		}
+	}
+	
+	han_hannoverian_steel_mission = {
+		icon = mission_early_modern_university
+		position = 3
+		required_missions = { han_public_works_projects_complete han_schutze }
+		
+		trigger = {
+			trade_goods_produced_amount = {
+			trade_goods = iron
+			amount = 20
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = han_hannoverian_steel
+				duration = -1
+			}
+		}
+	}
+
+	han_herrenhausen_gardens_mission = {
+		icon = mission_early_modern_university
+		position = 4
+		required_missions = { }
+
+		provinces_to_highlight = {
+			province_id = 1758
+		}
+		
+		trigger = {
+			1758 = {
+				development = 40
+			}
+			total_development = 400
+			prestige = 80
+		}
+
+		effect = {
+			1758 = {
+				add_province_modifier = {
+					name = han_herrenhausen_gardens_mod
+					duration = -1
+				}
+			}
+		}
+	}
+	han_intellectual_court = {
+		icon = mission_early_modern_university
+		position = 5
+		required_missions = { han_herrenhausen_gardens_mission }
+		
+		trigger = {
+			prestige = 90
+			total_development = 600
+			monthly_income = 250
+			stability = 3
+			tag = HAN
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+				}
+				OR = {
+					in_golden_age = yes
+					has_had_golden_age = yes
+				}
+			}
+		}
+
+		effect = {
+			if = { 
+				limit = { has_dlc = "Mandate of Heaven" }
+				custom_tooltip = pol_if_used_ge_rest_else_30_years_extension_tt 
+				if = {
+					limit = { has_had_golden_age = yes } 
+					reset_golden_age = yes 
+				}
+				else_if = {
+					limit = { in_golden_age = yes } 
+					extend_golden_age = 600
+				}
+			}
+		}
+	}
+}
+
+#Religious and empire
+hannoverian_group_5 {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = BRU
+			tag = HAN
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	han_schutze = {
+		icon = mission_early_modern_university
+		position = 2
+		required_missions = { han_public_works_projects }
+		
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 15
+				has_manpower_building_trigger = yes
+			}
+			num_of_owned_provinces_with = {
+				value = 15
+				has_forcelimit_building_trigger = yes
+			}
+			tag = HAN
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = han_schutzen
+				duration = -1
+			}
+		}
+	}
+	
+	han_religion = {
+		icon = mission_early_modern_university
+		position = 4
+		required_missions = {  }
+	
+		trigger = {
+			NOT = { current_age = age_of_discovery }
+			OR = {
+				religion = protestant
+				religion = reformed
+				religion = anglican
+				religion = hussite
+				has_country_modifier = counter_reformation
+			}
+		}
+		
+		effect = {
+			if = {
+				limit = { has_country_modifier = counter_reformation }
+				add_papal_influence = 50
+				remove_country_modifier = counter_reformation
+				add_country_modifier_for_age  = {
+					name = han_counter_reformation
+					age = age_of_reformation
+				}
+				
+			}
+			else = {
+				add_country_modifier_for_age  = {
+					name = han_reformation
+					age = age_of_reformation
+				}
+			}
+		}
+	}
+	
+	han_emperor = {
+		icon = mission_early_modern_university
+		position = 5
+		required_missions = { }
+		
+		trigger = {
+			OR = {
+				AND = {
+					NOT = { hre_size = 1 }
+					NOT = { exists = HLR }
+				}
+				is_emperor = yes
+			}
+		}
+		
+		
+		effect = {
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			change_government_reform_progress = 100
+		}
+	
+	}
+}

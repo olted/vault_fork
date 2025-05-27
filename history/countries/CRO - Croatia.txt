@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = croatian
+religion = catholic
+add_accepted_culture = dalmatian
+technology_group = eastern
+capital = 131	# Zagreb
+
+
+1444.11.12 = {
+	monarch = {
+		name = "Ante"
+		dynasty = "Drovic"
+		adm = 3
+		dip = 1
+		mil = 4
+		birth_date = 1413.1.1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strict_personality
+}

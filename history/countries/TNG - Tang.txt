@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = chinese_warlord
+technology_group = chinese
+religion = confucianism
+primary_culture = chimin
+capital = 545
+
+1444.1.1 = { 
+	monarch = {
+		name = "Xi"
+		dynasty = "Tang"
+		birth_date = 1401.9.11
+		ADM = 3
+		DIP = 5
+		MIL = 2
+	}
+}

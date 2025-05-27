@@ -1,0 +1,61 @@
+government = republic
+add_government_reform = venice_merchants_reform
+mercantilism = 25
+primary_culture = venetian
+religion = catholic
+technology_group = western
+capital = 112 # Venezia
+fixed_capital = 112 # Cannot move capital away from this province & no power cost to move to it
+
+
+1423.4.5 = {
+	monarch = {
+		name = "Francesco Foscari"
+		birth_date = 1373.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	if = {
+		limit = {
+			has_dlc = "Winds of Change"
+			ai = no
+		}
+		add_government_power = {
+			mechanic_type = council_of_ten
+			power_type = authority_power
+			value = 80
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = obsessive_perfectionist_personality
+	add_ruler_personality = silver_tongue_personality
+	add_ruler_personality = craven_personality
+}
+
+1444.11.12 = {
+	monarch = {
+		name = "Pietro Monegario"
+		birth_date = 1403.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	if = {
+		limit = {
+			has_dlc = "Winds of Change"
+			ai = no
+		}
+		add_government_power = {
+			mechanic_type = council_of_ten
+			power_type = authority_power
+			value = 80
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lawgiver_personality
+}
+
+1425.1.1 = { leader = {	name = "Francesco da Carmagnola" type = general	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1450.5.5 } }
+
+1438.1.1 = { leader = {	name = "Erasmo Gattamelata"	type = admiral	fire = 3	shock = 2	manuever = 3	siege = 1	death_date = 1445.1.1 } }

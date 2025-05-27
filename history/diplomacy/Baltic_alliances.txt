@@ -1,0 +1,12 @@
+vassal = {
+	first = POL
+	second = MAZ
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+march = {
+	first = POL
+	second = MOL
+	start_date = 1444.11.11
+	end_date = 1444.11.12
+}

@@ -1,0 +1,14 @@
+# - Tarija
+
+is_city = no
+culture = aimara
+religion = inti
+capital = "Tarija"
+trade_goods = unknown
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+discovered_by = south_american
+discovered_by = andean

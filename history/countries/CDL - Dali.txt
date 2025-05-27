@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = chinese_warlord
+primary_culture = bai
+religion = buddhism
+technology_group = chinese
+capital = 662
+
+1444.1.1 = { 
+	monarch = {
+		name = "Long"
+		dynasty = "Yun"
+		birth_date = 1414.9.11
+		ADM = 2
+		DIP = 3
+		MIL = 4
+	}
+}

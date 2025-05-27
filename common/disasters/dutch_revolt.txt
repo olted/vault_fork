@@ -1,0 +1,9 @@
+dutch_revolt_disaster = {
+
+	potential = {
+		always = no
+	}
+	can_start = {
+		always = no
+	}
+}

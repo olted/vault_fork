@@ -1,0 +1,15 @@
+#832 - Tunja
+
+culture = muisca
+religion = inti
+capital = "Tunja"
+is_city = no
+trade_goods = unknown
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 2
+add_core = MCA
+discovered_by = south_american
+discovered_by = andean
+discovered_by = MCA

@@ -1,0 +1,32 @@
+government = tribal
+add_government_reform = steppe_horde
+primary_culture = kirgiz
+religion = tengri_pagan_reformed
+secondary_religion = sunni
+technology_group = nomad_group
+capital = 461
+religious_school = hanafi_school
+add_accepted_culture = uyghur
+add_accepted_culture = khazak
+
+1444.1.1 = {
+	monarch = {
+		name = "Esen Buqa"
+		dynasty = "Chagatayid"
+		birth_date = 1413.1.1
+		adm = 4
+		dip = 2
+		mil = 4
+		leader = {
+			name = "Esen Buqa"
+			type = general
+			fire = 1
+			shock = 5
+			manuever = 4
+			siege = 2
+			personality = cuirassier_leader_personality
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = reaver_personality
+}

@@ -1,0 +1,35 @@
+government = monarchy
+add_government_reform = nayankara_reform
+primary_culture = kannada
+add_accepted_culture = tamil
+add_accepted_culture = telegu
+religion = hinduism
+technology_group = indian
+capital = 541	# Vijayanagara
+
+change_brahmins_or_church_land_share_effect = {
+	share = -5
+}
+
+change_vaisyas_or_burghers_land_share_effect = {
+	share = 5
+}
+
+change_rajputs_or_marathas_or_nobles_land_share_effect = {
+	share = 10
+}
+
+1444.1.1 = {
+	monarch = {
+		name = "Devaraya II"
+		dynasty = "Sangama"
+		birth_date = 1415.1.1
+		death_date = 1480.1.1
+		ADM = 3
+		DIP = 3
+		MIL = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = scholar_personality
+	add_ruler_personality = tolerant_personality
+}

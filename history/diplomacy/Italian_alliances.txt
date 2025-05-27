@@ -1,0 +1,26 @@
+
+vassal = {
+	first = PAP
+	second = PGA
+	start_date = 1444.1.1
+	end_date = 1534.1.1
+}
+vassal = {
+	first = PAP
+	second = URB
+	start_date = 1443.1.1
+	end_date = 1626.1.1
+}
+vassal = {
+	first = SAV
+	second = MFA
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+vassal = {
+	first = SAV
+	second = COR
+	start_date = 1444.11.12
+	end_date = 1444.11.13
+}
+

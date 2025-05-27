@@ -1,0 +1,93 @@
+namespace = colonial_office
+normal_or_historical_nations = yes
+
+country_event = {
+	id = colonial_office.1
+	title = colonial_office.1.t
+	desc = colonial_office.1.d
+	picture = COLONIZATION_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = colonial_office.1.no
+	}
+	option = {
+		name = colonial_office.1.colonist
+		trigger ={ 
+		NOT = { has_country_modifier = "recruited_colonist" }
+		}
+		add_country_modifier = {
+			name = "recruited_colonist"
+			duration = -1
+		}
+		add_treasury = -600
+		add_dip_power = -300
+	}
+	option = {
+		name = colonial_office.1.conquistador
+		trigger ={ 
+		NOT = { has_country_modifier = "conquixplorer" }
+		}
+		add_country_modifier = {
+			name = "conquixplorer"
+			duration = -1
+		}
+		add_treasury = -400
+		add_dip_power = -200
+	}
+	option = {
+		name = colonial_office.1.range
+		trigger ={ 
+		NOT = { has_country_modifier = "expanded_range" }
+		}
+		add_country_modifier = {
+			name = "expanded_range"
+			duration = -1
+		}
+		add_treasury = -200
+		add_dip_power = -100
+	}
+	option = {
+		name = colonial_office.1.explorer
+		trigger ={ 
+		NOT = { has_country_modifier = "settler_boosted" }
+		}
+		add_country_modifier = {
+			name = "settler_boosted"
+			duration = 7300
+		}
+		add_treasury = -1000
+	}
+}
+
+country_event = {
+	id = colonial_office.2
+	title = colonial_office.2.d
+	desc = colonial_office.2.t
+	picture = COLONIZATION_eventPicture
+
+	trigger = {
+		NOT = { has_country_flag = colony_started }
+		is_colonial_nation = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		add_treasury = 500
+		add_stability = 2
+
+		capital_scope = {
+			build_to_forcelimit = {
+				infantry = 1
+			}
+		}
+		set_country_flag = colony_started
+	}
+
+	option = {
+	}
+}

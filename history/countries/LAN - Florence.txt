@@ -1,0 +1,24 @@
+government = republic
+add_government_reform = signoria_reform
+government_rank = 1
+mercantilism = 20
+primary_culture = tuscan
+religion = catholic
+technology_group = western
+capital = 116 # Firenze
+national_focus = DIP
+
+
+1429.2.20 = {
+	monarch = {
+		name = "Cosimo"
+		dynasty = "de' Medici"
+		birth_date = 1389.9.27                
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = patron_of_arts_personality
+	add_ruler_personality = calm_personality
+}

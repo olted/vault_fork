@@ -1,0 +1,33 @@
+government = monarchy
+add_government_reform = confucian_bureaucracy
+primary_culture = vietnamese
+religion = mahayana
+technology_group = chinese
+capital = 613	# Hanoi
+
+1390.1.1 = {
+	set_estate_privilege = estate_nobles_command_of_the_military
+}
+
+1442.9.8 = {
+	monarch_consort = {
+		name = "Nguyen Thi Anh"
+		monarch_name = "Nguyen Thi Anh"
+		regent = yes
+		female = yes
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Bang Co" #Lê Nhan Tong
+		monarch_name = "Bang Co"
+		dynasty = "Lê"
+		birth_date = 1441.1.1
+		death_date = 1459.10.29
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}

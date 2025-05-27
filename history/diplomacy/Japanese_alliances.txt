@@ -1,0 +1,224 @@
+vassal = { #So
+	first = ASK
+	second = SOO
+	start_date = 1444.11.11
+	end_date = 1573.7.1
+}
+
+
+vassal = {
+	first = ASK
+	second = AMA
+	start_date = 1444.11.11
+	end_date = 1566.11.28 #Annexed
+}
+
+vassal = {
+	first = ASK
+	second = ASA
+	start_date = 1471.7.1
+	end_date = 1573.7.1 #Annexed
+}
+
+vassal = {
+	first = ASK
+	second = CSK
+	start_date = 1549.5.9
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = DTE
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = RFR
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = HJO
+	start_date = 1493.1.1
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = HSK
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = HTK
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = IMG
+	start_date = 1444.11.11
+	end_date = 1568.12.1 
+}
+
+vassal = {
+	first = ASK
+	second = MRI
+	start_date = 1525.1.1
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = ODA
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = OTM
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = OUC
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = SBA
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = SMZ
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = TKD
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = TKG
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = UES
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = YMN
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = AKM
+	start_date = 1468.1.1
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = AKT
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = CBA
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = ISK
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = ITO
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = KKC
+	start_date = 1444.11.11
+	end_date = 1554.1.1 #Annexed
+}
+
+vassal = {
+	first = ASK
+	second = KNO
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = OGS
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = SHN
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = STK
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = UTN
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}
+
+vassal = {
+	first = ASK
+	second = TTI
+	start_date = 1444.11.11
+	end_date = 1573.7.3
+}

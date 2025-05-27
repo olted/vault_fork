@@ -1,0 +1,37 @@
+vassal = {
+	first = CAS
+	second = NAV
+	start_date = 1444.1.1
+	end_date = 1444.1.12
+}
+vassal = {
+	first = ARA
+	second = NAV
+	start_date = 1444.11.12
+	end_date = 1444.11.13
+}
+vassal = {
+	first = ARA
+	second = SAR
+	start_date = 1444.11.12
+	end_date = 1444.11.13
+}
+vassal = {
+	first = ARA
+	second = ASU
+	start_date = 1444.11.12
+	end_date = 1444.11.13
+}
+vassal = {
+	first = GRA
+	second = TET
+	start_date = 1444.11.12
+	end_date = 1444.11.13
+}
+
+vassal = {
+	first = GRA
+	second = FEZ
+	start_date = 1444.11.12
+	end_date = 1444.11.13
+}

@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = courts_of_navarra
+primary_culture = basque
+religion = catholic
+technology_group = western
+capital = 210	# Pamplona
+
+
+1427.1.1 = {
+	monarch = {
+		name = "Carlos IV"
+		dynasty = "de Évreux"
+		birth_date = 1411.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

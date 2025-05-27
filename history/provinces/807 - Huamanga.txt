@@ -1,0 +1,21 @@
+#807 - Abancay
+
+owner = CSU
+controller = CSU
+add_core = CSU
+culture = inca
+religion = inti
+capital = "Abancay"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+
+
+discovered_by = south_american
+discovered_by = andean
+
+

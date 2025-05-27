@@ -1,0 +1,19 @@
+#1221 - Kordofan
+
+culture = nubian
+religion = shamanism #Fetishism
+capital = "Al-Ubayyid"
+is_city = yes
+owner = NUB
+controller = NUB
+add_core = NUB
+trade_goods = slaves
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+
+
+discovered_by = ALO
+discovered_by = MAK

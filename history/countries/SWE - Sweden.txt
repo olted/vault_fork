@@ -1,0 +1,33 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+unit_type = western
+primary_culture = swedish
+religion = catholic
+add_accepted_culture = finnish
+capital = 1	#Stockholm
+
+national_focus = MIL
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -6
+}
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+
+1444.6.20 = {
+	monarch = {
+		name = "Erik"
+		dynasty = "Vasa"
+		birth_date = 1419.10.5
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+	add_legitimacy = -25
+	clear_scripted_personalities = yes
+	add_ruler_personality = reformist_personality
+}

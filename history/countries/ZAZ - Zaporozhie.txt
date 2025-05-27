@@ -1,0 +1,48 @@
+government = republic
+add_government_reform = cossacks_reform
+technology_group = eastern
+religion = orthodox
+primary_culture = ruthenian
+add_accepted_culture = crimean
+capital = 283	# Zaporozhia
+
+
+change_estate_land_share = {
+	estate = estate_cossacks
+	share = 50
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -15
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -30
+}
+change_estate_land_share = {
+	estate = all
+	share = 10
+}
+
+1444.11.12 = {	
+	monarch = {		
+		name = "Lyantskoronsky Svirgovsky"	
+		birth_date = 1408.11.29		
+		adm = 4	
+		dip = 4		
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = midas_touched_personality
+	leader = {
+		name = "Stenka Bulavin"
+		type = general
+		fire = 1
+		shock = 4
+		manuever = 5
+		siege = 1
+		birth_date = 1415.3.22
+		death_date = 1453.9.9
+		personality = cuirassier_leader_personality
+	}
+}

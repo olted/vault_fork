@@ -1,0 +1,14 @@
+# - Santa Catalina
+
+is_city = no
+culture = diaguita
+religion = inti
+capital = "Santa Catalina"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+discovered_by = south_american
+discovered_by = andean

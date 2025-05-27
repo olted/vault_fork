@@ -1,0 +1,30 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+primary_culture = persian
+add_accepted_culture = azerbaijani
+religion = shiite
+technology_group = muslim
+capital = 2213 # Qom
+religious_school = ismaili_school
+
+add_army_tradition = 20			
+add_army_professionalism = 0.05
+
+1442.1.1 = { 
+	religion = sunni
+	religious_school = hanafi_school
+	add_piety = -0.5
+	monarch = {
+		name = "Yasser"
+		birth_date = 1419.1.1
+		dynasty = "Hamdani"
+		adm = 4
+		dip = 4
+		mil = 4
+		culture = persian
+		religion = shiite
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+}

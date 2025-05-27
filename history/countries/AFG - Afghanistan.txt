@@ -1,0 +1,38 @@
+government = monarchy
+add_government_reform = iqta
+technology_group = muslim
+religion = sunni
+primary_culture = afghani
+capital = 451	# Kabul
+religious_school = hanafi_school
+
+add_army_tradition = 40
+add_army_professionalism = 0.05
+
+1443.1.1 = {
+	monarch = {
+		name = "Abu Said"
+		culture = afghani
+		dynasty = "Timurid"
+		birth_date = 1423.11.19
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = careful_personality
+}
+
+1444.11.12 = {
+	monarch = {
+		name = "Muhammed Mohammed"
+		culture = afghani
+		dynasty = "Timurid"
+		birth_date = 1411.1.1
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = obsessive_perfectionist_personality
+}

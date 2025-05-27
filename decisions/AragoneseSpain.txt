@@ -1,0 +1,49 @@
+country_decisions = {
+	aragon_tercio = {
+			potential = {
+				tag = SPA
+				has_country_flag = formed_spain_flag
+				primary_culture = aragonese
+				NOT = { has_country_flag = enable_tercios_reform_flag } 
+			}
+			allow = {
+				num_of_owned_provinces_with = {
+				has_manpower_building_trigger = yes 
+				value = 15
+				}
+				reform_level = 4
+				NOT = { current_age = age_of_discovery }
+			}
+			effect = {
+				set_country_flag = enable_tercios_reform_flag
+				add_government_reform = tercios_reform
+				if = {
+					limit = { has_dlc = "Cradle of Civilization" }
+					add_army_professionalism = 0.05
+				}
+				else = { add_army_tradition = 10 }
+			}
+			
+	}
+	aragon_council = {
+		potential = {
+			tag = SPA
+			has_country_flag = formed_spain_flag
+			primary_culture = aragonese
+			NOT = { has_country_flag =   }
+		}
+		allow = {
+			reform_level = 3
+			OR = { 
+				full_idea_group = administrative_ideas 
+				adm = 6 
+				monthly_adm = 15 
+			}
+			crown_land_share = 50
+		}
+		effect = {
+			
+	}
+	
+
+}

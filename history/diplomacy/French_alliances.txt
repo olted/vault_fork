@@ -1,0 +1,41 @@
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = ORL
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = AMG
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = AUV
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = FOI
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = BOU
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+union = {
+	first = PRO
+	second = LOR
+	start_date = 1431.1.25
+	end_date = 1453.2.28
+}

@@ -1,0 +1,53 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = andalucian
+religion = sunni
+add_accepted_culture = castillian
+add_accepted_culture = moroccan
+technology_group = muslim
+capital = 223	# Granada
+government_rank = 1
+religious_school = maliki_school
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 8
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -15
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 7
+}
+
+
+1424.1.1 = {
+	monarch = {
+		name = "Muhammad IX"
+		dynasty = "Nasrid"
+		birth_date = 1402.09.29
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+	
+}
+
+
+
+1444.11.12 = { 
+		monarch = {
+			name = "Muhammad X"
+			dynasty = "Nasrid"
+			birth_date = 1412.09.11
+			adm = 3
+			dip = 5
+			mil = 3
+		}
+		leader = {	name = "Ali al Mehrica"		type = explorer	fire = 1	shock = 4	manuever = 3	siege = 0	death_date = 1472.12.31 } 
+		clear_scripted_personalities = yes
+		add_ruler_personality = fertile_personality
+		add_ruler_personality = benevolent_personality
+}

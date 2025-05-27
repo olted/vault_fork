@@ -1,0 +1,16 @@
+# 2016 - Bungi = Red River Country
+
+is_city = no
+culture = nakota
+religion = totemism
+capital = "Bungi"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 2
+native_hostileness = 6
+
+discovered_by = north_american

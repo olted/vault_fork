@@ -1,0 +1,34 @@
+government = monarchy
+add_government_reform = polish_great_sejm
+primary_culture = polish
+religion = catholic
+technology_group = eastern
+historical_friend = LIT
+historical_rival = TEU
+capital = 262 # Krakow
+add_accepted_culture = ruthenian
+add_truce_with = HUN
+
+1444.10.1 = {
+	set_estate_privilege = estate_nobles_golden_liberty
+}
+
+1444.11.11 = {
+	monarch = {
+		adm = 0
+		mil = 0
+		dip = 0
+		regent = yes
+	}
+}
+
+1444.11.12 = {
+	monarch = {
+		name = "Arcaden"
+		dynasty = "Piwo"
+		birth_date = 1422.06.19
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}

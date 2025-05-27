@@ -1,0 +1,154 @@
+country_decisions = {
+
+	open_colonial_office = { 
+		color = { 0 51 204 }
+		potential = {
+			NOT = { has_country_modifier = colonial_office_open }
+			NOT = { is_colonial_nation = yes }
+			ai = no
+		}
+		allow = {
+			treasury = 250
+			OR = {
+				AND = { 
+					technology_group = western
+					adm_tech = 6
+				}
+				AND = {
+					adm_tech = 9
+					OR = {
+						technology_group = eastern
+						technology_group = ottoman
+						technology_group = muslim
+					}
+				}
+				adm_tech = 12
+			}
+		}
+		effect = {
+			add_treasury = -250
+			add_country_modifier = {
+				name = "colonial_office_open"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+		
+	colonial_office = {
+		color = { 0 51 204 }
+		potential = {
+			has_country_modifier = colonial_office_open
+			ai = no
+		}
+		allow = {
+			has_country_modifier = colonial_office_open
+		}
+		effect = {
+			country_event = { 
+				id = colonial_office.1
+				days = 0
+			}
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	
+	great_men_check = {
+		color = { 110 0 140 }
+		potential = {
+			ai = no
+			NOT = { has_country_flag = finished_all_men }
+		}
+		allow = {
+			ai = no
+			NOT = { has_country_flag = finished_all_men }
+		}
+		effect = {
+			country_event = { 
+				id = great_men_check.1
+				days = 0
+			}
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	event_check = {
+		color = { 110 0 140 }
+		potential = {
+			ai = no
+			NOT = { has_country_flag = finished_all_events }
+		}
+		allow = {
+			ai = no
+			NOT = { has_country_flag = finished_all_events }
+		}
+		effect = {
+			country_event = { 
+				id = event_check.1
+				days = 0
+			}
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+	
+	parliament_manager = {
+		color = { 110 0 140 }
+		potential = {
+			ai = no
+			has_parliament = yes
+		}
+		allow = {
+			ai = no 
+			has_parliament = yes
+		}
+		effect = {
+			country_event = { 
+				id = vault_utility.1
+				days = 0
+			}
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+		
+	}
+	
+	host_tool = {
+		color = { 0 0 0 }
+		potential = {
+			ai = no
+			NOT = { has_country_flag = used_host_tool }
+			OR = {
+				tag = BYZ
+				tag = SIA
+			}
+		}
+		allow = {
+			ai = no 
+			NOT = { has_country_flag = used_host_tool }
+			OR = {
+				tag = BYZ
+				tag = SIA
+			}
+		}
+		effect = {
+			set_country_flag = used_host_tool
+			SIA = {
+				remove_country_modifier = siam_growing_city_modifier
+			}
+			600 = {
+				add_province_modifier = {
+					name = siam_growing_city_modifier
+					duration = -1
+				}
+			}
+		}
+	}
+}

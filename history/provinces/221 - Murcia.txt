@@ -1,0 +1,23 @@
+#221 - Murcia
+
+owner = CAS		# Juan II of Castille
+controller = CAS
+add_core = CAS
+culture = andalucian
+religion = catholic 
+hre = no
+base_tax = 4
+base_production = 3 
+trade_goods = grain 
+base_manpower = 3
+capital = "Cartagena" 
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.12 = { add_core = GRA controller = GRA owner = GRA remove_core = CAS religion = sunni }

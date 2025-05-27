@@ -1,0 +1,12 @@
+# - Parnaiba
+
+is_city = no
+culture = tupinamba
+discovered_by = south_american
+religion = animism
+capital = "Parnaiba"
+trade_goods = cocoa
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1

@@ -1,0 +1,46 @@
+government = monarchy
+add_government_reform = portuguese_monarchy_reform
+primary_culture = portugese
+religion = catholic
+technology_group = western
+historical_friend = SPA
+historical_friend = CAS
+capital = 227 # Lisboa
+add_army_professionalism = 0.05
+national_focus = DIP
+
+
+1415.4.1 = { leader = {	name = "Infantes"		type = general	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1449.1.1 } }
+1435.1.1 = { leader = {	name = "Earl of Avranches"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1449.5.20 } }
+
+1438.9.10 = {
+	monarch = {
+		name = "Infante Pedro"
+		dynasty = "de Avis"
+		birth_date = 1392.1.1
+		regent = yes
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1438.9.10 = {
+	heir = {
+		name = "Afonso"
+		monarch_name = "Afonso V"
+		dynasty = "de Avis"
+		birth_date = 1432.1.15
+		death_date = 1481.8.28
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+		leader = {	name = "Afonso V"	type = general	fire = 3	shock = 2	manuever = 3	siege = 1 }
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = expansionist_personality
+}
+
+1443.1.1 = { leader = {	name = "Diogo Gomes"		type = explorer	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1462.12.31 } }
+

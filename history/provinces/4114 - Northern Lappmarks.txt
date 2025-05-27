@@ -1,0 +1,21 @@
+#Lapland, the far north wastelands.
+
+capital = "Jokkmokk"
+culture = sapmi
+add_core = SMI
+religion = catholic
+hre = no
+owner = SWE
+controller = SWE 
+add_core = SWE
+is_city = yes
+base_tax = 1 
+base_production = 1
+trade_goods = fur
+base_manpower = 1
+discovered_by = eastern
+discovered_by = western
+
+1440.1.1 = {
+	add_local_autonomy = 90
+}

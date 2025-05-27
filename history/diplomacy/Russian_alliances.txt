@@ -1,0 +1,45 @@
+# Muscovy and Pskov
+vassal = {
+	first = MOS
+	second = PSK
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+
+# Muscovy and Yaroslavl
+vassal = {
+	first = MOS
+	second = YAR
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+
+# Muscovy and Beloozero
+vassal = {
+	first = MOS
+	second = BLO
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+
+# Muscovy and Rostov
+vassal = {
+	first = MOS
+	second = RSO
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+
+# Muscovite vassal - Great Perm
+vassal = {
+	first = MOS
+	second = PRM
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+vassal = {
+	first = NOV
+	second = PSK
+	start_date = 1444.11.12
+	end_date = 1444.11.13
+}

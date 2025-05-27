@@ -1,0 +1,51 @@
+government = monarchy
+add_government_reform = mamluk_government
+primary_culture = al_misr_arabic
+add_accepted_culture = al_suryah_arabic
+add_accepted_culture = bedouin_arabic
+religion = sunni
+technology_group = muslim
+historical_rival = TUR
+historical_rival = TIM
+capital = 361 # Cairo
+add_army_professionalism = 0.1
+religious_school = shafii_school
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -10
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 10
+}
+
+1438.6.8 = {
+	monarch = {
+		name = "Usman"
+		birth_date = 1412.1.1
+		dynasty = "Burji"
+		culture = circassian
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = inspiring_leader_personality
+	set_estate_privilege = estate_nobles_enlist_the_mamluks
+}
+
+1444.11.12 = {
+	monarch = {
+		name = "Mehmet"
+		birth_date = 1411.09.22
+		dynasty = "Burji"
+		culture = circassian
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = embezzler_personality

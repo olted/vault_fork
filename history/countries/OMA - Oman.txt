@@ -1,0 +1,23 @@
+government = monarchy
+add_government_reform = arabic_plutocracy_reform
+primary_culture = omani_culture
+religion = ibadi
+technology_group = muslim
+capital = 400	# Muscat
+government_rank = 1
+religious_school = shafii_school
+
+1435.1.1 = {
+	monarch = {
+		name = "Abul Hassan"
+		dynasty = "Nabhan"
+		birth_date = 1412.12.12	
+		adm = 3
+		dip = 6
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = well_connected_personality
+}
+

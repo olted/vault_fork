@@ -1,0 +1,9 @@
+ambrosian_republic_disaster = {
+
+	potential = {
+		always = no
+	}
+	can_start = {
+		always = no
+	}
+}

@@ -1,0 +1,81 @@
+government = monarchy
+add_government_reform = byzantine_autocracy_reform
+government_rank = 3
+primary_culture = greek
+religion = orthodox
+technology_group = eastern
+historical_rival = TUR
+capital = 151 # Constantinople
+fixed_capital = 151 # Cannot move capital away from this province & no power cost to move to it
+
+set_estate_privilege = estate_nobles_deteriorating_army
+set_estate_privilege = estate_church_union_of_the_churches
+set_estate_privilege = estate_burghers_reliance_on_republics
+set_estate_privilege = estate_burghers_exkousseiai_for_latins
+
+1391.2.16 = {
+	mashriq_region = {
+		discover_country = BYZ
+	}
+}
+
+1425.7.21 = {
+	monarch = {
+		name = "Ioannes VIII"
+		dynasty = "Palaiologos"
+		birth_date = 1392.12.18
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1425.7.21 = {
+	heir = {
+		name = "Konstantinos"
+		monarch_name = "Konstantinos XI"
+		dynasty = "Palaiologos"
+		birth_date = 1405.2.8
+		death_date = 1453.5.29
+		claim = 60
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+1444.11.12 = {
+	monarch = {
+		name = "Konstantinos XI"
+		dynasty = "Palaiologos"
+		birth_date = 1405.2.8
+		adm = 5 
+		dip = 3
+		mil = 4 
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = well_connected_personality
+	heir = {
+		name = "Andronikos"
+		monarch_name = "Andronikos V"
+		dynasty = "Palaiologos"
+		birth_date = 1427.10.19
+		death_date = 1493.5.29
+		claim = 80
+		adm = 6
+		dip = 3
+		mil = 4
+	}
+	add_heir_personality = industrious_personality
+	leader = {
+		name = "Nikokados Avokados"
+		type = general
+		fire = 2
+		shock = 3
+		manuever = 4
+		siege = 3
+		birth_date = 1422.5.19
+		death_date = 1453.9.9
+		personality = siege_specialist_personality
+	}
+}

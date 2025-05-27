@@ -1,0 +1,23 @@
+#226 - Gibraltar
+
+owner = GRA		# Mustapha Sa'd King of Granada
+controller = GRA
+add_core = GRA
+culture = andalucian
+religion = sunni
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fish 
+base_manpower = 1
+capital = "Gibraltar" 
+is_city = yes
+fort_15th = yes
+
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+

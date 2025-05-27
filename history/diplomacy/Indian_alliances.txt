@@ -1,0 +1,110 @@
+vassal = {
+	first = VIJ
+	second = JFN
+	start_date = 1432.1.1
+	end_date = 1450.1.1
+}
+
+vassal = {
+	first = CEY
+	second = KND
+	start_date = 1440.1.1
+	end_date = 1467.1.1
+}
+
+vassal = {
+	first = MER
+	second = HAD
+	start_date = 1444.1.1
+	end_date = 1456.1.1
+}
+
+vassal = {
+	first = MER
+	second = GWA
+	start_date = 1444.1.1
+	end_date = 1456.1.1
+}
+
+vassal = {
+	first = DLH
+	second = SRH
+	start_date = 1443.1.1
+	end_date = 1444.11.12
+}
+
+vassal = {
+	first = DLH
+	second = JAN
+	start_date = 1414.1.1
+	end_date = 1444.11.12
+}
+vassal = {
+	first = SRH
+	second = JAN
+	start_date = 1444.11.12
+	end_date = 1444.12.1.1
+}
+
+vassal = {
+	first = MLW
+	second = KLP
+	start_date = 1443.1.1
+	end_date = 1531.1.1
+}
+
+vassal = {
+	first = MLW
+	second = BND
+	start_date = 1443.1.1
+	end_date = 1531.1.1
+}
+
+vassal = {
+	first = JNP
+	second = BGL
+	start_date = 1413.1.1
+	end_date = 1495.1.1
+}
+
+vassal = {
+	first = MLW
+	second = GDW
+	start_date = 1441.1.1
+	end_date = 1531.1.1
+}
+
+vassal = { 
+	first = ORI
+	second = GRJ 
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}
+
+vassal = { 
+	first = ORI
+	second = PRD
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}
+
+vassal = { 
+	first = ORI
+	second = KJH
+	start_date = 1444.1.1
+	end_date = 1568.1.1
+}
+
+vassal = {
+	first = BAH
+	second = TLG
+	start_date = 1433.1.1 
+	end_date = 1452.1.1
+}
+
+vassal = {
+	first = GUJ
+	second = KHD
+	start_date = 1418.1.1
+	end_date = 1508.1.1
+}

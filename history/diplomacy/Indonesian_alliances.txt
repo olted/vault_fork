@@ -1,0 +1,53 @@
+vassal = {
+	first = AYU
+	second = SUK
+	start_date = 1438.1.1
+	end_date = 1530.1.1
+}
+
+vassal = {
+	first = AYU
+	second = LIG
+	start_date = 1400.1.1
+	end_date = 1570.1.1
+}
+
+vassal = {
+	first = MLC
+	second = KED
+	start_date = 1444.1.1
+	end_date = 1444.11.12
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MAJ
+	second = BNJ
+	start_date = 1444.1.1
+	end_date = 1468.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MAJ
+	second = BLI
+	start_date = 1444.1.1
+	end_date = 1475.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MAJ
+	second = BLM
+	start_date = 1444.1.1
+	end_date = 1475.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MAJ
+	second = PLB
+	start_date = 1444.1.1
+	end_date = 1475.1.1
+}
+

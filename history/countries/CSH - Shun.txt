@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = chinese_warlord
+technology_group = chinese
+religion = confucianism
+primary_culture = xibei
+capital = 700
+
+1444.1.1 = { 
+	monarch = {
+		name = "Biao"
+		dynasty = "Ling"
+		birth_date = 1409.9.11
+		ADM = 2
+		DIP = 2
+		MIL = 4
+	}
+}

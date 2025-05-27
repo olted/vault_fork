@@ -1,0 +1,39 @@
+namespace = flavor_ghe
+normal_or_historical_nations = yes
+
+country_event = {
+	id = flavor_ghe.1
+	title = flavor_ghe.1.t
+	desc = flavor_ghe.1.d
+	picture = UNIVERSITY_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = flavor_ghe.1.a
+		ai_chance = {
+			factor = 1
+		}
+		280 = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 4 
+			add_local_autonomy = -100
+			move_capital_effect = yes
+		}
+	}
+	
+	
+	option = {
+		name = flavor_ghe.1.b
+		ai_chance = {
+			factor = 0
+		}
+		280 = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+			add_local_autonomy = -100
+		}
+	}
+}

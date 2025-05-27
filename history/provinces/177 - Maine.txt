@@ -1,0 +1,22 @@
+# 177 Maine - Principal cities: Le Mans, Laval
+
+owner = ENG
+controller = ENG
+capital = "Le Mans"
+is_city = yes
+culture = cosmopolitan_french
+religion = catholic
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = cloth
+base_manpower = 4
+add_local_autonomy = 80
+add_core = ENG
+add_core = PRO
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.12 = { owner = PRO controller = PRO remove_core = ENG }

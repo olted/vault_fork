@@ -1,0 +1,12 @@
+#753 - Rio Grande
+
+is_city = no
+culture = tupinamba
+discovered_by = south_american
+religion = animism
+capital = "Rio Grande"
+trade_goods = cocoa
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1

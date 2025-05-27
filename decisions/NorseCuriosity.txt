@@ -1,0 +1,50 @@
+country_decisions = {
+	
+	norse_curiosity = {
+		color = { 0 51 204 }
+		potential = {
+			ai = no
+			OR = {
+				primary_culture = swedish
+				primary_culture = danish
+				primary_culture = norwegian
+				primary_culture = icelandic
+				primary_culture = norse
+				}
+			NOT = { has_country_flag = had_norse_nostalgia }		
+			religion = catholic
+		}
+		
+		allow = {
+			OR = {
+				primary_culture = swedish
+				primary_culture = danish
+				primary_culture = norwegian
+				primary_culture = icelandic
+				primary_culture = norse
+			}
+			NOT = { has_country_flag = had_norse_nostalgia }	
+			religion = catholic
+			OR = {
+			is_excommunicated = yes
+			has_country_modifier = the_statue_in_restraint_of_appeals
+			}
+			owns = 4114
+			is_free_or_tributary_trigger = yes
+		}
+		effect = {
+			country_event = { 
+				id = norse_events.2
+				days = 0
+			}
+			add_stability = -1
+			add_papal_influence = -200
+			add_reform_desire = 0.025
+			add_prestige = -20
+			add_legitimacy = -30
+		}
+		ai_will_do = {
+			factor = 0 
+		}
+	}
+}

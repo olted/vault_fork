@@ -1,0 +1,725 @@
+hetman_group_1 {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = GHE
+			tag = ZAZ
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ghe_go_west = {
+		icon = mission_recruit_the_cossacks
+		position = 2
+		required_missions = { ghe_call_on_host }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = podolia_volhynia_area
+				area = volhynia_area
+				area = red_ruthenia_area
+				area = moldavia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				root = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 15
+						OR = {
+							area = podolia_volhynia_area
+							area = volhynia_area
+							area = red_ruthenia_area
+							area = moldavia_area
+						}
+					}
+				}
+			}
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 15
+				OR = {
+					area = podolia_volhynia_area
+					area = volhynia_area
+					area = red_ruthenia_area
+					area = moldavia_area
+				}
+			}
+		}
+		
+		effect = {
+			sandomierz_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			podlasie_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			mazovia_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			malopolska_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			wallachia_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+		}
+	}
+	
+	ghe_into_poland = {
+		icon = mission_recruit_the_cossacks
+		position = 3
+		required_missions = { ghe_go_west }
+	
+		provinces_to_highlight = {
+			OR = {
+				area = mazovia_area
+				area = podlasie_area
+				area = sandomierz_area
+				area = malopolska_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				root = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 10
+						OR = {
+							area = mazovia_area
+							area = podlasie_area
+							area = sandomierz_area
+							area = malopolska_area
+						}
+					}
+				}
+			}
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				OR = {
+					area = mazovia_area
+					area = podlasie_area
+					area = sandomierz_area
+					area = malopolska_area
+				}
+			}
+			tag = GHE
+		}
+		
+		effect = {
+			add_dip_power = 200
+			poland_region = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			carpathia_region = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+		}
+	}
+}
+
+hetman_group_2 {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = GHE
+			tag = ZAZ
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ghe_go_north = {
+		icon = mission_recruit_the_cossacks
+		position = 2
+		required_missions = { ghe_call_on_host }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = east_dniepr_area
+				area = chernigov_area
+				area = sloboda_ukraine_area
+				area = west_dniepr_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				root = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 13
+						OR = {
+							area = east_dniepr_area
+				area = chernigov_area
+				area = sloboda_ukraine_area
+				area = west_dniepr_area
+						}
+					}
+				}
+			}
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 13
+				OR = {
+					area = east_dniepr_area
+					area = chernigov_area
+					area = sloboda_ukraine_area
+					area = west_dniepr_area
+				}
+			}
+		}
+		
+		effect = {
+			pripyat_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			minsk_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			white_ruthenia_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			smolensk_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			lithuania_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			oka_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+		}
+	}
+	
+	ghe_into_rus = {
+		icon = mission_recruit_the_cossacks
+		position = 3
+		required_missions = { ghe_go_north }
+	
+		provinces_to_highlight = {
+			OR = {
+				area = oka_area
+				area = lithuania_area
+				area = smolensk_area
+				area = white_ruthenia_area
+				area = minsk_area
+				area = pripyat_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				root = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 18
+						OR = {
+							area = oka_area
+							area = lithuania_area
+							area = smolensk_area
+							area = white_ruthenia_area
+							area = minsk_area
+							area = pripyat_area
+						}
+					}
+				}
+			}
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 18
+				OR = {
+					area = oka_area
+					area = lithuania_area
+					area = smolensk_area
+					area = white_ruthenia_area
+					area = minsk_area
+					area = pripyat_area
+				}
+			}
+			tag = GHE
+		}
+		
+		effect = {
+			add_adm_power = 200
+			baltic_region = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			russia_region = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+		}
+	}
+}
+
+hetman_group_3 {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = GHE
+			tag = ZAZ
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ghe_call_on_host = {
+		icon = mission_recruit_the_cossacks
+		position = 1
+		required_missions = { }
+	
+		trigger = {
+			num_of_cavalry = 6
+			army_size_percentage = 1
+		}
+		
+		effect = {
+			add_manpower = 10
+			add_country_modifier = {
+					name = ghe_expansion_start
+					duration = 10950
+			}
+			moldavia_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			west_dniepr_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			east_dniepr_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			chernigov_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			sloboda_ukraine_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			volhynia_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			podolia_volhynia_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			red_ruthenia_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			crimea_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			zaporizhia_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			azov_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+		}
+	}
+	
+	ghe_defeating_tatars = {
+		icon = mission_recruit_the_cossacks
+		position = 2
+		required_missions = { ghe_call_on_host }
+		
+		provinces_to_highlight = {
+			AND = {
+				province_id = 284
+				province_id = 286
+			}
+		}
+		
+		trigger = {
+			284 = {
+				owned_by = root
+			}
+			286 = {
+				owned_by = root
+			}
+		}
+		
+		effect = {
+			286 = {
+				change_trade_goods = salt
+				add_base_production = 2
+				add_base_manpower = 2
+				add_center_of_trade_level = 1
+				add_local_autonomy = -100
+			}
+			crimea_region = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+		}
+	}
+	
+	ghe_control_pontic_steppe = {
+		icon = mission_recruit_the_cossacks
+		position = 3
+		required_missions = { ghe_defeating_tatars }
+	
+		provinces_to_highlight = {
+			region = crimea_region
+			NOT = { country_or_non_sovereign_subject_holds = root }
+		}
+	
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = crimea_region
+				value = 20
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+					name = ghe_integrating_steppes
+					duration = 10950
+			}
+			circassia_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			dagestan_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			saratov_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+			tambov_area = {
+					limit = {
+						NOT = { is_permanent_claim = root }
+						NOT = { is_core = root }
+					}
+					add_permanent_claim = root
+			}
+		}
+	}
+	
+	ghe_spread_culture_east = {
+		icon = mission_recruit_the_cossacks
+		position = 4
+		required_missions = { ghe_control_pontic_steppe }
+		
+		trigger = {
+			development_in_provinces = {
+				value = 300
+				AND = {
+					region = crimea_region
+					culture = ruthenian
+				}
+			}
+			tag = GHE
+		}
+		
+		effect = {
+			add_prestige_or_monarch_power = {
+				amount = 25
+			}
+			every_owned_province = {
+					limit = {
+						region = crimea_region
+						trade_goods = livestock
+					}
+					add_province_modifier = {
+						name = ghe_grazing
+						duration = 36500
+					}
+			}
+		}
+	}
+	
+	ghe_pastorialists = {
+		icon = mission_recruit_the_cossacks
+		position = 5
+		required_missions = { ghe_spread_culture_east }
+		
+		trigger = {
+			production_leader = {
+				trade_goods = livestock
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+					name = ghe_livestock_traders
+					duration = -1
+			}
+		}
+	}
+}
+
+hetman_group_4 {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = GHE
+			tag = ZAZ
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ghe_capture_kiev = {
+		icon = mission_recruit_the_cossacks
+		position = 2
+		required_missions = { ghe_call_on_host }
+		
+		provinces_to_highlight = {
+			province_id = 280 
+		}
+		
+		trigger = {
+			owns_core_province = 280
+		}
+		
+		effect = {
+			add_patriarch_authority = 0.1
+			country_event = { id = flavor_ghe.1 }
+			
+		}
+	}
+		
+	ghe_cossack_patriarch = {
+		icon = mission_recruit_the_cossacks
+		position = 3
+		required_missions = { ghe_capture_kiev }
+		
+		trigger = {
+			tag = GHE
+			patriarch_authority = 0.5
+			owns_core_province = 280
+			280 = {
+				development = 30
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = {
+			add_prestige_or_monarch_power = {
+				amount = 25
+			}
+			280 = { 
+				add_province_modifier = {
+				name = ghe_seat_of_cossack_patriarch
+				duration = -1
+				}
+			}
+		}
+		
+	}
+	
+	ghe_convert_steppes = {
+		icon = mission_recruit_the_cossacks
+		position = 4
+		required_missions = { ghe_cossack_patriarch }
+		
+		trigger = {
+			tag = GHE
+			patriarch_authority = 0.9
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 60
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = ghe_conversion
+				duration = -1
+			} 
+		}
+	}
+	
+}
+
+hetman_group_5 {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = GHE
+			tag = ZAZ
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ghe_steppe_fighters = {
+		icon = mission_recruit_the_cossacks
+		position = 1
+		required_missions = {  }
+		
+		trigger = {
+			num_of_battles = { amount = 100 }
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = ghe_lessons_of_war
+				duration = -1
+			} 
+		}
+	}
+	ghe_cossack_meritocracy = {
+		icon = mission_recruit_the_cossacks
+		position = 2
+		required_missions = { ghe_steppe_fighters }
+		
+			trigger = {
+				army_tradition = 80
+				has_commanding_three_star = yes
+				num_of_generals_with_traits = 1
+				tag = GHE
+			}
+		
+			effect = {
+				add_country_modifier = {
+					name = ghe_cossack_meritocracy
+					duration = -1
+				} 
+			}
+		
+	}
+	ghe_nation_on_horseback = {
+		icon = mission_recruit_the_cossacks
+		position = 4
+		required_missions = { ghe_cossack_patriarch ghe_cossack_meritocracy }
+			
+			trigger = {
+				num_of_cavalry = 200
+			}
+		
+			effect = {
+				add_country_modifier = {
+					name = ghe_horses_galore
+					duration = -1
+				} 
+			}
+	}
+	
+}

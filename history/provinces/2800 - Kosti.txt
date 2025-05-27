@@ -1,0 +1,19 @@
+#2800 - Kosti
+
+culture = nubian
+religion = shamanism #Fetishism
+capital = "Kosti"
+owner = NUB
+controller = NUB
+add_core = NUB 
+trade_goods = slaves
+is_city = yes
+base_manpower = 1
+hre = no
+base_tax = 1 
+base_production = 1
+
+
+
+discovered_by = ALO
+discovered_by = MAK

@@ -1,0 +1,145 @@
+ajami_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = QOM
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ajam_tabriz = {
+		icon = mission_the_caucasus_tur
+		position = 2
+		required_missions = { ajam_start }
+		provinces_to_highlight = {
+			province_id = 416
+		}
+		trigger = {	
+			416 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			416 = { add_base_tax = 1 add_base_production = 1 add_base_manpower = 1 }
+		}
+	}
+}
+
+ajami_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = QOM
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ajam_amol = {
+		icon = per_the_seljuk_successors
+		position = 2
+		required_missions = { ajam_start }
+		provinces_to_highlight = {
+			province_id = 426
+		}
+		trigger = {	
+			426 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_treasury = 200
+		}
+	}
+}
+
+ajami_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = QOM
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ajam_start = {
+		icon = mission_into_persia_1
+		position = 1
+		required_missions = { }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			give_claims = { area = persian_gulf_coast }
+			give_claims = { area = kerman_area }
+			give_claims = { area = mashhad_area }
+			give_claims = { area = birjand_area }
+			give_claims = { area = farsistan_area }
+			give_claims = { area = iraq_e_ajam_area }
+			give_claims = { area = azerbaijan_area }	
+			give_claims = { area = isfahan_area }
+			give_claims = { area = tabriz_area }
+			give_claims = { area = tabarestan_area }
+		}
+	}
+	
+	
+}
+
+ajami_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = QOM
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ajam_shiraz = {
+		icon = mission_persian_lion
+		position = 2
+		required_missions = { ajam_start }
+		provinces_to_highlight = {
+			province_id = 2218
+		}
+		trigger = {	
+			2218 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_manpower = 10
+		}
+	}
+}
+
+ajami_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = QOM
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	ajam_mashhad = {
+		icon = per_recruit_the_qizilbash
+		position = 2
+		required_missions = { ajam_start }
+		provinces_to_highlight = {
+			province_id = 2221
+		}
+		trigger = {	
+			2221 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 25
+		}
+	}
+}

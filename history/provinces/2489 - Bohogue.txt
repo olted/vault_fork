@@ -1,0 +1,13 @@
+# No previous file for Bohogue
+
+is_city = no
+culture = shoshone
+religion = totemism
+capital = "Bohogue"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+discovered_by = north_american

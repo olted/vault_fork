@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = chinese_warlord
+primary_culture = miao
+religion = confucianism
+technology_group = chinese
+capital = 2174	# Umung
+
+1444.1.1 = { 
+	monarch = {
+		name = "Miao Zedong"
+		birth_date = 1420.9.11
+		ADM = 2
+		DIP = 2
+		MIL = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cruel_personality
+}

@@ -1,0 +1,48 @@
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 1
+primary_culture = prussian
+religion = catholic
+technology_group = western
+historical_friend = LIV
+historical_rival = POL
+capital = 1841	# Marienburg
+add_army_professionalism = 0.1
+
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 25
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -15
+}
+change_estate_land_share = {
+	estate = estate_nobles
+	share = -10
+}
+
+
+1441.1.1 = {
+	monarch = {
+		name = "Konrad von Erlichshausen"
+		birth_date = 1393.1.1
+		culture = swabian
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = silver_tongue_personality
+}
+
+1444.11.12 = {
+	monarch = {
+		name = "Friedrich von Badenhausen"
+		culture = prussian
+		birth_date = 1403.1.1
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}

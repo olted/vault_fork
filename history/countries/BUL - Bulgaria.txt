@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+primary_culture = bulgarian
+religion = orthodox
+capital = 1765	# Sofia
+
+1444.11.12 = {
+	monarch = {
+		name = "Ivan VI"
+		dynasty = "Sratsimir"
+		birth_date = 1422.09.29
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}

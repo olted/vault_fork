@@ -1,0 +1,26 @@
+bookmark =
+{
+	name = "VAULTMOD_ALT"
+	desc = "VAULTMOD_ALT_DESC"
+	date = 1444.11.12
+	
+	center = 151
+	default = yes
+	
+	country = BYZ
+	country = ARA
+	country = GRA
+	country = BOH
+	country = DAN
+	country = NOV
+	country = ZAZ
+	country = VEN
+	country = WUR
+	country = TEU
+	country = HOL
+	country = NRM
+	country = PRO
+	country = BRU
+	country = HSN
+	country = ARL
+}

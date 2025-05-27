@@ -1,0 +1,340 @@
+japanse_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			has_reform = indep_daimyo
+			has_reform = daimyo
+			has_reform = shogunate
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	JAP_build_navy = {
+		icon = mission_junk_boat
+		required_missions = { }
+		position = 1
+		trigger = {
+			navy_size_percentage = 1
+		}
+		effect = {
+			change_government_reform_progress = 25
+			add_country_modifier = {
+				name = JAP_navy_buff
+				duration = 10950
+			}
+		}
+	}
+
+}
+
+japanse_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			has_reform = indep_daimyo
+			has_reform = daimyo
+			has_reform = shogunate
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	
+	JAP_issue_new_erizeni_rei = {
+		icon = mission_war_chest
+		required_missions = { }
+		position = 1
+		
+		trigger = {
+			 share_of_starting_income = 2.0
+		}
+		effect = {
+			change_government_reform_progress = 25
+			add_country_modifier = {
+				name = JAP_currency_boost
+				duration = 10950
+			}
+		}
+	}
+}
+
+japanse_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			has_reform = indep_daimyo
+			has_reform = daimyo
+			has_reform = shogunate
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	JAP_coming_storm = {
+		position = 1
+		icon = mission_japanese_samurai
+		required_missions = { }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			custom_tooltip = claim_neighbor_province
+			hidden_effect = {
+				every_owned_province = {
+					every_neighbor_province = {
+						limit = {
+							NOT = { owned_by = ROOT }
+							NOT = { is_permanent_claim = ROOT	}
+							NOT = { is_core = ROOT	}
+						}
+						add_permanent_claim = ROOT
+					}
+				}
+			}
+		}
+	}
+	
+	JAP_expand_the_domain = {
+		position = 2
+		icon = mission_japanese_fort
+		required_missions = { JAP_coming_storm }
+		trigger = {
+			grown_by_development = 20
+		}
+		effect = {
+			add_country_modifier = {
+				name = JAP_domain_expanded
+				duration = 10950
+			}
+			custom_tooltip = perma_claim_neighbor_area
+			hidden_effect = {
+				every_owned_province = {
+					every_neighbor_province = {
+						area = {
+							limit = {
+								NOT = { owned_by = ROOT }
+								NOT = { is_permanent_claim = ROOT    }
+								NOT = { is_core = ROOT    }
+							}
+							add_permanent_claim = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+	JAP_sengoku_contender = {
+		position = 3
+		icon = mission_unite_home_region
+		required_missions = { JAP_expand_the_domain }
+		provinces_to_highlight = {
+			region = japan_region
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				root = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 12
+						region = japan_region
+					}
+				}
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = japan_region
+				value = 12
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = JAP_sengoku_contention
+				duration = 10950
+			}
+			if = { 
+				limit = { 
+					japan_region = { NOT = { country_or_non_sovereign_subject_holds = ROOT } } 
+				}
+				japan_region = {
+					limit = {
+						NOT = { is_core = ROOT } 
+						NOT = { owned_by = ROOT } 
+					}
+					add_permanent_claim = ROOT 
+				}
+			}
+		}
+	}
+	JAP_sengoku_victor = {
+		position = 4
+		icon = mission_japanese_fort
+		required_missions = { JAP_sengoku_contender }
+		provinces_to_highlight = {
+			region = japan_region
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				root = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 40
+						region = japan_region
+					}
+				}
+			}
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = japan_region
+				value = 40
+			}
+		}
+		effect = {
+			add_adm_power = 200
+			add_dip_power = 200
+			add_mil_power = 200
+			change_government_reform_progress = 100
+			add_legitimacy = 25
+			add_prestige = 25
+		}
+	
+	}
+	
+}
+
+japanse_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			has_reform = indep_daimyo
+			has_reform = daimyo
+			has_reform = shogunate
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	strengthen_the_bushido = {
+		icon = mission_japanese_samurai
+		position = 1
+		required_missions = { }
+		trigger = {
+			army_tradition = 60
+		}
+		effect = {
+			change_government_reform_progress = 25
+			add_country_modifier = {
+				name = written_bushido
+				duration = 18250
+			}
+		}
+	}
+	
+}
+	
+japanse_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			has_reform = indep_daimyo
+			has_reform = daimyo
+			has_reform = shogunate
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	JAP_balance_estates = {
+		icon = mission_buddhist_monk_praying
+		position = 1
+		required_missions = { }
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = JAP_balance_the_four_divisions_tt
+				OR = {
+					AND = {
+						if = {
+							limit = {
+								has_estate = estate_burghers
+							}
+							estate_loyalty = {
+								estate = estate_burghers
+								loyalty = 60
+							}
+						}
+						if = {
+							limit = {
+								has_estate = estate_church
+							}
+							estate_loyalty = {
+								estate = estate_church
+								loyalty = 60
+							}
+						}
+					}
+					AND = {
+						if = {
+							limit = {
+								has_estate = estate_burghers
+							}
+							estate_loyalty = {
+								estate = estate_burghers
+								loyalty = 60
+							}
+						}
+						if = {
+							limit = {
+								has_estate = estate_nobles
+							}
+							estate_loyalty = {
+								estate = estate_nobles
+								loyalty = 60
+							}
+						}
+					}
+					AND = {
+						if = {
+							limit = {
+								has_estate = estate_church
+							}
+							estate_loyalty = {
+								estate = estate_church
+								loyalty = 60
+							}
+						}
+						if = {
+							limit = {
+								has_estate = estate_nobles
+							}
+							estate_loyalty = {
+								estate = estate_nobles
+								loyalty = 60
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			change_government_reform_progress = 25
+			if = {
+				limit = { NOT = { stability = 3 } }
+				add_stability = 1
+			}
+			else = {
+				add_adm_power = 100
+			}
+		}
+	}
+	
+}

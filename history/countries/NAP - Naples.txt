@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+religion = catholic
+primary_culture = neapolitan
+capital = 121 # Napoli
+
+1430.11.1 = {
+	monarch = { 
+		name = "Giovanni I"
+		dynasty = "Durazzo"
+		birth_date = 1422.05.23
+		adm = 2
+		dip = 0
+		mil = 3
+	}
+}
