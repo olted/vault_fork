@@ -874,11 +874,11 @@ administrative_ideas = {
 		expand_administration_cost = -1
 	}
 	adaptability = {
-		core_creation = -0.25
+		core_creation = -0.175
 		core_decay_on_your_own = -0.2
 	}
 	cultural_regulations = {
-		possible_adm_policy = 1
+		free_adm_policy = 1
 	}
 	stable_government = {
 		stability_cost_modifier = -0.2
@@ -1026,6 +1026,41 @@ naval_ideas = {
 					value = 0.4
 				}
 		}
+	}
+}
+
+
+imperial_ideas = {
+	category = DIP
+	bonus = {
+		culture_conversion_time = -0.3
+	}
+	
+	cultural_primacy = {
+		same_culture_advisor_cost = -0.2
+	}
+	competent_diplomats = {
+		free_dip_policy = 1
+	}
+	special_diplomatic_deliveries = { 
+		envoy_travel_time = -0.5
+	}
+	skilled_governors = {
+		min_autonomy_in_territories = -0.10
+	}
+	imperial_ideas_cb  = {
+		war_exhaustion = -0.05
+		#gives CB
+	}
+	skilled_negotiators = {
+		province_warscore_cost = -0.1
+	}
+	special_education_camps = {
+		culture_conversion_cost = -0.2
+	}
+
+	ai_will_do = {
+		factor = 0.5
 	}
 }
 

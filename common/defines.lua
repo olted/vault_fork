@@ -359,7 +359,7 @@ NDiplomacy = {
 	INTEGRATE_UNION_MIN_YEARS = 50,					-- Number of years before a union can be integrated
 	INTEGRATE_VASSAL_MIN_YEARS = 10,				-- Number of years before a vassal can be integrated
 
-	MONTHS_BEFORE_TOTAL_OCCUPATION = 24,			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader
+	MONTHS_BEFORE_TOTAL_OCCUPATION = 12,			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader
 
 	WAR_REPARATIONS_FACTOR = 0.1,
 	WAR_REPARATIONS_YEARS = 10,
@@ -508,7 +508,7 @@ NCountry = {
 	FORCE_CONVERT_COOLDOWN_DURATION = 10,				-- Years
 
 
-	MONARCH_MIN_SKILL = 0,						-- Probably bad idea to reduce this
+	MONARCH_MIN_SKILL = 1,						-- Probably bad idea to reduce this
 	MONARCH_MAX_SKILL = 6,						-- Monarch skills will be chosen between MONARCH_MIN_SKILL and MONARCH_MAX_SKILL
 	ELECTIVE_LOCAL_MONARCH_MIN_BONUS = 0,		-- The minimum change that is applied to non-foreign heirs in elective monarchy
 	ELECTIVE_LOCAL_MONARCH_MAX_BONUS = 1,		-- The maximum change that is applied to non-foreign heirs in elective monarchy
@@ -660,7 +660,7 @@ NCountry = {
 	SUPPORT_OWN_HEIR_SUPPORT_BONUS = 5,
 	ELECTIVE_HEIR_CLAIM_STRENGTH = 80,
 	MAX_ACTIVE_POLICIES = 5,						-- how many active policies at once.
-	MINIMUM_POLICY_TIME = 10,						-- how many years minimum for a policy
+	MINIMUM_POLICY_TIME = 2,						-- how many years minimum for a policy
 	POLICY_COST = 1,								-- Monthly cost per policy
 	BASE_POSSIBLE_POLICIES = 3,						-- How many policies in a category a nation can have as a base
 	BASE_FREE_POLICIES = 1,							-- How many policies in a category a nation get for free
@@ -674,7 +674,7 @@ NCountry = {
 	MAX_WAR_EXHAUSTION = 20,
 	VICTORY_CARD_DECAY_MONTHS = 120,		-- months to lose all score.
 	VICTORY_CARD_INCREASE_MONTHS = 120,		-- months to gain all score.
-	VICTORY_CARD_START_YEAR = 1450,			-- first year for victory card.
+	VICTORY_CARD_START_YEAR = 1820,			-- first year for victory card.
 	VICTORY_CARD_START_OFFSET = 100,		-- how long until next level of victory card given.
 	VICTORY_CARD_BONUS_SCORE = 1000,		-- score given per level
 
@@ -734,7 +734,7 @@ NCountry = {
 	TECH_AHEAD_OF_TIME = 0.1,		-- per year ahead.
 
 
-	PS_BUY_IDEA = 400,
+	PS_BUY_IDEA = 300,
 	PS_BUY_NATIVE_ADVANCEMENT = 500,
 	PS_BUY_RELIGIOUS_REFORM = 0,
 	PS_ADVANCE_TECH = 600,
@@ -1283,7 +1283,7 @@ NMilitary = {
 	SIEGE_ATTRITION = 1,
 	SIEGE_DISEASE_IMPACT = 0.05,						-- Fraction of besieging soldiers lost in a disease outbraek
 	ARMY_ATTRITION_AT_COAST = 1,					-- How many percent attrition units take while loaded onto ships along the coast
-	ARMY_ATTRITION_AT_SEA = 10,						-- How many percent attrition units take while loaded onto ships traveling open sea
+	ARMY_ATTRITION_AT_SEA = 1,						-- How many percent attrition units take while loaded onto ships traveling open sea
 	NATIVE_FEROCITY_IMPACT = 0.05,					-- how many percentage each ferocity gives in combat bonus
 	GALLEY_BONUS_INLAND_SEA = 1.0,
 	GALLEY_BONUS_COASTAL_SEA = 0.5,
