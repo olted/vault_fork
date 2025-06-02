@@ -6504,3 +6504,103 @@ adopt_technology_group_from_target = {
 	if = { limit = { $target$ = { technology_group = polynesian_tech } }	change_technology_group = polynesian_tech	change_unit_type = polynesian_tech }								
 	if = { limit = { $target$ = { technology_group = high_american } }		change_technology_group = high_american		change_unit_type = high_american }							
 }
+development_counter = {
+	[[on_startup]
+		if = {
+			limit = {
+				ROOT = {ai = no}
+				NOT = { has_country_flag = has_development_counter_cflag }				
+			}
+			set_variable = {
+				which = adm_dev_counter
+				value = 0
+			}
+			set_variable = {
+				which = dip_dev_counter
+				value = 0
+			}
+			set_variable = {
+				which = mil_dev_counter
+				value = 0
+			}
+			set_variable = {
+				which = total_dev_counter
+				value = 0
+			}
+			set_country_flag = has_development_counter_cflag
+		}
+	]
+	
+	#All updates to variables in this section are in province scope.
+	[[adm]
+		owner = {
+			if = {
+				limit = { ai = no }
+				change_variable = {
+					which = adm_dev_counter
+					value = 1
+				}
+				change_variable = {
+					which = total_dev_counter
+					value = 1
+				}
+			}
+		}
+	]
+	[[dip]
+		owner = {
+			if = {
+				limit = { ai = no }
+				change_variable = {
+					which = dip_dev_counter
+					value = 1
+				}
+				change_variable = {
+					which = total_dev_counter
+					value = 1
+				}
+			}
+		}
+	]
+	[[mil]
+		owner = {
+			if = {
+				limit = { ai = no }
+				change_variable = {
+					which = mil_dev_counter
+					value = 1
+				}
+				change_variable = {
+					which = total_dev_counter
+					value = 1
+				}
+			}
+		}
+	]
+}
+
+bastard_golden_age_effect = {
+	if = {
+			limit = {
+				has_dlc = "Mandate of Heaven"
+			}
+			custom_tooltip = bastard_if_used_ge_rest_else_30_years_extension_tt 
+			if = {
+				limit = {
+					has_country_flag = urbanisation_taken 
+					NOT = { has_country_modifier = urbanisation }
+				} 
+				clr_country_flag = urbanisation_taken
+			}
+			else_if = {
+				limit = { 
+					has_country_modifier = urbanisation
+					has_country_flag = urbanisation_taken 
+				} 
+					extend_country_modifier = {
+						name = urbanisation
+						duration = 10950
+					}
+			}
+	}
+}
