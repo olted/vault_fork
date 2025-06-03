@@ -874,8 +874,8 @@ administrative_ideas = {
 		expand_administration_cost = -1
 	}
 	adaptability = {
-		core_creation = -0.175
-		core_decay_on_your_own = -0.2
+		core_creation = -0.2
+		unjustified_demands = -0.25
 	}
 	cultural_regulations = {
 		free_adm_policy = 1

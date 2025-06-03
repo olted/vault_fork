@@ -196,6 +196,10 @@ RVA = "countries/Ravensburg.txt"
 DTT = "countries/Dithmarschen.txt"
 AUH = "countries/Austriahungary.txt"
 GMA = "countries/Greatmoravia.txt"
+
+#Special Germans
+NGF = "countries/NorthGermanFederation.txt"
+SGF = "countries/SouthGermanFederation.txt"
 	
 #Spain
 ARA	= "countries/Aragon.txt"
