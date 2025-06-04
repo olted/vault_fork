@@ -516,18 +516,6 @@ cb_imperial = {
 	war_goal = take_capital_imperial
 }
 
-cb_diplomatic = {
-	valid_for_subject = no
-
-	prerequisites_self = {
-		has_idea = diplo_cb
-		is_free_or_tributary_trigger = yes
-		is_revolutionary = no
-		NOT = { has_reform = war_against_the_world_doctrine_reform }
-	}
-
-	war_goal = take_capital_imperial
-}
 
 cb_imperial_ideas = {
 	valid_for_subject = no

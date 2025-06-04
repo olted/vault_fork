@@ -368,7 +368,7 @@ shipyard = {
 #### MODDED BUILDINGS - ROAD
 
 early_road = {
-    cost = 100
+    cost = 70
     time = 8
 
 	build_trigger = {
@@ -404,7 +404,7 @@ early_road = {
 
 
 gravel_road = {
-    cost = 300
+    cost = 100
     time = 16
 	make_obsolete = early_road
 
@@ -431,7 +431,7 @@ gravel_road = {
 
 		# Movement
 		local_friendly_movement_speed = 0.15
-		#local_hostile_movement_speed = 0.05
+		local_hostile_movement_speed = 0.05
 
     }
 	ai_will_do = {
@@ -440,7 +440,7 @@ gravel_road = {
 }
 
 royal_road = {
-    cost = 400
+    cost = 150
     time = 24
 	make_obsolete = gravel_road
 
@@ -467,7 +467,7 @@ royal_road = {
 
 		# Movement
 		local_friendly_movement_speed = 0.3
-		#local_hostile_movement_speed = 0.1
+		local_hostile_movement_speed = 0.15
     }
 	ai_will_do = {
 		factor = 0
@@ -475,7 +475,7 @@ royal_road = {
 }
 
 macadam_road = {
-    cost = 500
+    cost = 250
     time = 32
 	make_obsolete = royal_road
 
@@ -502,7 +502,7 @@ macadam_road = {
 
 		# Movement
 		local_friendly_movement_speed = 0.5
-		#local_hostile_movement_speed = 0.15
+		local_hostile_movement_speed = 0.15
     }
 	ai_will_do = {
 		factor = 0
@@ -511,7 +511,7 @@ macadam_road = {
 
 
 railroad = {
-	cost = 1000
+	cost = 500
 	time = 40
 	make_obsolete = macadam_road
 
@@ -539,7 +539,7 @@ railroad = {
 
 		# Movement
 		local_friendly_movement_speed = 2
-		#local_hostile_movement_speed = 0.3
+		local_hostile_movement_speed = 0.3
     }
 
 	ai_will_do = {
