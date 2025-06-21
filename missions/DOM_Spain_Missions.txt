@@ -3521,7 +3521,7 @@ dom_cas_missions_4_c = {
 				fire = 5
 				manuever = 6
 				siege = 1
-				name = "Hernán Cortés"
+				name = "Hernï¿½n Cortï¿½s"
 			}
 			490 = {
 				add_base_production = 3
@@ -3970,8 +3970,8 @@ dom_cas_missions_5_b = {
 		required_missions = {  }
 		position = 1
 		trigger = {
-			naval_forcelimit = 30
-			navy_size_percentage = 0.9
+			naval_forcelimit = 25
+			navy_size_percentage = 1
 			num_of_admirals = 1
 		}
 		effect = {

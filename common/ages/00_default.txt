@@ -78,26 +78,18 @@ age_of_discovery = {
 	 		}
 		}
 		
-		obj_two_unions = {
-			allow = {
-				religion_group = christian
+		obj_two_unions = { #obj_temples
+			num_of_owned_provinces_with = {
+				has_building = temple 
+				value = 12 
 			}
-			calc_true_if = {
-				all_subject_country = {
-					OR = {
-						is_subject_of_type = personal_union
-						is_subject_of_type = integrated_personal_union
-					}
-				}
-				amount = 2
-			}
-		} 
+		}
 		
 		obj_many_vassals = {
 			allow = {
 				NOT = { religion_group = christian }
 			}
-			vassal = 5
+			vassal = 2
 		}		
 	
 		obj_two_continents = {

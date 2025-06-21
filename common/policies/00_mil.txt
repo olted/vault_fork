@@ -39,7 +39,6 @@ religious_mil = {
 	}
 	
 	manpower_in_own_culture_provinces = 0.15
-	culture_conversion_time = -0.15
 
 	effect = {}
 	removed_effect = {}
@@ -47,7 +46,26 @@ religious_mil = {
 		factor = 0.5				
 	}
 }
+imperial_mil = { 
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = imperial_ideas
+	}
+	
+	allow = {
+		full_idea_group = imperial_ideas
+	}
+	
+	regiment_disembark_speed = 0.25
+	global_sailors_modifier = 0.15
 
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+}
 economic_mil = { 
 	monarch_power = MIL
 	
@@ -161,8 +179,8 @@ infrastructure_mil = {
 		}
 	}
 	
-	garrison_damage = 0.4
-	movement_speed = 0.1
+	garrison_damage = 0.15
+	max_hostile_attrition = 1
 
 	effect = {}
 	removed_effect = {}

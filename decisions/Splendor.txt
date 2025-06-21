@@ -10,7 +10,7 @@ country_decisions = {
 			}
 		effect = {
 			add_splendor = -800 
-			change_government_reform_progress = 50
+			change_government_reform_progress = 35
 			}
 		ai_will_do = {
 			factor = 0.1

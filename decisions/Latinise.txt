@@ -1,0 +1,52 @@
+country_decisions = {
+	latinise_culture = {
+		potential = {
+			tag = AGI
+		}
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					 culture_group = iberian
+					 not = {culture = portuguese}
+					}
+			}
+		}
+		allow = {
+			trigger_if = {
+				limit = {
+					region = iberia_region
+					NOT = { culture = portugese }
+				}
+				all_province = {
+					owner = { tag = ROOT }
+				}
+			}
+		}
+		effect = {
+			update_entire_culture = {
+			culture = aragonese
+			}
+			update_entire_culture = {
+			culture = leonese
+			}
+			update_entire_culture = {
+			culture = castillian
+			}
+			update_entire_culture = {
+			culture = andalucian
+			}
+			update_entire_culture = {
+			culture = basque
+			}
+			update_entire_culture = {
+			culture = galician
+			}
+			update_entire_culture = {
+			culture = catalan
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

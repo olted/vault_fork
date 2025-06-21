@@ -200,9 +200,12 @@ GMA = "countries/Greatmoravia.txt"
 #Special Germans
 NGF = "countries/NorthGermanFederation.txt"
 SGF = "countries/SouthGermanFederation.txt"
+
+
 	
 #Spain
 ARA	= "countries/Aragon.txt"
+AGI = "countries/AragonItaly.txt"
 CAS	= "countries/Castille.txt"
 CAT	= "countries/Catalunya.txt"
 GRA	= "countries/Granada.txt"

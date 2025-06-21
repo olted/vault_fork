@@ -25,10 +25,7 @@ custom_button = {
 						is_colonial_nation = no
 					}
 				}	
-				adm_power = 100
-				dip_power = 100
-				mil_power = 100
-				splendor = 200
+				splendor = 800
 				if = {
 					limit = { tag = POR }
 					hidden_trigger = {
@@ -39,6 +36,7 @@ custom_button = {
 	}
     effect = { 
 		FROM = { #This will apply to the country
+		splendor = -800
 			add_country_modifier = {
 				name = "urbanisation"
 				duration = 18250

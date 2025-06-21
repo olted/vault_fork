@@ -164,7 +164,7 @@ infrastructure_adm = {
 	}
 	
 	land_maintenance_modifier = -0.1
-	interest = -0.25
+	advisor_cost = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -266,6 +266,28 @@ exploration_adm = {
 	colony_cost_modifier = -0.1
 	colony_development_boost = 1
 
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+}
+
+imperial_admin = { 
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = imperial_ideas
+	}
+	
+	allow = {
+		full_idea_group = imperial_ideas
+	}
+	
+	
+	interest = -0.5
+	inflation_reduction = 0.1
+	
 	effect = {}
 	removed_effect = {}
 	ai_will_do = {
