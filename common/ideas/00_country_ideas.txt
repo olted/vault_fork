@@ -2773,7 +2773,6 @@ AGI_ideas = {
 	}
 	AGI_national_idea_2 = {
 		naval_forcelimit_modifier = 0.2
-		global_sailors_modifier = 0.25
 	}
 	AGI_national_idea_3 = {
 		trade_steering = 0.33
@@ -2788,7 +2787,7 @@ AGI_ideas = {
 		development_cost_modifier = -0.05
 	}
 	AGI_national_idea_7 = {
-		land_morale = 0.20
+		land_morale = 0.15
 	}
 }
 

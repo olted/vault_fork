@@ -513,7 +513,11 @@ country_event = { #Cultural Union Upon Formation
  desc = flavor_ara.14.d 
  picture = COURT_eventPicture
  fire_only_once = yes
-
+	trigger = {
+		OR = {
+			tag = AGI
+		}
+	}
  option = {
 	name = flavor_ara.14.a 
 	custom_tooltip = latinise_tt

@@ -111,7 +111,7 @@
  vault_flavour.6.a: "Jävlar, han moonwalker uti skogen!"
  vault_flavour.6.b: "Jävlar, han pillar på barn uti skogen!"
  vault_flavour.7.t: "A Promising Mercenary Commander"
- vault_flavour.7.d: "In recent years one man has proven himself the most capable commander the Russian people have ever seen, also known under his alias the Beast of Bahmut, Yevgeny Prigozhin has led the charge against our enemies in a loyal and fealess manner. We could promote him to supreme commander of our entire armed forces, we'll only have to provide him with ample munitions and the freedom to do as he wishes.
+ vault_flavour.7.d: "In recent years one man has proven himself the most capable commander the Russian people have ever seen, also known under his alias the Beast of Bahmut, Yevgeny Prigozhin has led the charge against our enemies in a loyal and fealess manner. We could promote him to supreme commander of our entire armed forces, we'll only have to provide him with ample munitions and the freedom to do as he wishes."
  vault_flavour.7.a: "Bring him back to his hotdog stand"
  vault_flavour.7.b: "LETO I ARBELET, ZA WAGNERA PODYEDUT!"
  vault_flavour.8.t: "Prigozhin"
@@ -374,7 +374,7 @@
  host_tool_desc: "Used for mid campaign fixes without save editing, if you're reading this and aren't Stal you probably shouldn't press it"
  used_host_tool: "Used host tool"
  centralized_shogunate: "Centralized Shogunate"
- centralized_shogunate_desc: "After the Sengoku Jidai we understand the importance of no longer letting daimyo consolidate to much power in their domains.
+ centralized_shogunate_desc: "After the Sengoku Jidai we understand the importance of no longer letting daimyo consolidate to much power in their domains."
  shinto_incident_recent_tooltip_20: "At least 20 years since last incident"
  JAP_sengoku_victor_title: "Sengoku Victory"
  JAP_sengoku_victor_desc: "My lord, a glorious victory will soon be yours!"

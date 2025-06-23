@@ -132,8 +132,11 @@ imperial_dip = {
 	
 	allow = {
 		full_idea_group = imperial_ideas
+		OR = {
+			full_idea_group = imperial_ideas
+			full_idea_group = indigenous_ideas
+		}
 	}
-	
 	
 	sea_repair = yes 
 	trade_range_modifier = 0.33

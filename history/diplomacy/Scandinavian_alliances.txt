@@ -1,20 +1,20 @@
 union = {
 	first = DAN
 	second = SWE
-	start_date = 1444.11.12
-	end_date = 1464.9.2
+	start_date = 1444.1.1
+	end_date = 1444.11.12
 }
 union = {
 	first = DAN
 	second = NOR
 	#start_date = 1397.6.17
 	start_date = 1444.1.1
-	end_date = 1449.11.20
+	end_date = 1444.11.12
 }
 
 vassal = {
 	first = DAN
 	second = SHL
 	start_date = 1444.1.1
-	end_date = 1460.3.6
+	end_date = 1444.11.12
 }

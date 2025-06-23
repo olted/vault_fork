@@ -4,7 +4,7 @@ aragonese_missions_1 = {
 	ai = yes
 	potential = {
 		NOT = { map_setup = map_setup_random }
-		OR {
+		OR = {
 			tag = ARA
 			tag = AGI 
 		}

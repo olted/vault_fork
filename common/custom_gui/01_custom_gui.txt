@@ -36,7 +36,6 @@ custom_button = {
 	}
     effect = { 
 		FROM = { #This will apply to the country
-		splendor = -800
 			add_country_modifier = {
 				name = "urbanisation"
 				duration = 18250

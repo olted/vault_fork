@@ -1,0 +1,7 @@
+government = monarchy
+primary_culture = catalan
+add_accepted_culture = aragonese
+add_accepted_culture = sicilian
+religion = catholic
+technology_group = western
+capital = 213 # Tinto HQ

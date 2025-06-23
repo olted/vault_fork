@@ -228,7 +228,7 @@ innovativeness_ideas = {
 	category = ADM
 
 	bonus = {
-		advisor_cost = -0.1
+		advisor_cost = -0.2
 	}
 
 	patron_of_art  = {
@@ -271,7 +271,7 @@ religious_ideas = {
 	category = ADM
 
 	bonus = {
-		global_tax_modifier = 0.4
+		global_tax_modifier = 0.25
 	}
 
 	missionary_schools = {
@@ -286,7 +286,6 @@ religious_ideas = {
 		global_trade_goods_size_modifier = 0.15
 	}
 	divinely_inspired_ruler = {
-		monarch_diplomatic_power = 1
 		monarch_admin_power = 1
 		monarch_military_power = 1
 	}
@@ -574,7 +573,7 @@ economic_ideas = {
 		interest = -0.5
 	}
 	nationalistic_enthusiasm = {
-		global_allowed_num_of_manufactories = 1
+		global_allowed_num_of_buildings = 1
 	}
 	smithian_economics = { 
 		global_trade_goods_size_modifier = 0.1   
@@ -1180,13 +1179,13 @@ infrastructure_ideas = {
 		state_maintenance_modifier = -0.25
 	}
 	administrative_efficiency_idea = {
-		centralize_state_cost = -0.2
+		centralize_state_cost = -0.5
 	}
 	fort_logistics = {
 		center_of_trade_upgrade_cost = -0.2
  	}
 	regulation_bureau = {
-		global_allowed_num_of_buildings = 1
+		state_governing_cost = -0.15
 	}
 
 	ai_will_do = {
