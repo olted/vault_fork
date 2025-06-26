@@ -272,7 +272,7 @@ exploration_adm = {
 	}
 }
 
-imperial_admin = { 
+imperial_adm = { 
 	monarch_power = ADM
 	
 	potential = {

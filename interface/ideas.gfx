@@ -57,7 +57,7 @@ spriteTypes = {
 	}
 		spriteType = {
 		name = "GFX_idea_imperial_ideas"
-		texturefile = "gfx//interface//government_reform_icons//dlc//winds_of_change//seven_provinces_reform.dds"
+		texturefile = "gfx//interface//ideas//idea_imperialism_ideas.tga"
 		noOfFrames = 1
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"

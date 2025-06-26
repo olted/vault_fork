@@ -171,9 +171,6 @@
  innovativeness_ideas_bonus:0 "Full Innovativeness"
  imperial_ideas:0 "Imperial Ideas"
  imperial_ideas_bonus:0 "Full Imperial"
- imperial_mil:0 "Expeditionary Doctrine"
- imperial_dip:0 "Gunboat diplomacy"
- imperial_adm:0 "Imperial Bookkeepers"
  patron_of_art:0 "Patron of the Arts"
  patron_of_art_desc:0 "Our quest towards a culturally cultivated society begins here. Our artistic wonders will go down in history as the most marvelous of this era."
  pragmatism:0 "Pragmatism"
@@ -7395,4 +7392,4 @@
   flavor_ara.14.a:0 "Let us unite the people!"
 
   divinely_inspired_ruler:0 "Divinely Inspired Ruler"
-  divinely_inspired_ruler_desc:0 "The gods have chosen our king personally to lead the nation!"
+  divinely_inspired_ruler_desc:0 "The gods have chosen our king personally to lead the nation! errr Z!"

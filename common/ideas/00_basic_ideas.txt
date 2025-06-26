@@ -266,7 +266,6 @@ innovativeness_ideas = {
 	}
 }
 
-
 religious_ideas = {
 	category = ADM
 
@@ -274,16 +273,12 @@ religious_ideas = {
 		global_tax_modifier = 0.25
 	}
 
-	missionary_schools = {
-		global_missionary_strength = 0.03
-		missionary_maintenance_cost = -0.33
+	trappist_beer_monasteries = {
+		global_trade_goods_size_modifier = 0.15
 	}
 	church_attendance_duty = { 
 		development_cost_in_primary_culture = -0.1
 		missionaries = 1
-	}
-	trappist_beer_monasteries = {
-		global_trade_goods_size_modifier = 0.15
 	}
 	divinely_inspired_ruler = {
 		monarch_admin_power = 1
