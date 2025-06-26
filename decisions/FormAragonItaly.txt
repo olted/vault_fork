@@ -53,6 +53,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = AGI
+			swap_non_generic_missions = yes
 			restore_country_name_effect = yes
 			italy_region = {
 				limit = {
