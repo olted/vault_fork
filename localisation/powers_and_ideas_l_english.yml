@@ -169,6 +169,8 @@
  dynamic_court_desc:0 "A truly innovative court is one where any person may rise to shine. We must strive to make sure that old traditions, birth or wealth aren't a hindrance to the development of our court or a barrier to talented people wishing to seek their fortune in the service of our state."
  innovativeness_ideas:0 "Innovative Ideas"
  innovativeness_ideas_bonus:0 "Full Innovativeness"
+ imperial_ideas:0 "Imperial Ideas"
+ imperial_ideas_bonus:0 "Full Imperial"
  patron_of_art:0 "Patron of the Arts"
  patron_of_art_desc:0 "Our quest towards a culturally cultivated society begins here. Our artistic wonders will go down in history as the most marvelous of this era."
  pragmatism:0 "Pragmatism"
@@ -352,6 +354,20 @@
  grand_navy_desc:0 "Allows us to create one of the largest and most powerful fleets the world has ever seen."
  sea_hawks:0 "Seahawks"
  sea_hawks_desc:0 "Allows us to focus heavily on military advancements and thereby increase our naval tradition."
+ cultural_primacy:0 "Cultural Primacy"
+ cultural_primacy_desc:0 "An ubermensch philosophy allows us to employ advisors of the highest genetic quality."
+ competent_diplomats:0 "Competent Diplomats"
+ competent_diplomats_desc:0 "A skilled professional diplomatic corps to uphold strict standards"
+ special_diplomatic_deliveries:0 "Special Diplomatic Deliveries"
+ special_diplomatic_deliveries_desc:0 "Specialised diplomatic parcels allow us to ship messages across the world quicker than ever before."
+ skilled_governors:0 "Skilled Governors"
+ skilled_governors_desc:0 "Experienced governors help us adminsiter the territories most effectively. "
+ imperial_ideas_cb:0 "Early Imperial CB"
+ imperial_ideas_cb_desc:0 "Gives access to an early weakened version of Imperial CB"
+ skilled_negotiators:0 "Skilled Negotiators"
+ skilled_negotiators_desc:0 "Professional negotiators to maximise our demands from the defeated."
+ special_education_camps:0 "Special Education Camps"
+ special_education_camps_desc:0 "Camps to... concentrate the population of undesirable peoples. For re-education, of course."
  excellent_shipwrights:0 "Excellent Shipwrights"
  excellent_shipwrights_desc:0 "By gathering the best shipbuilders our nation has to offer, we are able to build us a fleet of modern vessels unmatched in craftsmanship and maneuverability."
  naval_fighting_instruction:0 "Naval Fighting Instruction"
@@ -6751,6 +6767,9 @@
  heirs_of_al_andalus_desc:0 "Among those fleeing the Reconquista in Spain are the former Princes and Princesses of Al-Andalus, the great Muslim empire that once spanned nearly the whole of Iberia. These nobles are eager to restore their lost realms by any means necessary."
  barbary_board_of_captains:0 "Board of Captains"
  barbary_board_of_captains_desc:0 "We must establish a council of our most skilled Captains to guide and regulate piracy and the slave trade in our nation."
+ urbanisation:0 "Golden Age (Economic)"
+ urbanisation_title:0 "Golden Age (Economic)"
+ urbanisation_desc:0 "50 years of reduced power cost, increased goods produced and cheaper construction cost. No longer part of the normal Golden Age ability."
  TEX_ideas:0 "Texan Ideas"
  TEX_ideas_start:0 "Texan Traditions"
  TEX_ideas_bonus:0 "Texan Ambition"
@@ -7021,8 +7040,6 @@
  the_chosen_people:0 "The Chosen People"
  the_chosen_people_desc:0 "The Jews are the chosen people of God, with his divine will we shall never again lose Israel to our old enemies again."
 
-
-
  
  infrastructure_ideas:0 "Infrastructure Ideas"
  infrastructure_ideas_bonus:0 "Full Infrastructure"
@@ -7278,3 +7295,101 @@
  desc_mercenary_leadership:0 "The rise of a mercenary general to an advisor of the [Root.GetAdjective] court brings many benefits for our mercenary companies. As such, their morale for our cause is unmatched."
  negative_mercenary_reputation:0 "Reputation of a Mercenary"
  desc_negative_mercenary_reputation:0 "Our deployment of mercenary units for our conflicts has left a stain on our reputation. Apparently, we are as honorable as any double-crossing condottiero."
+ #Development Counter
+ development_counter_title:0 "£sea_development_logo£Total Development Improvements"
+ development_counter_desc:0 "" 
+ development_counter_tt:0 "Development Improvements:\n\n£adm£ Development Gained: §G[Root.adm_dev_counter.GetValue]§! \n£dip£ Development Gained: §G[Root.dip_dev_counter.GetValue]§! \n£mil£ Development Gained: §G[Root.mil_dev_counter.GetValue]§! \n\nTotal Development Gained: §G[Root.total_dev_counter.GetValue]§!"
+ development_counter_update_tt:0 "Add §YDevelopment Improvement Counter§!"
+
+ #Germans
+ NGF:0 "North German Federation"
+ NGF_ADJ:0 "North German"
+ SGF:0 "South German Federation"
+ SGF_ADJ:0 "South German"
+
+ #Germans
+ gc_form_ngf_title:0 "Unite North Germany"
+ gc_form_ngf_desc:0 ""
+
+ gc_form_sgf_title:0 "Unite South Germany"
+ gc_form_sgf_desc:0 ""
+
+#South German
+ SGF_ideas:0 "South German Ideas"
+ SGF_ideas_start:0 "South German Traditions"
+ SGF_ideas_bonus:0 "South German Ambition"
+
+ SGF_national_idea_1:0 "Mandatory Service"
+ SGF_national_idea_2:0 "Forwards to Unity"
+ SGF_national_idea_3:0 "Austrian Chain of Command"
+ SGF_national_idea_4:0 "Prosperous Nation"
+ SGF_national_idea_5:0 "Hessian Mercenaries"
+ SGF_national_idea_6:0 "South German Infantry"
+ SGF_national_idea_7:0 "South German Court"
+
+ SGF_national_idea_1_desc:0 "Every man above the age of 16 must serve a mandatory time in the Army."
+ SGF_national_idea_2_desc:0 "The first steps towards German Unity have been made. We must pursue the Unity of Germany."
+ SGF_national_idea_3_desc:0 "The Austrians have a very efficent way to deliver orders on the battlefield and to home."
+ SGF_national_idea_4_desc:0 "The South German Valleys are great for Urbanization."
+ SGF_national_idea_5_desc:0 "Hessian Mercenaries are famous for their efficency."
+ SGF_national_idea_6_desc:0 "The South German Army composes of many different formidable Armies."
+ SGF_national_idea_7_desc:0 "The South German Federation houses many competent Advisors."
+  #North German
+  NGF_ideas:0 "North German Ideas"
+  NGF_ideas_start:0 "North German Traditions"
+  NGF_ideas_bonus:0 "North German Ambition"
+
+  NGF_national_idea_1:0 "North German Infantry"
+  NGF_national_idea_2:0 "Forwards to Unity"
+  NGF_national_idea_3:0 "Mandatory Service"
+  NGF_national_idea_4:0 "National Militarisation"
+  NGF_national_idea_5:0 "Reichsbank"
+  NGF_national_idea_6:0 "The Reichsflotte"
+  NGF_national_idea_7:0 "The Hanseatic Merchants"
+
+  NGF_national_idea_1_desc:0 "The North German Military is composed of many different Infantry Corps from various German regions. These Corps are formidable foes on their own."
+  NGF_national_idea_2_desc:0 "The first steps towards German Unity have been made. We must pursue the Unity of Germany."
+  NGF_national_idea_3_desc:0 "Every man above the age of 16 must serve a mandatory time in the Army."
+  NGF_national_idea_4_desc:0 "The Military is the focus of North German Society."
+  NGF_national_idea_5_desc:0 "The Reichsbank is responsible for the National Economy."
+  NGF_national_idea_6_desc:0 "Although Germany is not the greatest Naval Power, it can rely on the Reichsflotte to protect the German shore."
+  NGF_national_idea_7_desc:0 "The Hansa is incorporated into the Reichsbank and acts in interest for Germany."
+
+  #Aragon-Italy
+  AGI:0 "Aragon-Italy"
+  AGI_ADJ:0 "Latin"
+  form_agi_title:0 "Unite Aragon-Italy"
+  form_agi_desc:0 ""
+
+  AGI_ideas:0 "Aragonese Ideas"
+  AGI_ideas_start:0 "Aragonese Traditions"
+  AGI_ideas_bonus:0 "Aragonese Ambition"
+
+  AGI_national_idea_1:0 "Mercenary Princes"
+  AGI_national_idea_1_desc:0 "Sandwiched as we are between Castile and France we need to ensure that we have access to soldiers. Let our second and third sons serve as Mercenary Captains so we have the contacts we need to hire men if required."
+
+  AGI_national_idea_2:0 "Protection of the Coastlines"
+  AGI_national_idea_2_desc:0 "The threat of the Barbary Corsairs pillaging our coast is a real one. We must build a fleet to protect it. Let us expand our shipyards to ensure that we have the ships to do so."
+
+  AGI_national_idea_3:0 "Mediterranean Trade"
+  AGI_national_idea_3_desc:0 "The Italian Cities behave as if the trade of the Mediterranean was all theirs. We will encourage men of commerce to bring this trade to our shores."
+
+  AGI_national_idea_4:0 "Consolidation of the Estates"
+  AGI_national_idea_4_desc:0 "Aragon is a composite realm with each constituent part having its own Cortes. This is an inefficient system of government. We must unite the realm into a single state with one Cortes to govern more efficiently."
+
+  AGI_national_idea_5:0 "Chartered Merchant Companies"
+  AGI_national_idea_5_desc:0 "Our traders are wasting resources competing with each other rather than with others. This is a waste and we should focus all efforts on taking trade from other people."
+
+  AGI_national_idea_6:0 "Reforming the Administration"
+  AGI_national_idea_6_desc:0 "Our administration is very much that of a feudal state. If we wish to turn Aragon into a modern State we must bring our administration up to date."
+
+  AGI_national_idea_7:0 "Protect the Little Folk"
+  AGI_national_idea_7_desc:0 "Our soldiers will want to know that their loved ones are looked after in the event they fall in battle. Aragon will do its duty and ensure that this is done through a system of workhouses for the orphans of the fallen." 
+  
+  flavor_ara.14:0 "Unification of the Latin Cultures"
+  flavor_ara.14.t:0 "Unification of the Latin Cultures"
+  flavor_ara.14.d:0 "With the advent of our new great nation, the Latin people of Europe can realise they are not so different after all."
+  flavor_ara.14.a:0 "Let us unite the people!"
+
+  divinely_inspired_ruler:0 "Divinely Inspired Ruler"
+  divinely_inspired_ruler_desc:0 "The gods have chosen our king personally to lead the nation! eta va Z!"

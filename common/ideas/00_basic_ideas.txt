@@ -271,23 +271,22 @@ religious_ideas = {
 	category = ADM
 
 	bonus = {
-		culture_conversion_cost = -0.2
-		culture_conversion_time = -0.3
+		global_tax_modifier=0.25
 	}
 
 	missionary_schools = {
-		global_missionary_strength = 0.03
-		missionary_maintenance_cost = -0.33
+		global_trade_goods_size_modifier = 0.15
 	}
 	church_attendance_duty = { 
 		development_cost_in_primary_culture = -0.1
+		missionaries = 1
 	}
 	divine_supremacy = {
 		missionaries = 1
 		prestige_per_development_from_conversion = 0.1
 	}
 	devoutness = {
-		tolerance_own = 2
+		monarch_diplomatic_power = 1
 	}
 	inquisition = {
 		papal_influence = 3
@@ -301,7 +300,7 @@ religious_ideas = {
 		yearly_patriarch_authority = 0.005
 	}
 	religious_tradition = {
-		same_religion_advisor_cost = -0.1
+		same_religion_advisor_cost = -0.15
 		brahmins_hindu_loyalty_modifier = 0.1
 		church_loyalty_modifier = 0.1
 		establish_order_cost = -0.1
@@ -392,7 +391,7 @@ diplomatic_ideas = {
 		diplomatic_reputation = 2
 	}
 	diplo_cb  = {
-		war_exhaustion = -0.05
+		administrative_efficiency = 0.05
 		#gives CB
 	}
 	flexible_negotiation = {
@@ -453,7 +452,7 @@ defensive_ideas = {
 	}
 
 	battlefield_commisions = {
-		army_tradition_from_battle = 1.0
+		land_morale = 0.1
 	}
 	military_drill = {
 		morale_damage_received = -0.15
@@ -874,11 +873,11 @@ administrative_ideas = {
 		expand_administration_cost = -1
 	}
 	adaptability = {
-		core_creation = -0.25
-		core_decay_on_your_own = -0.2
+		core_creation = -0.2
+		unjustified_demands = -0.25
 	}
 	cultural_regulations = {
-		possible_adm_policy = 1
+		free_adm_policy = 1
 	}
 	stable_government = {
 		stability_cost_modifier = -0.2
@@ -1026,6 +1025,41 @@ naval_ideas = {
 					value = 0.4
 				}
 		}
+	}
+}
+
+
+imperial_ideas = {
+	category = DIP
+	bonus = {
+		culture_conversion_time = -0.3
+	}
+	
+	cultural_primacy = {
+		same_culture_advisor_cost = -0.2
+	}
+	competent_diplomats = {
+		free_dip_policy = 1
+	}
+	special_diplomatic_deliveries = { 
+		envoy_travel_time = -0.5
+	}
+	skilled_governors = {
+		min_autonomy_in_territories = -0.10
+	}
+	imperial_ideas_cb  = {
+		war_exhaustion = -0.05
+		#gives CB
+	}
+	skilled_negotiators = {
+		province_warscore_cost = -0.1
+	}
+	special_education_camps = {
+		culture_conversion_cost = -0.2
+	}
+
+	ai_will_do = {
+		factor = 0.5
 	}
 }
 

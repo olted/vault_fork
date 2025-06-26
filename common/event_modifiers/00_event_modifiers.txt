@@ -21,6 +21,10 @@ eth_mil_aid_from_portugal = {
 	mil_tech_cost_modifier = -0.05
 	global_manpower_modifier = 0.05
 }
+urbanisation = {
+	all_power_cost = -0.1
+	global_trade_goods_size_modifier = 0.1
+}
 
 incompetent_fabrication = {
 	fabricate_claims_cost = 0.5
@@ -1842,7 +1846,7 @@ spice_islands_modifier = { #Main entrepots of the Mollucas, point of origin for 
 	trade_goods_size = 3.0
 }
 
-skanemarket = { #Skånemarknaden - Biggest Herring Market in Europe
+skanemarket = { #Skï¿½nemarknaden - Biggest Herring Market in Europe
 	trade_goods_size = 2
 }
 

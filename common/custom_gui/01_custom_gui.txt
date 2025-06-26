@@ -1,0 +1,52 @@
+#Economic Golden Age button
+custom_button = {
+    name = economic_golden_age
+	tooltip = economic_golden_age_title
+    potential = {
+		FROM = {
+			NOT = { has_country_flag = urbanisation_taken }
+			NOT = { has_country_flag = X_POR_economic_golden_age_cflag }
+		}
+    }
+    trigger = { 
+		custom_trigger_tooltip = {
+				tooltip = urbanisation_tt
+				OR = {
+					AND = {
+						ai  = no
+						is_colonial_nation = no
+					}
+					AND = {
+						ai  = no
+						is_colonial_nation = yes
+					}
+					AND = {
+						ai  = no
+						is_colonial_nation = no
+					}
+				}	
+				splendor = 800
+				if = {
+					limit = { tag = POR }
+					hidden_trigger = {
+						NOT = { has_country_flag = X_POR_economic_golden_age_cflag }
+					}
+				}
+			}	
+	}
+    effect = { 
+		FROM = { #This will apply to the country
+			add_country_modifier = {
+				name = "urbanisation"
+				duration = 18250
+			}
+			if = {
+				limit = { NOT = { tag = POR } }
+				set_country_flag = urbanisation_taken
+			}
+			else = {
+				set_country_flag = X_POR_economic_golden_age_cflag
+			}
+		}
+	}	
+}

@@ -20,11 +20,11 @@ change_estate_land_share = {
 
 1444.6.20 = {
 	monarch = {
-		name = "Erik"
+		name = "Gustav II"
 		dynasty = "Vasa"
-		birth_date = 1419.10.5
-		adm = 4
-		dip = 3
+		birth_date = 1422.10.5
+		adm = 6
+		dip = 4
 		mil = 4
 	}
 	add_legitimacy = -25

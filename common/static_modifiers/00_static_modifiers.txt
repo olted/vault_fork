@@ -460,6 +460,7 @@ devastation = {
 }
 
 prosperity = {
+	local_development_cost = -0.1
 	local_tax_modifier = 0.1
 	trade_goods_size_modifier = 0.25
 	local_autonomy = -0.05
@@ -604,7 +605,7 @@ base_values = {
 	max_flagships = 1
 	num_of_parliament_issues = 10
 	has_marines = yes
-	assault_fort_ability = -0.4
+	assault_fort_ability = -0.15
 	garrison_damage = 0.1
 	privateer_efficiency = -0.3
 	global_tariffs = -0.2
@@ -997,7 +998,7 @@ legitimacy = {
 	diplomatic_reputation = 2
 	vassal_income = 0.1
 	monthly_militarized_society = 0.05
-	max_absolutism = 20
+	max_absolutism = 30
 	nobles_loyalty_modifier = 0.1
 	monthly_cultural_unity = 0.2
 	monthly_divine_authority = 0.3
@@ -1328,13 +1329,10 @@ is_great_power = {						#Only works with Rights of Man DLC enabled
 }
 
 in_golden_era = {
-	all_power_cost = -0.1
-	global_trade_goods_size_modifier = 0.1
 	land_morale = 0.1
 	naval_morale = 0.1
-	max_absolutism = 5
-	max_revolutionary_zeal = 10
-	monthly_arabic_trade_influence_power = 0.25
+	max_general_fire = 1
+	max_general_fire = 1
 }
 
 absolutism = {
@@ -2181,8 +2179,8 @@ expanded_infrastructure = {
 	local_build_time = -0.05
 	province_trade_power_modifier = 0.05
 	trade_goods_size_modifier = 0.05
-	local_governing_cost_increase = 15
-	local_governing_cost = 0.1
+	local_governing_cost_increase = 5
+	local_governing_cost = 0.15
 	local_great_project_upgrade_cost = -0.05
 }
 

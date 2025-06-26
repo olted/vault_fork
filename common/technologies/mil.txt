@@ -354,7 +354,7 @@ technology = {
 		new_world_i = 0.5
 		printing_press = 0.15
 	}
-	
+	fort_16th = yes
 	#Trunnions
 	artillery_shock 	= 	0.1
 	artillery_fire 		= 	0.4
@@ -374,7 +374,6 @@ technology = {
 	}
 	
 	#Star Bastions
-	fort_16th = yes
 	infantry_fire		=	0.3
 	
 	enable = african_hussar

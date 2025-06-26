@@ -15,7 +15,7 @@ country_event = {
 		trigger = {
 			has_dlc = "Lions of the North"
 		}
-		picture = VASA_REFORMS_eventPicture
+		picture = REFORM_eventPicture
 	}
 	picture = {
 		trigger = {
@@ -54,7 +54,7 @@ country_event = {
 			}
 			add_reform_progress_small_effect = yes
 		}
-		# Claim Skåne
+		# Claim Skï¿½ne
 		if = {
 			limit = {
 				NOT = { owns = 6 }
@@ -97,10 +97,10 @@ country_event = {
 		1 = {	# Stockholm
 			add_base_tax = 2
 		}
-		2 = {	#Östergötland
+		2 = {	#ï¿½stergï¿½tland
 			add_base_tax = 1
 		}
-		7 = {	#Västergötland
+		7 = {	#Vï¿½stergï¿½tland
 			add_base_tax = 1
 		}
 		27 = {	#Finland
@@ -298,7 +298,7 @@ country_event = {
 }
 
 
-# The Parliament of Västerås
+# The Parliament of Vï¿½sterï¿½s
 country_event = {
 	id = flavor_swe.2
 	title = flavor_swe.2.t
@@ -340,7 +340,7 @@ country_event = {
 
 }
 
-# Jöran Persson
+# Jï¿½ran Persson
 country_event = {
 	id = flavor_swe.3281
 	title = "flavor_swe.EVTNAME3281"
@@ -380,7 +380,7 @@ country_event = {
 		}
 		define_advisor = {
 			type = spymaster
-			name = "Jöran Persson"
+			name = "Jï¿½ran Persson"
 			culture = swedish
 			location = 4
 			discount = yes
@@ -430,7 +430,7 @@ country_event = {
 		}
 		define_advisor = {
 			type = statesman
-			name = "Per Brahe den äldre"
+			name = "Per Brahe den ï¿½ldre"
 			culture = swedish
 			discount = yes
 			location = 1
@@ -1847,7 +1847,7 @@ country_event = {
 	}
 }
 
-# Carl von Linné
+# Carl von Linnï¿½
 country_event = {
 	id = flavor_swe.5033
 	title = "flavor_swe.EVTNAME5033"
@@ -3299,7 +3299,7 @@ country_event = {
 	}
 }
 
-# Pillage of Lübeck
+# Pillage of Lï¿½beck
 country_event = {
 	id = flavor_swe.110
 	title = flavor_swe.110.t
@@ -4207,10 +4207,10 @@ country_event = {
 		1 = {	# Stockholm
 			add_base_tax = 2
 		}
-		2 = {	#Östergötland
+		2 = {	#ï¿½stergï¿½tland
 			add_base_tax = 1
 		}
-		7 = {	#Västergötland
+		7 = {	#Vï¿½stergï¿½tland
 			add_base_tax = 1
 		}
 		27 = {	#Finland

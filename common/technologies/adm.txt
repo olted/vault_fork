@@ -36,7 +36,7 @@ technology = { #Advanced Tribes
 	expects_institution = {
 		feudalism = 0.25
 	}
-	
+	early_road = yes
 	tribal_democracy_legacy = yes
 	tribal_kingdom_legacy = yes
 }
@@ -122,7 +122,7 @@ technology = { #Courthouse
 		feudalism = 0.5
 		renaissance = 0.5
 	}
-	
+	gravel_road = yes
 	allowed_idea_groups = 3
 
 }
@@ -139,6 +139,7 @@ technology = { #The Scythe
 	#The Scythe
 	courthouse = yes
 	governing_capacity = 100
+	development_cost_modifier = -0.05
 
 }
 
@@ -184,6 +185,7 @@ technology = { #Early Modern Administration
 	administrative_republic	= yes
 	governing_capacity = 100
 	state_house = yes
+	development_cost_modifier = -0.05
 }
 
 technology = { #Improved Drainage
@@ -225,7 +227,7 @@ technology = { #Military Administration
 		new_world_i = 0.5
 		printing_press = 0.5
 	}
-	
+	royal_road = yes
 	may_force_march = yes
 	soldier_households = yes
 	production_efficiency 	=	0.02
@@ -262,7 +264,6 @@ technology = { #University
 	governing_capacity = 250
 	
 	administrative_efficiency = 0.1
-	development_cost_modifier = -0.1
 }
 
 technology = { #National Sovereignty
@@ -321,7 +322,7 @@ technology = { #Land Clearance
 		global_trade = 0.5
 		manufactories = 0.15
 	}
-	
+	macadam_road = yes
 	#Land Clearance
 	production_efficiency 	=	0.02
 
@@ -375,6 +376,7 @@ technology = { #Bonds and Tontines
 	}
 	furnace = yes  
 	governing_capacity = 250
+	railroad = yes
 }
 
 technology = { #Improved Production

@@ -123,6 +123,32 @@ administrative_dip = {
 	}
 }
 
+imperial_dip = { 
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = imperial_ideas
+	}
+	
+	allow = {
+		full_idea_group = imperial_ideas
+		OR = {
+			full_idea_group = imperial_ideas
+			full_idea_group = indigenous_ideas
+		}
+	}
+	
+	sea_repair = yes 
+	trade_range_modifier = 0.33
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+}
+
+
 humanist_dip = { 
 	monarch_power = DIP
 	
