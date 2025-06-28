@@ -287,6 +287,7 @@ religious_ideas = {
 	}
 	devoutness = {
 		monarch_diplomatic_power = 1
+		monarch_admin_power = 1
 	}
 	inquisition = {
 		papal_influence = 3
