@@ -2760,7 +2760,7 @@ AGI_ideas = {
 	}
 	
 	bonus = {
-		backrow_artillery_damage = 0.2
+		artillery_fire = 1
 	}
 	
 	trigger = {
