@@ -14,6 +14,20 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_idea_mercantilism_ideas"
+		texturefile = "gfx//interface//government_reform_icons//private_enterprise_colony_government.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_free_trade_ideas"
+		texturefile = "gfx//interface//government_reform_icons//native_trading_with_foreigners_reform.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_idea_influence_ideas"
 		texturefile = "gfx//interface//ideas//idea_influence_ideas.dds"
 		noOfFrames = 1

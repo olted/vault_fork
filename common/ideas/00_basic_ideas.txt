@@ -266,6 +266,83 @@ innovativeness_ideas = {
 	}
 }
 
+mercantilism_ideas = {
+	category = DIP
+
+	bonus = {
+		reduced_trade_penalty_on_non_main_tradenode = 0.5
+	}
+
+	mercantilism_idea_1 = {
+		merchants = 1
+		embargo_efficiency = 0.25
+	}
+
+	mercantilism_idea_2 = {
+		production_efficiency = 0.1
+	}
+
+	mercantilism_idea_3 = {
+		global_prov_trade_power_modifier = 0.25
+	}
+
+	mercantilism_idea_4 = {
+		trade_efficiency = 0.1
+	}
+
+	mercantilism_idea_5 = {
+		caravan_power = 0.33
+	}
+
+	mercantilism_idea_6 = {
+		mercantilism_cost = -0.33
+	}
+
+	mercantilism_idea_7 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+}
+
+free_trade_ideas = {
+	category = DIP
+
+	bonus = {
+		trade_steering = 0.33
+	}
+
+	free_trade_idea_1 = {
+		global_trade_power = 0.15
+	}
+
+	free_trade_idea_2 = {
+		merchants = 2
+	}
+
+	free_trade_idea_3 = {
+		light_ship_cost = -0.1
+		global_ship_trade_power = 0.25
+	}
+
+	free_trade_idea_4 = {
+		can_establish_trade_protectorates = yes
+		can_use_trade_post = yes
+	}
+
+	free_trade_idea_5 = {
+		global_trade_goods_size_modifier = 0.1
+		trade_range_modifier = 0.33
+	}
+
+	free_trade_idea_6 = {
+		trade_company_investment_cost = -0.15
+		trade_company_governing_cost = -0.2
+	}
+
+	free_trade_idea_7 = {
+		min_autonomy_in_territories = -0.1
+	}
+}
+
 
 religious_ideas = {
 	category = ADM
