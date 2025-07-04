@@ -280,7 +280,12 @@ imperial_adm = {
 	}
 	
 	allow = {
-		full_idea_group = imperial_ideas
+			full_idea_group = imperial_ideas
+			OR = {
+			full_idea_group = imperial_ideas
+			full_idea_group = indigenous_ideas
+			}
+
 	}
 	
 	

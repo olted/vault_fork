@@ -21,7 +21,7 @@ country_event = {
 			name = "recruited_colonist"
 			duration = -1
 		}
-		add_treasury = -600
+		add_treasury = -350
 		add_dip_power = -300
 	}
 	option = {
@@ -33,7 +33,7 @@ country_event = {
 			name = "conquixplorer"
 			duration = -1
 		}
-		add_treasury = -400
+		add_treasury = -200
 		add_dip_power = -200
 	}
 	option = {

@@ -232,6 +232,7 @@ competitive_advantage = {
 
 cooperation_with_merchant_class = {
 	trade_efficiency = 0.05
+	mercantilism_cost = -0.33
 	yearly_corruption = -0.1
 }
 
