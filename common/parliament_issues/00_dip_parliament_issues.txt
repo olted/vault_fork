@@ -405,7 +405,7 @@ imports_exports = {
 			OR = {
 				has_idea_group = plutocracy_ideas
 				has_idea_group = trade_ideas
-				has_idea_group = economic_ideas
+				has_idea_group = decentralisation_ideas
 			}
 		}
 	}

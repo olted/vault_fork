@@ -1275,7 +1275,7 @@ DOM_japanse_missions_3_a = {
 			if = {
 				limit = { ai = no }
 				OR = {
-					economic_ideas = 1
+					decentralisation_ideas = 1
 					monthly_adm = 10 
 					national_focus = ADM 
 				}
@@ -1317,7 +1317,7 @@ DOM_japanse_missions_3_a = {
 			NOT = { inflation = 0.1 } 
 			years_of_income = 2 
 			OR = { 
-				full_idea_group = economic_ideas 
+				full_idea_group = decentralisation_ideas 
 				monthly_adm = 12 
 				AND = {
 					estate_influence = {

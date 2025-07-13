@@ -5132,7 +5132,7 @@ sca_swe_industrialize_norway_slot = {
 				NOT = { has_estate = estate_burghers }
 			}
 			OR = {
-				full_idea_group = economic_ideas
+				full_idea_group = decentralisation_ideas
 				full_idea_group = innovativeness_ideas
 				full_idea_group = trade_ideas
 				monthly_income = 100

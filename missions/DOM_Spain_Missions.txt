@@ -2388,7 +2388,7 @@ dom_cas_missions_3_b = {
 			OR = {
 				stability = 3 
 				full_idea_group = court_ideas 
-				full_idea_group = economic_ideas 
+				full_idea_group = decentralisation_ideas 
 				monthly_adm = 10 
 			}
 		}
@@ -3829,7 +3829,7 @@ dom_cas_missions_5 = {
 				limit = { ai = no } 
 				OR = { 
 					treasurer = 3 
-					full_idea_group = economic_ideas 
+					full_idea_group = decentralisation_ideas 
 				}
 				OR = { 
 					trade_income_percentage = 0.5

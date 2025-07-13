@@ -729,6 +729,29 @@ lands_for_the_monasteries_reform = {
 	}
 }
 
+religious_trade_winds_reform = {
+	icon = "landing_marines"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { has_government_attribute = is_pirate_republic_reform }
+	}
+	trigger = {
+		has_idea_group = free_trade_ideas
+	}
+	modifiers = {
+		trade_steering = 0.15
+		global_missionary_strength = 0.01
+		
+	}
+	custom_attributes = {
+		can_establish_trade_protectorates = yes
+		can_use_trade_post = yes
+	}
+	ai = {
+		factor = 0
+	}
+}
+
 #the_avestan_dogma_reform = {
 #	icon = "articles_of_agreement"
 #	allow_normal_conversion = yes
@@ -3816,8 +3839,8 @@ lockean_proviso_reform = {
 	}
 	trigger = {
 		OR = { 
-			full_idea_group = economic_ideas
-			full_idea_group = infrastructure_ideas 
+			full_idea_group = decentralisation_ideas
+			full_idea_group = centralisation_ideas
 		}
 		if = {
 			limit = {

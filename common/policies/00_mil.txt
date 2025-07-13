@@ -71,17 +71,41 @@ imperial_mil = {
 		factor = 0.5				
 	}
 }
-economic_mil = { 
+decentralisation_mil = { 
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = economic_ideas
+		has_idea_group = decentralisation_ideas
 	}
 	
 	allow = {
-		full_idea_group = economic_ideas
+		full_idea_group = decentralisation_ideas
 		OR = {
-			full_idea_group = economic_ideas
+			full_idea_group = decentralisation_ideas
+			full_idea_group = indigenous_ideas
+		}
+	}
+	
+	land_forcelimit_modifier = 0.15
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+}
+
+decentralisationex_mil = { 
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = decentralisation_ideasex
+	}
+	
+	allow = {
+		full_idea_group = decentralisation_ideasex
+		OR = {
+			full_idea_group = decentralisation_ideasex
 			full_idea_group = indigenous_ideas
 		}
 	}
@@ -169,17 +193,17 @@ humanist_mil = {
 	}
 }
 
-infrastructure_mil = { 
+centralisation_mil = { 
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = infrastructure_ideas
+		has_idea_group = centralisation_ideas
 	}
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
+		full_idea_group = centralisation_ideas
 		OR = {
-			full_idea_group = infrastructure_ideas
+			full_idea_group = centralisation_ideas
 			full_idea_group = indigenous_ideas
 		}
 	}
@@ -194,6 +218,30 @@ infrastructure_mil = {
 	}
 }
 
+centralisationex_mil = { 
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = centralisation_ideasex
+	}
+	
+	allow = {
+		full_idea_group = centralisation_ideasex
+		OR = {
+			full_idea_group = centralisation_ideasex
+			full_idea_group = indigenous_ideas
+		}
+	}
+	
+	garrison_damage = 0.15
+	max_hostile_attrition = 1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+}
 spy_mil = { 
 	monarch_power = MIL
 	

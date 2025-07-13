@@ -3421,7 +3421,7 @@ french_missions_3_normal_continued = {
 		}
 		effect = {
 			1272 = { change_province_name = "La Manche" }
-			1269 = { change_province_name = "Basse-Côte" }
+			1269 = { change_province_name = "Basse-Cï¿½te" }
 			add_country_modifier = {
 				name = fra_channel_dominance_modifier
 				duration = -1 
@@ -3803,7 +3803,7 @@ french_rev_missions_3 = {
 		trigger = {
 			OR = { 
 				is_hegemon_of_type = economic_hegemon 
-				full_idea_group = economic_ideas 
+				full_idea_group = centralisation_ideas 
 				monthly_income = 500 
 			}
 			NOT = { inflation = 0.1 } 

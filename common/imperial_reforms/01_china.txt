@@ -97,7 +97,7 @@ codify_single_whip_law_decision = {
 		empire_of_china_reform_passed = reform_land_tax_decision 
 		OR = { 
 			mission_completed = mng_single_whip_law
-			full_idea_group = economic_ideas 
+			full_idea_group = decentralisation_ideas 
 			reform_level = 7
 		}
 	}

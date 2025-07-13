@@ -48,17 +48,41 @@ religious_adm = {
 	}
 }
 
-economic_adm = { 
+decentralisation_adm = { 
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = economic_ideas
+		has_idea_group = decentralisation_ideas
 	}
 	
 	allow = {
-		full_idea_group = economic_ideas
+		full_idea_group = decentralisation_ideas
 		OR = {
-			full_idea_group = economic_ideas
+			full_idea_group = decentralisation_ideas
+			full_idea_group = indigenous_ideas
+		}
+	}
+	
+	inflation_reduction = 0.1
+	production_efficiency = 0.15
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+}
+decentralisationex_adm = { 
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = decentralisation_ideasex
+	}
+	
+	allow = {
+		full_idea_group = decentralisation_ideasex
+		OR = {
+			full_idea_group = decentralisation_ideasex
 			full_idea_group = indigenous_ideas
 		}
 	}
@@ -147,17 +171,17 @@ humanist_adm = {
 	}
 }
 
-infrastructure_adm = { 
+centralisation_adm = { 
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = infrastructure_ideas
+		has_idea_group = centralisation_ideas
 	}
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
+		full_idea_group = centralisation_ideas
 		OR = {
-			full_idea_group = infrastructure_ideas
+			full_idea_group = centralisation_ideas
 			full_idea_group = indigenous_ideas
 		}
 	}
@@ -172,6 +196,30 @@ infrastructure_adm = {
 	}
 }
 
+centralisationex_adm = { 
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = centralisation_ideasex
+	}
+	
+	allow = {
+		full_idea_group = centralisation_ideasex
+		OR = {
+			full_idea_group = centralisation_ideasex
+			full_idea_group = indigenous_ideas
+		}
+	}
+	
+	land_maintenance_modifier = -0.1
+	advisor_cost = -0.15
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+}
 spy_adm = { 
 	monarch_power = ADM
 	
@@ -298,6 +346,7 @@ imperial_adm = {
 		factor = 0.5				
 	}
 }
+
 
 maritime_adm = { 
 	monarch_power = ADM

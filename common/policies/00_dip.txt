@@ -48,17 +48,17 @@ religious_dip = {
 	}
 }
 
-economic_dip = { 
+decentralisation_dip = { 
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = economic_ideas
+		has_idea_group = decentralisation_ideas
 	}
 	
 	allow = {
-		full_idea_group = economic_ideas
+		full_idea_group = decentralisation_ideas
 		OR = {
-			full_idea_group = economic_ideas
+			full_idea_group = decentralisation_ideas
 			full_idea_group = indigenous_ideas
 		}
 	}
@@ -71,6 +71,32 @@ economic_dip = {
 	ai_will_do = {
 		factor = 0.5				
 	}
+}
+
+decentralisationex_dip = { 
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = decentralisation_ideasex
+	}
+	
+	allow = {
+		full_idea_group = decentralisation_ideasex
+		OR = {
+			full_idea_group = decentralisation_ideasex
+			full_idea_group = indigenous_ideas
+		}
+	}
+	
+	global_prov_trade_power_modifier = 0.2
+	burghers_loyalty_modifier = 0.1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+
 }
 
 expansion_dip = { 
@@ -174,17 +200,42 @@ humanist_dip = {
 	}
 }
 
-infrastructure_dip = { 
+centralisation_dip = { 
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = infrastructure_ideas
+		has_idea_group = centralisation_ideas
 	}
 	
 	allow = {
-		full_idea_group = infrastructure_ideas
+		full_idea_group = centralisation_ideas
 		OR = {
-			full_idea_group = infrastructure_ideas
+			full_idea_group = centralisation_ideas
+			full_idea_group = indigenous_ideas
+		}
+	}
+	
+	trade_efficiency = 0.1
+	trade_company_investment_cost = -0.1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+}
+
+centralisationex_dip = { 
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = centralisation_ideasex
+	}
+	
+	allow = {
+		full_idea_group = centralisation_ideasex
+		OR = {
+			full_idea_group = centralisation_ideasex
 			full_idea_group = indigenous_ideas
 		}
 	}
