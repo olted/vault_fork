@@ -543,7 +543,7 @@ offensive_dip = {
 		}
 	}
 	
-	ae_impact = -0.1
+	mil_advisor_cost = -0.15
 	caravan_power = 0.15
 	
 	effect = {}

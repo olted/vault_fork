@@ -13,8 +13,8 @@ innovative_adm = {
 		}
 	}
 	
-	yearly_innovativeness = 0.15
-	global_institution_spread = 0.25
+	idea_cost = -0.05
+	centralize_state_cost = -0.15
 
 	effect = {}
 	removed_effect = {}
@@ -63,8 +63,8 @@ decentralisation_adm = {
 		}
 	}
 	
-	inflation_reduction = 0.1
-	production_efficiency = 0.15
+	warscore_cost_vs_other_religion = -0.1
+	global_missionary_strength = 1
 
 	effect = {}
 	removed_effect = {}
@@ -87,8 +87,8 @@ decentralisationex_adm = {
 		}
 	}
 	
-	inflation_reduction = 0.1
-	production_efficiency = 0.15
+	warscore_cost_vs_other_religion = -0.1
+	global_missionary_strength = 1
 
 	effect = {}
 	removed_effect = {}
@@ -187,7 +187,7 @@ centralisation_adm = {
 	}
 	
 	land_maintenance_modifier = -0.1
-	advisor_cost = -0.15
+	advisor_cost = -0.1
 
 	effect = {}
 	removed_effect = {}
@@ -212,7 +212,7 @@ centralisationex_adm = {
 	}
 	
 	land_maintenance_modifier = -0.1
-	advisor_cost = -0.15
+	advisor_cost = -0.1
 
 	effect = {}
 	removed_effect = {}
@@ -537,8 +537,7 @@ offensive_adm = {
 		}
 	}
 	
-	core_creation = -0.1
-	years_of_nationalism = -5
+	years_of_nationalism = -10
 	
 	effect = {}
 	removed_effect = {}
