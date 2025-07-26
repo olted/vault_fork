@@ -300,17 +300,42 @@ diplomatic_dip = {
 	}
 }
 
-trade_dip = { 
+free_trade_dip = { 
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = trade_ideas
+		has_idea_group = free_trade_ideas
 	}
 	
 	allow = {
-		full_idea_group = trade_ideas
+		full_idea_group = free_trade_ideas
 		OR = {
-			full_idea_group = trade_ideas
+			full_idea_group = free_trade_ideas
+			full_idea_group = indigenous_ideas
+		}
+	}
+	
+	trade_efficiency = 0.1
+	merchants = 1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+}
+
+mercantilism_dip = { 
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = mercantilism_ideas
+	}
+	
+	allow = {
+		full_idea_group = mercantilism_ideas
+		OR = {
+			full_idea_group = mercantilism_ideas
 			full_idea_group = indigenous_ideas
 		}
 	}

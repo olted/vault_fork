@@ -8,7 +8,7 @@ revolutionary_colors = { 58 128 183 }
 historical_idea_groups = {
 	defensive_ideas
 	offensive_ideas
-	trade_ideas
+	free_trade_ideas
 	spy_ideas
 	centralisation_ideas
 	diplomatic_ideas

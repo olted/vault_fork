@@ -2047,7 +2047,8 @@ has_completed_idea_group_of_category = {
 			OR = {
 				full_idea_group = spy_ideas
 				full_idea_group = diplomatic_ideas
-				full_idea_group = trade_ideas
+				full_idea_group = free_trade_ideas
+				full_idea_group = mercantilism_ideas
 				full_idea_group = exploration_ideas
 				full_idea_group = maritime_ideas
 				full_idea_group = influence_ideas
@@ -2094,7 +2095,8 @@ num_of_completed_idea_groups_dip = {
 		desc = num_of_completed_idea_groups_dip_tt
 		full_idea_group = spy_ideas
 		full_idea_group = diplomatic_ideas
-		full_idea_group = trade_ideas
+		full_idea_group = free_trade_ideas
+		full_idea_group = mercantilism_ideas
 		full_idea_group = exploration_ideas
 		full_idea_group = maritime_ideas
 		full_idea_group = influence_ideas
@@ -3266,7 +3268,8 @@ has_any_active_incomplete_idea_group_of_category = {
             OR = {
                 AND = { has_idea_group = spy_ideas         	NOT = { full_idea_group = spy_ideas } }
                 AND = { has_idea_group = diplomatic_ideas  	NOT = { full_idea_group = diplomatic_ideas } }
-                AND = { has_idea_group = trade_ideas       	NOT = { full_idea_group = trade_ideas } }
+                AND = { has_idea_group = free_trade_ideas      	NOT = { full_idea_group = free_trade_ideas } }
+				AND = { has_idea_group = mercantilism_ideas NOT = { full_idea_group = mercantilism_ideas } }
                 AND = { has_idea_group = exploration_ideas 	NOT = { full_idea_group = exploration_ideas } }
                 AND = { has_idea_group = maritime_ideas    	NOT = { full_idea_group = maritime_ideas } }
                 AND = { has_idea_group = influence_ideas   	NOT = { full_idea_group = influence_ideas } }
