@@ -87,6 +87,7 @@ technology = { #National Ideas
 		renaissance = 0.15
 	}
 	production_efficiency	 =	0.02
+	gravel_road = yes
 	ramparts = yes
 	
 }
@@ -122,7 +123,7 @@ technology = { #Courthouse
 		feudalism = 0.5
 		renaissance = 0.5
 	}
-	gravel_road = yes
+	royal_road = yes
 	allowed_idea_groups = 3
 
 }
@@ -227,7 +228,7 @@ technology = { #Military Administration
 		new_world_i = 0.5
 		printing_press = 0.5
 	}
-	royal_road = yes
+	macadam_road = yes
 	may_force_march = yes
 	soldier_households = yes
 	production_efficiency 	=	0.02
@@ -322,7 +323,7 @@ technology = { #Land Clearance
 		global_trade = 0.5
 		manufactories = 0.15
 	}
-	macadam_road = yes
+	railroad = yes
 	#Land Clearance
 	production_efficiency 	=	0.02
 
@@ -376,7 +377,6 @@ technology = { #Bonds and Tontines
 	}
 	furnace = yes  
 	governing_capacity = 250
-	railroad = yes
 }
 
 technology = { #Improved Production

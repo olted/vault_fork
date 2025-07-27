@@ -63,8 +63,8 @@ decentralisation_adm = {
 		}
 	}
 	
-	warscore_cost_vs_other_religion = -0.1
-	global_missionary_strength = 1
+	province_warscore_cost = -0.15
+	global_missionary_strength = 0.01
 
 	effect = {}
 	removed_effect = {}
@@ -87,8 +87,8 @@ decentralisationex_adm = {
 		}
 	}
 	
-	warscore_cost_vs_other_religion = -0.1
-	global_missionary_strength = 1
+	province_warscore_cost = -0.15
+	global_missionary_strength = 0.01
 
 	effect = {}
 	removed_effect = {}

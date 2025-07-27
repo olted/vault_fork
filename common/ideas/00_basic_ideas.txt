@@ -306,7 +306,7 @@ mercantilism_ideas = {
 	}
 
 	mercantilism_idea_6 = {
-		mercantilism_cost = -0.33
+		build_cost = -0.1
 	}
 
 	mercantilism_idea_7 = {
@@ -365,16 +365,14 @@ religious_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	church_attendance_duty = { 
-		development_cost_in_primary_culture = -0.15
-		missionaries = 1
+		development_cost_in_primary_culture = -0.2
 	}
 	divine_supremacy = {
-		missionaries = 1
+		missionaries = 2
 		prestige_per_development_from_conversion = 0.1
 	}
 	devoutness = {
 		monarch_diplomatic_power = 1
-		monarch_admin_power = 1
 	}
 	inquisition = {
 		papal_influence = 3
@@ -593,45 +591,6 @@ defensive_ideas = {
 	
 	ai_will_do = {
 		factor = 8
-	}
-}
-
-
-trade_ideas = {
-	category = DIP
-
-	bonus = {
-		global_trade_power = 0.1
-		burghers_loyalty_modifier = 0.1
-		jains_loyalty_modifier = 0.1
-		vaisyas_loyalty_modifier = 0.1
-	}
-
-	shrewd_commerce_practise = {
- 		center_of_trade_upgrade_cost = -0.1
-		trade_company_investment_cost = -0.1
-  	}
-  	free_trade = {
-		trade_efficiency = 0.1
-  	}
-	merchant_adventures = {
-		merchants = 2
-	}
-	national_trade_policy = {
-		mercantilism_cost = -0.2
-	}
-	overseas_merchants = {
-		trade_range_modifier = 0.4
-	}
-	trade_manipulation = {
-		trade_steering = 0.15
-	}
-	fast_negotiations = {
-		caravan_power = 0.1
-	}
-
-	ai_will_do = {
-		factor = 2
 	}
 }
 
@@ -858,10 +817,6 @@ quantity_ideas = {
 				}
 			}
 		}
-		modifier = {
-			factor = 2
-				has_idea_group = trade_ideas
-		}
 	}
 }
 
@@ -950,7 +905,7 @@ humanist_ideas = {
 	category = ADM
 
 	bonus = {
-		possible_policy = 1
+		improve_relation_modifier = 0.3
 	}
 
 	local_traditions = {
@@ -1263,8 +1218,7 @@ decentralisation_ideas = {
 	}
 
 	decentralisation_idea_1 = {
-		production_efficiency = 0.1
-		interest = -0.5
+		build_cost = -0.1
 	}
 	decentralisation_idea_2 = {
 		administrative_efficiency = 0.05
@@ -1282,7 +1236,7 @@ decentralisation_ideas = {
 	}
 	decentralisation_idea_6 = {
 		global_unrest = -2
-		overextension_impact_modifier = -0.2
+		overextension_impact_modifier = -0.33
 	}
 	decentralisation_idea_7 = {
 		global_allowed_num_of_buildings = 1
@@ -1304,8 +1258,7 @@ decentralisation_ideasex = {
 	}
 
 	decentralisation_idea_1ex = {
-		production_efficiency = 0.1
-		interest = -0.5
+		build_cost = -0.1
 	}
 	decentralisation_idea_2ex = {
 		interest = -0.5

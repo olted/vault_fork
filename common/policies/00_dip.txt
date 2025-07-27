@@ -315,7 +315,7 @@ free_trade_dip = {
 		}
 	}
 	
-	trade_efficiency = 0.1
+	trade_efficiency = 0.15
 	merchants = 1
 
 	effect = {}
@@ -340,8 +340,7 @@ mercantilism_dip = {
 		}
 	}
 	
-	trade_efficiency = 0.1
-	merchants = 1
+	mercantilism_cost = -0.33
 
 	effect = {}
 	removed_effect = {}

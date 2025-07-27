@@ -410,8 +410,10 @@ same_culture_group = {
 non_accepted_culture = {
 	monthly_persian_influence = -0.01
 	local_tax_modifier = -0.33
+	trade_goods_size_modifier = -0.25
+	local_production_efficiency = -0.2
 	local_missionary_strength = -0.02
-	local_manpower_modifier = -0.33
+	local_manpower_modifier = -0.5
 	local_sailors_modifier = -0.2
 	local_unrest = 2					#1% revolt risk!
 }
@@ -570,7 +572,7 @@ scorched_earth = {
 ##########################################################################
 
 base_values = {
-	max_absolutism = 65
+	max_absolutism = 70
 	merchants = 2							#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
 	missionaries = 1						#1 missionary
@@ -609,7 +611,8 @@ base_values = {
 	garrison_damage = 0.1
 	privateer_efficiency = -0.3
 	global_tariffs = -0.2
-	global_ship_trade_power = -0.5
+	global_ship_trade_power = -0.15
+	province_warscore_cost = 0.1
 }
 
 ai_nation = {
@@ -1332,12 +1335,12 @@ in_golden_era = {
 	land_morale = 0.1
 	naval_morale = 0.1
 	max_general_fire = 1
-	max_general_fire = 1
 }
 
 absolutism = {
-	administrative_efficiency = 0.3
+	administrative_efficiency = 0.15
 	discipline = 0.05
+	culture_conversion_cost = 0.33
 	core_decay_on_your_own = -0.5
 	monthly_ottoman_decadence = -0.25
 }
@@ -1350,7 +1353,7 @@ low_army_professionalism = {
 
 high_army_professionalism = {
 	discipline = 0.05
-	drill_gain_modifier = 0.25
+	drill_gain_modifier = 0.50
 	drill_decay_modifier = -0.5
 	allowed_samurai_fraction = 0.1
 }

@@ -344,7 +344,7 @@ shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 5
+		naval_forcelimit = 3
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
 		local_has_man_of_war = yes
@@ -1422,7 +1422,7 @@ grand_shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 10
+		naval_forcelimit = 6
 		ship_recruit_speed = -0.50
 		local_ship_repair = 0.50
 		local_has_man_of_war = yes

@@ -46,6 +46,31 @@ religious_mil = {
 		factor = 0.5				
 	}
 }
+
+mercantilism_mil = { 
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = mercantilism_ideas
+	}
+	
+	allow = {
+		full_idea_group = mercantilism_ideas
+		OR = {
+			full_idea_group = mercantilism_ideas
+			full_idea_group = indigenous_ideas
+		}
+	}
+	
+	own_coast_naval_combat_bonus = 1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+}
+
 imperial_mil = { 
 	monarch_power = MIL
 	
