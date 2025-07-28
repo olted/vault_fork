@@ -741,10 +741,10 @@ quality_ideas = {
 		reinforce_speed = 0.2
 	}
 	naval_drill = {
-		drill_gain_modifier = 0.25
+		drill_gain_modifier = 0.5
 	}
 	copper_bottoms = {
-		drill_decay_modifier = -0.2
+		drill_decay_modifier = -0.25
 	}
 	massed_battery = {
 		special_unit_forcelimit = 0.15
@@ -774,7 +774,7 @@ quantity_ideas = {
 		land_forcelimit_modifier  = 0.3
 	}
 	mass_army = {
-		global_manpower_modifier = 0.3
+		global_manpower_modifier = 0.5
 	}
 	the_young_can_serve = {
 		manpower_recovery_speed = 0.2
