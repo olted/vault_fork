@@ -880,7 +880,7 @@ administrative_ideas = {
 		expand_administration_cost = -1
 	}
 	adaptability = {
-		core_creation = -0.2
+		core_creation = -0.25
 		unjustified_demands = -0.25
 	}
 	cultural_regulations = {
@@ -890,10 +890,10 @@ administrative_ideas = {
 		stability_cost_modifier = -0.2
 	}
 	centralization = {
-		global_autonomy = -0.05
+		adm_tech_cost_modifier = -0.1
 	}
 	civil_servants = {
-		adm_tech_cost_modifier = -0.1
+		global_allowed_num_of_manufactories = 1
 	}
 
 	ai_will_do = {
@@ -1161,7 +1161,7 @@ centralisation_ideas = {
 		same_religion_advisor_cost = -0.1
 	}
 	centralisation_idea_7 = {
-		state_maintenance_modifier = -0.2
+		state_governing_cost = -0.15
 	}
 
 }
@@ -1199,7 +1199,7 @@ centralisation_ideasex = {
 		same_religion_advisor_cost = -0.1
 	}
 	centralisation_idea_7ex = {
-		state_maintenance_modifier = -0.2
+		state_governing_cost = -0.15
 	}
 
 }
@@ -1231,7 +1231,7 @@ decentralisation_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	decentralisation_idea_5 = {
-		state_governing_cost = -0.15
+		free_adm_policy = 1
 		global_monthly_devastation = -0.2
 	}
 	decentralisation_idea_6 = {
@@ -1261,7 +1261,7 @@ decentralisation_ideasex = {
 		build_cost = -0.1
 	}
 	decentralisation_idea_2ex = {
-		interest = -0.5
+		administrative_efficiency = 0.05
 	}
 	decentralisation_idea_3ex = {
 		free_concentrate_development = yes
@@ -1271,7 +1271,7 @@ decentralisation_ideasex = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	decentralisation_idea_5ex = {
-		state_governing_cost = -0.15
+		free_adm_policy = 1
 		global_monthly_devastation = -0.2
 	}
 	decentralisation_idea_6ex = {

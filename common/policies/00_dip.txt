@@ -63,8 +63,8 @@ decentralisation_dip = {
 		}
 	}
 	
-	global_prov_trade_power_modifier = 0.2
-	burghers_loyalty_modifier = 0.1
+	province_warscore_cost = -0.15
+	aggressive_expansion_impact = -0.05
 
 	effect = {}
 	removed_effect = {}
@@ -88,8 +88,8 @@ decentralisationex_dip = {
 		}
 	}
 	
-	global_prov_trade_power_modifier = 0.2
-	burghers_loyalty_modifier = 0.1
+	province_warscore_cost = -0.15
+	aggressive_expansion_impact = -0.05
 
 	effect = {}
 	removed_effect = {}

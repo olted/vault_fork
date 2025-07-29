@@ -63,7 +63,7 @@ decentralisation_adm = {
 		}
 	}
 	
-	province_warscore_cost = -0.15
+	governing_capacity_modifier = 0.1
 	global_missionary_strength = 0.01
 
 	effect = {}
@@ -87,7 +87,7 @@ decentralisationex_adm = {
 		}
 	}
 	
-	province_warscore_cost = -0.15
+	governing_capacity_modifier = 0.1
 	global_missionary_strength = 0.01
 
 	effect = {}
@@ -138,6 +138,7 @@ administrative_adm = {
 	}
 	
 	governing_capacity = 250
+	national_tax_modifier = 0.1
 
 	effect = {}
 	removed_effect = {}
