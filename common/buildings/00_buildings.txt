@@ -490,6 +490,7 @@ macadam_road = {
     	province_trade_power_modifier = 0.5
 		#local_tax_modifier = 0.3
 		#local_production_efficiency = 0.3
+		trade_goods_size = 0.2
 
 		# Development
 		local_development_cost = -0.075
@@ -527,6 +528,7 @@ railroad = {
     	province_trade_power_modifier = 1
 		#local_tax_modifier = 0.5
 		#local_production_efficiency = 0.5
+		trade_goods_size = 0.4
 
 		# Development
 		local_development_cost = -0.1
@@ -536,9 +538,10 @@ railroad = {
 		allowed_num_of_buildings = 2
 		local_culture_conversion_cost = -0.2
 		local_state_maintenance_modifier = 2
+		
 
 		# Movement
-		local_friendly_movement_speed = 2
+		local_friendly_movement_speed = 0.75
 		local_hostile_movement_speed = 0.3
     }
 

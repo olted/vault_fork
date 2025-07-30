@@ -595,6 +595,8 @@ was_never_end_game_tag_trigger = {	#Country Scope
 				NOT = { was_tag = SCA }
 				NOT = { was_tag = GHE }
 				NOT = { was_tag = HSN }
+				NOT = { was_tag = AGI }
+				NOT = { tag = AGI }
 				NOT = { tag = FRA }
 				NOT = { tag = MUG }
 				NOT = { tag = PER }
