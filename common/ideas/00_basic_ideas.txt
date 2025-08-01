@@ -551,7 +551,7 @@ defensive_ideas = {
 		defensiveness = 0.2
 	}
 	military_drill = {
-		morale_damage_received = -0.15
+		morale_damage_received = -0.1
 	}
 	supply_trains = {
 		fort_maintenance_modifier = -0.25
