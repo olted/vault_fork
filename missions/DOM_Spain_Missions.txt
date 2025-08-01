@@ -1322,7 +1322,7 @@ dom_cas_missions_2_b = {
 					}
 				}
 				AND = {
-					full_idea_group = trade_ideas 
+					full_idea_group = free_trade_ideas 
 					num_of_owned_provinces_with = {
 						has_trade_building_trigger = yes 
 						value = 12 
@@ -2388,7 +2388,7 @@ dom_cas_missions_3_b = {
 			OR = {
 				stability = 3 
 				full_idea_group = court_ideas 
-				full_idea_group = economic_ideas 
+				full_idea_group = decentralisation_ideas 
 				monthly_adm = 10 
 			}
 		}
@@ -3829,11 +3829,12 @@ dom_cas_missions_5 = {
 				limit = { ai = no } 
 				OR = { 
 					treasurer = 3 
-					full_idea_group = economic_ideas 
+					full_idea_group = decentralisation_ideas 
 				}
 				OR = { 
 					trade_income_percentage = 0.5
-					full_idea_group = trade_ideas 
+					full_idea_group = free_trade_ideas
+					full_idea_group = mercantilism_ideas
 					estate_loyalty = {
 						estate = estate_burghers 
 						loyalty = 60 

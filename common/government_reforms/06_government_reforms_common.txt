@@ -729,6 +729,30 @@ lands_for_the_monasteries_reform = {
 	}
 }
 
+free_trade_reform = {
+	icon = "landing_marines"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { has_government_attribute = is_pirate_republic_reform }
+	}
+	trigger = {
+		has_idea_group = free_trade_ideas
+	}
+	modifiers = {
+		burghers_influence_modifier = -0.1
+		trade_company_investment_cost = -0.1
+		trade_steering = 0.25
+		
+	}
+	custom_attributes = {
+		can_establish_trade_protectorates = yes
+		can_use_trade_post = yes
+	}
+	ai = {
+		factor = 0
+	}
+}
+
 #the_avestan_dogma_reform = {
 #	icon = "articles_of_agreement"
 #	allow_normal_conversion = yes
@@ -3772,41 +3796,7 @@ mercantilistic_approach_reform = {
 	}
 }
 
-free_trade_reform = {
-	icon = "merchant"
-	allow_normal_conversion = yes
-	potential = {
-		NOT = { has_government_attribute = is_pirate_republic_reform }
-	}
-	trigger = {
-		if = {
-			limit = {
-				is_revolutionary = yes
-				has_dlc = "Emperor"
-				has_government_attribute = enables_estate_burghers
-			}
-			can_swap_out_of_estate_granting_reform = {
-				estate = estate_burghers
-			}
-		}
-	}
-	modifiers = {
-		global_institution_spread = 0.25
-		global_trade_power = 0.1
-	}
-	custom_attributes = {
-		monarch_power_on_institutions = yes
-	}
-	conditional = {
-		allow = { has_dlc = "Cradle of Civilization" }
-		custom_attributes = {
-			free_improve_inland_routes = yes
-		}
-	}
-	ai = {
-		factor = 1
-	}
-}
+
 
 lockean_proviso_reform = {
 	icon = "paper_money_map"
@@ -3816,8 +3806,8 @@ lockean_proviso_reform = {
 	}
 	trigger = {
 		OR = { 
-			full_idea_group = economic_ideas
-			full_idea_group = infrastructure_ideas 
+			full_idea_group = decentralisation_ideas
+			full_idea_group = centralisation_ideas
 		}
 		if = {
 			limit = {

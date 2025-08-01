@@ -368,7 +368,7 @@ venice_missions_slot_1_navy = {
 			OR = {
 				full_idea_group = naval_ideas
 				full_idea_group = maritime_ideas
-				full_idea_group = trade_ideas
+				full_idea_group = free_trade_ideas
 			}
 			navy_size = 100
 		}
@@ -430,7 +430,7 @@ venice_missions_slot_1_navy = {
 				tooltip = { add_navy_tradition = 20 } 
 			}
 			if = {
-				limit = { full_idea_group = trade_ideas }
+				limit = { full_idea_group = free_trade_ideas }
 				custom_tooltip = ven_trade_ideas_yes_tt
 				tooltip = { add_mercantilism_or_monarch_power = { amount = 3 } }
 			}
@@ -467,7 +467,7 @@ venice_missions_slot_1_navy = {
 					
 				}
 				if = {
-					limit = { full_idea_group = trade_ideas }
+					limit = { full_idea_group = free_trade_ideas }
 					every_owned_province = {
 						limit = {
 							OR = {
@@ -480,7 +480,7 @@ venice_missions_slot_1_navy = {
 					add_navy_tradition = 20			
 				}
 				if = {
-					limit = { full_idea_group = trade_ideas }
+					limit = { full_idea_group = free_trade_ideas }
 					if = {
 						limit = { has_reform = venice_merchants_reform }
 						set_country_flag = ven_trade_ideas_reward_flag
@@ -2152,7 +2152,7 @@ venice_missions_slot_4 = {
 				monthly_adm = 10
 			}
 			OR = {
-				full_idea_group = economic_ideas
+				full_idea_group = decentralisation_ideas
 				monthly_income = 100
 				calc_true_if = {
 					all_ally = {

@@ -3786,7 +3786,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR = {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = business_booming }
 	}
 
@@ -3813,7 +3816,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR = {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "out_of_date_commerce" }
 	}
 	
@@ -3844,7 +3850,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = trade_ideas
+		OR = {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "adventuring_merchants" }
 		NOT = { has_country_modifier = "poor_merchants" }
 	}
@@ -3872,7 +3881,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = trade_ideas
+		OR = {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "adventuring_merchants" }
 		NOT = { has_country_modifier = "poor_merchants" }
 	}
@@ -3905,7 +3917,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR = {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "trade_policy_working" }
 		NOT = { has_country_modifier = "trade_policy_failing" }
 	}
@@ -3933,7 +3948,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR = {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "trade_policy_working" }
 		NOT = { has_country_modifier = "trade_policy_failing" }
 	}
@@ -3965,7 +3983,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR = {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		any_active_trade_node = {
 			NOT = {
 				has_trade_modifier = {
@@ -4011,7 +4032,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR = {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "competitive_advantage" }
 	}
 	
@@ -4039,7 +4063,10 @@ country_event = {
 
 	trigger = {
 		OR = {
-			has_idea_group = trade_ideas
+		OR = {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 			has_idea_group = imperial_ideas
 		}
 		NOT = { has_country_modifier = "cooperation_with_merchant_class" }
@@ -4070,7 +4097,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR = {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { mercantilism = 95 }
 	}
 	
@@ -4094,7 +4124,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR = {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "cooperation_with_merchant_class" }
 		NOT = { has_country_modifier = "trade_collapse" }
 	}
@@ -4816,7 +4849,7 @@ country_event = {
 	
 	trigger = {
 		OR = {
-			has_idea_group = economic_ideas
+			has_idea_group = decentralisation_ideas
 			has_idea_group = imperial_ideas
 		}
 		NOT = { has_country_modifier = "production_improvements" }
@@ -4846,7 +4879,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = economic_ideas
+		has_idea_group = decentralisation_ideas
 		NOT = { has_country_modifier = "production_improvements" }
 		NOT = { has_country_modifier = "production_stifled" }
 	}
@@ -4879,7 +4912,7 @@ country_event = {
 	
 	trigger = {
 		OR = {
-			has_idea_group = economic_ideas
+			has_idea_group = decentralisation_ideas
 			has_idea_group = imperial_ideas
 		}
 		NOT = { has_country_modifier = "successful_bureaucracy" }
@@ -4909,7 +4942,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = economic_ideas
+		has_idea_group = decentralisation_ideas
 		NOT = { has_country_modifier = "successful_bureaucracy" }
 		NOT = { has_country_modifier = "corrupt_bureaucracy" }
 	}
@@ -4937,7 +4970,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = economic_ideas
+		has_idea_group = decentralisation_ideas
 	}
 
 	mean_time_to_happen = {
@@ -4973,7 +5006,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = economic_ideas
+		has_idea_group = decentralisation_ideas
 		num_of_cities = 15
 	}
 	
@@ -5002,7 +5035,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = economic_ideas
+		has_idea_group = decentralisation_ideas
 	}
 	
 	mean_time_to_happen = {
@@ -5025,7 +5058,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = economic_ideas
+		has_idea_group = decentralisation_ideas
 	}
 
 	mean_time_to_happen = {
@@ -5052,7 +5085,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = economic_ideas	
+		has_idea_group = decentralisation_ideas	
 	}	
 
 	mean_time_to_happen = {
@@ -5088,7 +5121,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = economic_ideas	
+		has_idea_group = decentralisation_ideas	
 	}	
 
 	mean_time_to_happen = {
@@ -5124,7 +5157,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = economic_ideas	
+		has_idea_group = decentralisation_ideas	
 	}	
 
 	mean_time_to_happen = {
@@ -9167,7 +9200,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = infrastructure_ideas 
+		has_idea_group = centralisation_ideas 
 		NOT = { has_country_modifier = road_maintenance_modifier }
 		NOT = { has_country_modifier = no_road_maintenance_modifier }
 	}
@@ -9225,7 +9258,7 @@ country_event = {
 	goto = prosperity_province
 	trigger = {
 		OR = {
-			has_idea_group = infrastructure_ideas
+			has_idea_group = centralisation_ideas
 			has_idea_group = imperial_ideas
 		}
 		NOT = { has_country_modifier = shared_prosperity_modifier }
@@ -9269,7 +9302,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = infrastructure_ideas 
+		has_idea_group = centralisation_ideas 
 		has_idea = expanded_infrastructure_network
 		NOT = { has_country_modifier = inaccurate_road_maps }
 		OR = {
@@ -9317,7 +9350,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = infrastructure_ideas 
+		has_idea_group = centralisation_ideas 
 		NOT = { has_country_modifier = insufficient_construction_supplies }
 	}
 
@@ -9344,7 +9377,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = infrastructure_ideas 
+		has_idea_group = centralisation_ideas 
 		any_owned_province = {
 			is_in_capital_area = yes
 			is_overseas = no
@@ -9435,7 +9468,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = infrastructure_ideas 
+		has_idea_group = centralisation_ideas 
 		OR = {
 			NOT = { has_country_flag = had_regional_boom }
 			had_country_flag = {
@@ -9497,7 +9530,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = infrastructure_ideas 
+		has_idea_group = centralisation_ideas 
 		NOT = { has_country_modifier = talented_architect }
 	}
 
@@ -9547,7 +9580,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = infrastructure_ideas
+		has_idea_group = centralisation_ideas
 	}
 
 	mean_time_to_happen = {
@@ -9596,7 +9629,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = infrastructure_ideas 
+		has_idea_group = centralisation_ideas 
 		NOT = { has_country_modifier = administrative_challenges }
 	}
 
@@ -9628,7 +9661,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = infrastructure_ideas
+		has_idea_group = centralisation_ideas
 	}
 
 	mean_time_to_happen = {

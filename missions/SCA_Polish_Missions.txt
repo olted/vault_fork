@@ -2355,7 +2355,7 @@ poland_sca_slot_3_b = {
 				}
 				num_of_trading_bonuses = 7 
 				AND = { 
-					full_idea_group = economic_ideas 
+					full_idea_group = decentralisation_ideas 
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						has_manufactory_trigger = yes 
 						development = 35 
@@ -2658,7 +2658,7 @@ poland_sca_slot_3_plc_1 = {
 				}
 				num_of_trading_bonuses = 7 
 				AND = { 
-					full_idea_group = economic_ideas 
+					full_idea_group = decentralisation_ideas 
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						has_manufactory_trigger = yes 
 						development = 35 

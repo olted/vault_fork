@@ -1060,7 +1060,7 @@ emp_bra_pru_3 = {
 				667 = {
 					has_merchant = ROOT
 				}
-				full_idea_group = trade_ideas 
+				full_idea_group = mercantilism_ideas
 				num_of_explorers = 1  
 			}
 		}

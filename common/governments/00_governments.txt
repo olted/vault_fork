@@ -401,7 +401,7 @@ monarchy = {
 				war_economy_reform
 				#Visible but locked
 				new_world_exploitation_reform
-				lockean_proviso_reform
+				
 				#Visible when unlocked
 				#1.35
 				vodka_of_the_crown_reform
@@ -731,6 +731,7 @@ republic = {
 			reforms = {
 				papal_embassy_reform
 				lands_for_the_monasteries_reform
+				
 				focus_of_the_patriarchy_reform
 				#the_avestan_dogma_reform
 				zoroastrian_focus_reform
@@ -888,7 +889,7 @@ republic = {
 				war_economy_reform
 				#Visible but locked
 				new_world_exploitation_reform
-				lockean_proviso_reform
+				
 				#Visible when unlocked
 				open_naval_services_reform
 				master_smugglers_reform
@@ -1311,6 +1312,7 @@ theocracy = {
 				i_am_the_church_reform
 				papal_embassy_reform
 				lands_for_the_monasteries_reform
+				
 				focus_of_the_patriarchy_reform
 				#the_avestan_dogma_reform
 				zoroastrian_focus_reform

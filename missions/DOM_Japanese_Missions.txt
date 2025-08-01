@@ -107,7 +107,8 @@ DOM_japanse_missions_1 = {
 			OR = {
 				dip = 5 
 				ruler_has_personality = entrepreneur_personality 
-				full_idea_group = trade_ideas 
+				full_idea_group = free_trade_ideas 
+				full_idea_group = mercantilism_ideas
 				monthly_dip = 12 
 			}
 		}
@@ -1275,7 +1276,7 @@ DOM_japanse_missions_3_a = {
 			if = {
 				limit = { ai = no }
 				OR = {
-					economic_ideas = 1
+					decentralisation_ideas = 1
 					monthly_adm = 10 
 					national_focus = ADM 
 				}
@@ -1317,7 +1318,7 @@ DOM_japanse_missions_3_a = {
 			NOT = { inflation = 0.1 } 
 			years_of_income = 2 
 			OR = { 
-				full_idea_group = economic_ideas 
+				full_idea_group = decentralisation_ideas 
 				monthly_adm = 12 
 				AND = {
 					estate_influence = {
@@ -3487,7 +3488,8 @@ japanese_missions_eoc_5 = {
 				num_of_light_ship = 50
 			}
 			OR = { 
-				full_idea_group = trade_ideas 
+				full_idea_group = free_trade_ideas 
+				full_idea_group = mercantilism_ideas
 				dip = 6 
 				monthly_dip = 10 
 				national_focus = DIP 

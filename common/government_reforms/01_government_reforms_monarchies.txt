@@ -5545,16 +5545,12 @@ centralize_reform = {
 	modifiers = {
 		development_cost_modifier = -0.05
 		global_prosperity_growth = 0.5
-		all_estate_loyalty_equilibrium = -0.05
+		all_estate_influence_modifier = -0.05
+		centralize_state_cost = -0.1
 	}
 	conditional = {
 		allow = {
 			has_dlc = "Leviathan"
-		}
-		custom_attributes = {
-			centralize_state_half_refund = yes
-			#centralize_state_no_reform_cost = yes
-			#centralize_state_development = yes
 		}
 	}
 }
@@ -5596,7 +5592,7 @@ centralize_empire_reform = {
 					value = 35
 				}
 			}
-		}
+		}F
 		if = {
 			limit = { current_age = age_of_revolutions }
 			custom_trigger_tooltip = {
@@ -5655,15 +5651,11 @@ centralize_empire_reform = {
 		autonomy_change_time = -0.25
 		culture_conversion_cost = -0.1
 		all_estate_loyalty_equilibrium = -0.05
+		centralize_state_cost = -0.25
 	}
 	conditional = {
 		allow = {
 			has_dlc = "Leviathan"
-		}
-		custom_attributes = {
-			centralize_state_half_refund = yes
-			#centralize_state_no_reform_cost = yes
-			#centralize_state_development = yes
 		}
 	}
 }

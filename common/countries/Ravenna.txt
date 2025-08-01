@@ -8,9 +8,9 @@ revolutionary_colors = { 0 0 0 }
 
 historical_idea_groups = {
 	defensive_ideas
-	trade_ideas	
+	free_trade_ideas	
 	offensive_ideas
-	infrastructure_ideas
+	centralisation_ideas
 	religious_ideas
 	diplomatic_ideas
 	innovativeness_ideas

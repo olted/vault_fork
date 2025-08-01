@@ -1237,7 +1237,7 @@ ming_missions_2 = {
 					num_of_light_ship = 25
 				}
 				AND = {
-					has_idea_group = trade_ideas 
+					has_idea_group = free_trade_ideas 
 					OR = {
                         north_america = { has_discovered = ROOT }
                         south_america = { has_discovered = ROOT }
@@ -1282,7 +1282,7 @@ ming_missions_2 = {
 				}
 				if = {
 					limit = {
-						trade_ideas = 1 
+						free_trade_ideas = 1 
 						OR = {
 							north_america = { has_discovered = ROOT }
 							south_america = { has_discovered = ROOT }
@@ -4636,7 +4636,8 @@ ming_missions_4_generic = {
 				always = no 
 			}
 			OR = { 
-				full_idea_group = trade_ideas 
+				full_idea_group = free_trade_ideas 
+				full_idea_group = mercantilism_ideas
 				dip = 6 
 				has_reform = free_trade_reform
 			}
@@ -4874,7 +4875,8 @@ ming_missions_4_dynamic_2 = {
 		trigger = { 
 			not_in_mission_preview_mode = { key = MNG }
 			OR = { 
-				full_idea_group = trade_ideas 
+				full_idea_group = free_trade_ideas 
+				full_idea_group = mercantilism_ideas
 				dip = 6 
 				has_reform = free_trade_reform
 			}
@@ -6468,7 +6470,8 @@ ming_missions_5_b = {
 			}
 			else = {
 				OR = { 
-					full_idea_group = trade_ideas 
+					full_idea_group = free_trade_ideas
+					full_idea_group = mercantilism_ideas
 					dip = 6 
 					monthly_dip = 10 
 					national_focus = DIP 
@@ -6615,7 +6618,7 @@ DOM_Qing_Missions_5_dynamic_b = {
 				has_reform = mercantilistic_approach_reform
 			}
 			OR = {
-				full_idea_group = trade_ideas 
+				full_idea_group = free_trade_ideas 
 				dip = 6 
 				if = {
 					limit = { has_estate = estate_burghers }

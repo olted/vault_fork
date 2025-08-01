@@ -14,6 +14,48 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_idea_mercantilism_ideas"
+		texturefile = "gfx//interface//government_reform_icons//native_trading_with_foreigners_reform.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_centralisation_ideas"
+		texturefile = "gfx//interface//government_reform_icons//united_cantons_reform.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_centralisation_ideasex"
+		texturefile = "gfx//interface//government_reform_icons//united_cantons_reform.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_decentralisation_ideas"
+		texturefile = "gfx//interface//government_reform_icons//dlc//winds_of_change//german_cultural_disunity_reform.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_decentralisation_ideasex"
+		texturefile = "gfx//interface//government_reform_icons//dlc//winds_of_change//german_cultural_disunity_reform.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_free_trade_ideas"
+		texturefile = "gfx//interface//government_reform_icons//merchant_ship.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_idea_influence_ideas"
 		texturefile = "gfx//interface//ideas//idea_influence_ideas.dds"
 		noOfFrames = 1
@@ -118,13 +160,7 @@ spriteTypes = {
 		
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
-	spriteType = {
-		name = "GFX_idea_economic_ideas"
-		texturefile = "gfx//interface//ideas//idea_economic_ideas.tga"
-		noOfFrames = 1
-		
-		effectFile = "gfx/FX/buttonstate_linear.lua"
-	}
+
 	spriteType = {
 		name = "GFX_idea_exploration_ideas"
 		texturefile = "gfx//interface//ideas//idea_exploration_ideas.tga"
@@ -231,15 +267,5 @@ spriteTypes = {
 		noOfFrames = 1
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
-
-	spriteType = {
-		name = "GFX_idea_infrastructure_ideas"
-		texturefile = "gfx/interface/ideas/idea_infrastructure_ideas.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate_linear.lua"
-	}
-
-
-
 
 }

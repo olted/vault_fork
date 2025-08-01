@@ -10,7 +10,7 @@ historical_score = 5500
 
 historical_idea_groups = {
 	humanist_ideas
-	trade_ideas
+	free_trade_ideas
 	offensive_ideas
 	administrative_ideas
 	quantity_ideas
