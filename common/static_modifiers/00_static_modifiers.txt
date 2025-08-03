@@ -1340,7 +1340,7 @@ in_golden_era = {
 absolutism = {
 	administrative_efficiency = 0.15
 	discipline = 0.05
-	culture_conversion_cost = 0.33
+	culture_conversion_cost = -0.33
 	core_decay_on_your_own = -0.5
 	monthly_ottoman_decadence = -0.25
 }
