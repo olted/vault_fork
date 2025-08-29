@@ -310,7 +310,7 @@ mercantilism_ideas = {
 	}
 
 	mercantilism_idea_7 = {
-		global_trade_goods_size_modifier = 0.1
+		spy_offence = 0.2
 	}
 }
 
@@ -327,6 +327,7 @@ free_trade_ideas = {
 
 	free_trade_idea_2 = {
 		merchants = 2
+		trade_range_modifier = 0.33
 	}
 
 	free_trade_idea_3 = {
@@ -339,8 +340,7 @@ free_trade_ideas = {
 	}
 
 	free_trade_idea_5 = {
-		global_trade_goods_size_modifier = 0.1
-		trade_range_modifier = 0.33
+		global_trade_goods_size_modifier = 0.15
 	}
 
 	free_trade_idea_6 = {
