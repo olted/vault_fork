@@ -63,8 +63,8 @@ decentralisation_dip = {
 		}
 	}
 	
-	global_prov_trade_power_modifier = 0.2
-	burghers_loyalty_modifier = 0.1
+	province_warscore_cost = -0.15
+	ae_impact = -0.05
 
 	effect = {}
 	removed_effect = {}
@@ -88,8 +88,8 @@ decentralisationex_dip = {
 		}
 	}
 	
-	global_prov_trade_power_modifier = 0.2
-	burghers_loyalty_modifier = 0.1
+	province_warscore_cost = -0.15
+	ae_impact = -0.05
 
 	effect = {}
 	removed_effect = {}
@@ -300,7 +300,7 @@ diplomatic_dip = {
 	}
 }
 
-trade_dip = { 
+free_trade_dip = { 
 	monarch_power = DIP
 	
 	potential = {
@@ -315,8 +315,32 @@ trade_dip = {
 		}
 	}
 	
-	trade_efficiency = 0.1
+	trade_efficiency = 0.15
 	merchants = 1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+}
+
+mercantilism_dip = { 
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = mercantilism_ideas
+	}
+	
+	allow = {
+		full_idea_group = mercantilism_ideas
+		OR = {
+			full_idea_group = mercantilism_ideas
+			full_idea_group = indigenous_ideas
+		}
+	}
+	
+	mercantilism_cost = -0.33
 
 	effect = {}
 	removed_effect = {}

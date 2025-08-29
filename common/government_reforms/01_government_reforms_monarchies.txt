@@ -5545,8 +5545,8 @@ centralize_reform = {
 	modifiers = {
 		development_cost_modifier = -0.05
 		global_prosperity_growth = 0.5
-		all_estate_loyalty_equilibrium = -0.05
-		centralize_state_cost = -0.25
+		all_estate_influence_modifier = -0.05
+		centralize_state_cost = -0.1
 	}
 	conditional = {
 		allow = {
@@ -5592,7 +5592,7 @@ centralize_empire_reform = {
 					value = 35
 				}
 			}
-		}
+		}F
 		if = {
 			limit = { current_age = age_of_revolutions }
 			custom_trigger_tooltip = {

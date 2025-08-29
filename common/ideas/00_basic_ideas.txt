@@ -232,24 +232,34 @@ innovativeness_ideas = {
 	}
 
 	patron_of_art  = {
-		prestige_decay = -0.01
+		global_institution_spread = 0.2
+		embracement_cost = -0.15
 	}
 	empiricism = {
+		prestige_decay = -0.01
 		innovativeness_gain = 0.5
 	}
 	scientific_revolution = {
-		technology_cost = -0.15
-	}
-	dynamic_court = {
-		idea_cost = -0.15
+		technology_cost = -0.1
 	}
 	print_culture = {
-		global_institution_spread = 0.2
-		embracement_cost = -0.1
+		war_exhaustion = -0.03
+		production_efficiency = 0.1
 	}
 	optimism = {
-		war_exhaustion = -0.03
-		production_efficiency = 0.15
+		legitimacy = 1
+		republican_tradition = 0.25
+		devotion = 0.5 
+		horde_unity = 0.5
+		meritocracy = 0.25 
+		imperial_mandate = 0.1
+		imperial_authority = 0.05
+		monthly_cultural_unity = 0.5
+		yearly_government_power = 0.5
+		monthly_persian_influence = 0.1
+	}
+	dynamic_court = {
+		idea_cost = -0.1
 	}
 	expanded_policies = {
 		free_policy = 1
@@ -296,11 +306,11 @@ mercantilism_ideas = {
 	}
 
 	mercantilism_idea_6 = {
-		mercantilism_cost = -0.33
+		build_cost = -0.1
 	}
 
 	mercantilism_idea_7 = {
-		global_trade_goods_size_modifier = 0.1
+		spy_offence = 0.2
 	}
 }
 
@@ -317,6 +327,7 @@ free_trade_ideas = {
 
 	free_trade_idea_2 = {
 		merchants = 2
+		trade_range_modifier = 0.33
 	}
 
 	free_trade_idea_3 = {
@@ -329,8 +340,7 @@ free_trade_ideas = {
 	}
 
 	free_trade_idea_5 = {
-		global_trade_goods_size_modifier = 0.1
-		trade_range_modifier = 0.33
+		global_trade_goods_size_modifier = 0.15
 	}
 
 	free_trade_idea_6 = {
@@ -356,10 +366,9 @@ religious_ideas = {
 	}
 	church_attendance_duty = { 
 		development_cost_in_primary_culture = -0.2
-		missionaries = 1
 	}
 	divine_supremacy = {
-		missionaries = 1
+		missionaries = 2
 		prestige_per_development_from_conversion = 0.1
 	}
 	devoutness = {
@@ -543,6 +552,9 @@ defensive_ideas = {
 	defensive_mentality = {
 		defensiveness = 0.2
 	}
+	military_drill = {
+		morale_damage_received = -0.1
+	}
 	supply_trains = {
 		fort_maintenance_modifier = -0.25
 	}
@@ -680,7 +692,7 @@ maritime_ideas = {
 	}
 
 	merchant_traditions = {
-		trade_efficiency = 0.1
+		trade_efficiency = 0.15
 	}
 	merchant_marine = {
 		global_sailors_modifier = 0.2
@@ -698,6 +710,7 @@ maritime_ideas = {
 	}
 	sea_hawks = {
 		transport_attrition = -0.5
+		blockade_efficiency = 0.5
 	}
 	naval_fighting_instruction = {
 		sea_repair = yes
@@ -732,10 +745,10 @@ quality_ideas = {
 		reinforce_speed = 0.2
 	}
 	naval_drill = {
-		drill_gain_modifier = 0.25
+		drill_gain_modifier = 0.5
 	}
 	copper_bottoms = {
-		drill_decay_modifier = -0.2
+		drill_decay_modifier = -0.25
 	}
 	massed_battery = {
 		special_unit_forcelimit = 0.15
@@ -765,7 +778,7 @@ quantity_ideas = {
 		land_forcelimit_modifier  = 0.3
 	}
 	mass_army = {
-		global_manpower_modifier = 0.3
+		global_manpower_modifier = 0.5
 	}
 	the_young_can_serve = {
 		manpower_recovery_speed = 0.2
@@ -875,7 +888,7 @@ administrative_ideas = {
 		expand_administration_cost = -1
 	}
 	adaptability = {
-		core_creation = -0.2
+		core_creation = -0.25
 		unjustified_demands = -0.25
 	}
 	cultural_regulations = {
@@ -885,10 +898,10 @@ administrative_ideas = {
 		stability_cost_modifier = -0.2
 	}
 	centralization = {
-		global_autonomy = -0.05
+		adm_tech_cost_modifier = -0.1
 	}
 	civil_servants = {
-		adm_tech_cost_modifier = -0.1
+		global_allowed_num_of_manufactories = 1
 	}
 
 	ai_will_do = {
@@ -900,7 +913,7 @@ humanist_ideas = {
 	category = ADM
 
 	bonus = {
-		possible_policy = 1
+		improve_relation_modifier = 0.3
 	}
 
 	local_traditions = {
@@ -918,6 +931,7 @@ humanist_ideas = {
 		num_accepted_cultures = 2
 	}
 	humanist_tolerance = {
+		global_trade_goods_size_modifier = 0.1
 		global_trade_goods_size_modifier = 0.1
 	}
 	benevolence = {
@@ -991,12 +1005,13 @@ naval_ideas = {
 	}
 
 	bonus = {
-		landing_penalty = -1
+		landing_penalty = -2
+		regiment_disembark_speed = 0.25
 	}
 
 	boarding_parties = {
 		sailors_recovery_speed = 0.2
-		ship_durability = 0.05
+		infantry_power = 0.1
 	}
 	improved_rams = {
 		has_marines = yes
@@ -1131,11 +1146,11 @@ centralisation_ideas = {
 	}
 
 	bonus = {
-		development_cost = 0.1
+		development_cost = -0.1
 	}
 
 	centralisation_idea_1 = {
-		production_efficiency = 0.15
+		production_efficiency = 0.1
 	}
 	centralisation_idea_2 = {
 		global_prosperity_growth = 0.2
@@ -1145,17 +1160,17 @@ centralisation_ideas = {
 		expand_infrastructure_cost_modifier = -0.5
 	}
 	centralisation_idea_4 = {
-		inflation_reduction = 0.15
+		inflation_reduction = 0.05
 		inflation_action_cost = -0.2
 	}
 	centralisation_idea_5 = {
 		centralize_state_cost = -0.33
 	}
 	centralisation_idea_6 = {
-		same_religion_advisor_cost = -0.2
+		same_religion_advisor_cost = -0.1
 	}
 	centralisation_idea_7 = {
-		state_maintenance_modifier = -0.2
+		state_governing_cost = -0.15
 	}
 
 }
@@ -1169,11 +1184,11 @@ centralisation_ideasex = {
 	}
 
 	bonus = {
-		development_cost = 0.05
+		development_cost = -0.05
 	}
 
 	centralisation_idea_1ex = {
-		production_efficiency = 0.15
+		production_efficiency = 0.1
 	}
 	centralisation_idea_2ex = {
 		global_prosperity_growth = 0.2
@@ -1183,17 +1198,17 @@ centralisation_ideasex = {
 		expand_infrastructure_cost_modifier = -0.5
 	}
 	centralisation_idea_4ex = {
-		inflation_reduction = 0.15
+		inflation_reduction = 0.05
 		inflation_action_cost = -0.2
 	}
 	centralisation_idea_5ex = {
 		centralize_state_cost = -0.33
 	}
 	centralisation_idea_6ex = {
-		same_religion_advisor_cost = -0.2
+		same_religion_advisor_cost = -0.1
 	}
 	centralisation_idea_7ex = {
-		state_maintenance_modifier = -0.2
+		state_governing_cost = -0.15
 	}
 
 }
@@ -1212,24 +1227,25 @@ decentralisation_ideas = {
 	}
 
 	decentralisation_idea_1 = {
-		build_cost = -0.15
+		build_cost = -0.1
 	}
 	decentralisation_idea_2 = {
-		interest = -0.5
+		administrative_efficiency = 0.05
 	}
 	decentralisation_idea_3 = {
 		free_concentrate_development = yes
-		governing_capacity = 200
+		governing_capacity = 250
 	}
 	decentralisation_idea_4 = {
-		state_governing_cost = -0.15
-		global_monthly_devastation = -0.2
-	}
-	decentralisation_idea_5 = {
 		global_trade_goods_size_modifier = 0.1
 	}
+	decentralisation_idea_5 = {
+		free_adm_policy = 1
+		global_monthly_devastation = -0.2
+	}
 	decentralisation_idea_6 = {
-		adm_advisor_cost = -0.2
+		global_unrest = -2
+		overextension_impact_modifier = -0.33
 	}
 	decentralisation_idea_7 = {
 		global_allowed_num_of_buildings = 1
@@ -1251,24 +1267,25 @@ decentralisation_ideasex = {
 	}
 
 	decentralisation_idea_1ex = {
-		build_cost = -0.15
+		build_cost = -0.1
 	}
 	decentralisation_idea_2ex = {
-		interest = -0.5
+		administrative_efficiency = 0.05
 	}
 	decentralisation_idea_3ex = {
 		free_concentrate_development = yes
-		governing_capacity = 200
+		governing_capacity = 250
 	}
 	decentralisation_idea_4ex = {
-		state_governing_cost = -0.15
-		global_monthly_devastation = -0.2
-	}
-	decentralisation_idea_5ex = {
 		global_trade_goods_size_modifier = 0.1
 	}
+	decentralisation_idea_5ex = {
+		free_adm_policy = 1
+		global_monthly_devastation = -0.2
+	}
 	decentralisation_idea_6ex = {
-		adm_advisor_cost = -0.2
+		global_unrest = -2
+		overextension_impact_modifier = -0.2
 	}
 	decentralisation_idea_7ex = {
 		global_allowed_num_of_buildings = 1

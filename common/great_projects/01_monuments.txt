@@ -212,7 +212,7 @@ hagia_sophia = {
 			tolerance_own = 0.25
 			tolerance_heretic = 0.25
 			church_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -247,7 +247,7 @@ hagia_sophia = {
 			yearly_patriarch_authority = 0.002
 			papal_influence = 0.5
 			church_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -288,7 +288,7 @@ hagia_sophia = {
 			yearly_patriarch_authority = 0.005
 			papal_influence = 1
 			church_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -456,7 +456,7 @@ stonehenge = {
 		country_modifiers = {
 			tolerance_heretic = 0.5
 			tolerance_heathen = 0.5	
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -489,7 +489,7 @@ stonehenge = {
 			tolerance_heathen = 0.5	
 			stability_cost_modifier = -0.1
 			same_religion_advisor_cost = -0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -522,7 +522,7 @@ stonehenge = {
 			tolerance_heathen = 1						
 			stability_cost_modifier = -0.25
 			global_missionary_strength = 0.01
-			great_project_upgrade_cost = 0.5
+
 		}
 		
 		conditional_modifier = {
@@ -702,7 +702,7 @@ tower_of_london = {
 		
 		country_modifiers = {
 			army_tradition = 0.25
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -755,7 +755,7 @@ tower_of_london = {
 		country_modifiers = {
 			army_tradition = 0.25
 			prestige = 0.25
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -809,7 +809,7 @@ tower_of_london = {
 		country_modifiers = {
 			army_tradition = 0.5
 			prestige = 0.5
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -950,7 +950,7 @@ buddha_statues = {
 		country_modifiers = {
 			culture_conversion_cost = -0.1
 			global_missionary_strength = 0.01
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -982,7 +982,7 @@ buddha_statues = {
 			culture_conversion_cost = -0.10
 			global_missionary_strength = 0.01
 			missionaries = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -1015,7 +1015,7 @@ buddha_statues = {
 			global_missionary_strength = 0.01
 			missionaries = 1
 			idea_cost = -0.05
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -1189,7 +1189,7 @@ parthenon = {
 		
 		country_modifiers = {
 			advisor_cost = -0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -1221,7 +1221,7 @@ parthenon = {
 		country_modifiers = {
 			advisor_cost = -0.1
 			advisor_pool = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -1254,7 +1254,7 @@ parthenon = {
 			advisor_cost = -0.15
 			advisor_pool = 1
 			yearly_corruption = -0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -1377,7 +1377,7 @@ forbidden_city = {
 		country_modifiers = {
 			yearly_absolutism = 0.25
 			imperial_mandate = 0.03
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -1409,7 +1409,7 @@ forbidden_city = {
 			yearly_absolutism = 0.5
 			imperial_mandate = 0.03
 			prestige_decay = -0.01
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -1441,7 +1441,7 @@ forbidden_city = {
 			yearly_absolutism = 0.5
 			imperial_mandate = 0.05
 			prestige_decay = -0.02
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -1558,7 +1558,7 @@ angkor_wat = {
 		country_modifiers = {
 			yearly_karma_decay = 0.05  #(buddhist)
 			technology_cost = -0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -1595,7 +1595,7 @@ angkor_wat = {
 		country_modifiers = {
 			yearly_karma_decay = 0.1  #(buddhist)
 			technology_cost = -0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -1626,7 +1626,7 @@ angkor_wat = {
 		country_modifiers = {
 			yearly_karma_decay = 0.15  #(buddhist)
 			technology_cost = -0.10
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -1788,7 +1788,7 @@ petra = {
 		country_modifiers = {
 			diplomatic_reputation = 1
 			envoy_travel_time = -0.20
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -1820,7 +1820,7 @@ petra = {
 			diplomatic_reputation = 1
 			envoy_travel_time = -0.25
 			fabricate_claims_cost = -0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -1853,7 +1853,7 @@ petra = {
 			envoy_travel_time = -0.33
 			diplomatic_upkeep = 1
 			fabricate_claims_cost = -0.2
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -1978,7 +1978,7 @@ cologne_cathedral = {
 			monthly_fervor_increase = 0.25
 			church_power_modifier = 0.05
 			enforce_religion_cost = -0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -2011,7 +2011,7 @@ cologne_cathedral = {
 			monthly_fervor_increase = 0.5
 			church_power_modifier = 0.1
 			enforce_religion_cost = -0.25
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -2050,7 +2050,7 @@ cologne_cathedral = {
 			monthly_fervor_increase = 1
 			church_power_modifier = 0.15
 			enforce_religion_cost = -0.33
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -2188,7 +2188,7 @@ kremlin = {
 
 		
 		country_modifiers = {
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -2219,7 +2219,7 @@ kremlin = {
 
 		
 		country_modifiers = {
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -2252,7 +2252,7 @@ kremlin = {
 		
 		country_modifiers = {
 			global_regiment_cost = -0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -2371,7 +2371,7 @@ machu_picchu = {
 		
 		country_modifiers = {
 			idea_cost = -0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -2408,7 +2408,7 @@ machu_picchu = {
 		country_modifiers = {
 			idea_cost = -0.05
 			reform_progress_growth = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -2440,7 +2440,7 @@ machu_picchu = {
 			idea_cost = -0.1
 			reform_progress_growth = 0.2
 			mercantilism_cost = -0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -2566,7 +2566,7 @@ chichen_itza = {
 		country_modifiers = {
 			manpower_recovery_speed = 0.1
 			global_regiment_recruit_speed = -0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -2603,7 +2603,7 @@ chichen_itza = {
 		country_modifiers = {
 			manpower_recovery_speed = 0.15
 			global_regiment_recruit_speed = -0.3
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -2641,7 +2641,7 @@ chichen_itza = {
 			manpower_recovery_speed = 0.2
 			global_regiment_recruit_speed = -0.5
 			infantry_cost = -0.10
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -2761,7 +2761,7 @@ himeji_castle = {
 		
 		country_modifiers = {
 			prestige = 0.5
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -2794,7 +2794,7 @@ himeji_castle = {
 			prestige = 0.5		
 			spy_offence = 0.1
 			global_spy_defence = 0.2
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -2828,7 +2828,7 @@ himeji_castle = {
 			prestige = 0.5	
 			spy_offence = 0.15
 			global_spy_defence = 0.25
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -2949,7 +2949,7 @@ moai = {
 			religious_unity = 0.05
 			tolerance_own = 0.5
 			nobles_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -2981,7 +2981,7 @@ moai = {
 			religious_unity = 0.10
 			tolerance_own = 1
 			nobles_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -3020,7 +3020,7 @@ moai = {
 			tolerance_own = 1
 			tolerance_heretic = 1
 			nobles_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -3143,7 +3143,7 @@ stpeters_cathedral = {
 		country_modifiers = {
 			appoint_cardinal_cost = -0.05
 			curia_powers_cost = -0.05			
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -3175,7 +3175,7 @@ stpeters_cathedral = {
 			appoint_cardinal_cost = -0.1
 			curia_powers_cost = -0.1
 			idea_cost = -0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -3214,7 +3214,7 @@ stpeters_cathedral = {
 			curia_powers_cost = -0.1
 			idea_cost = -0.1
 			church_influence_modifier = 0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -3475,7 +3475,7 @@ mount_fuji = {
 
 		
 		country_modifiers = {
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -3507,7 +3507,7 @@ mount_fuji = {
 
 		
 		country_modifiers = {
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -3543,7 +3543,7 @@ mount_fuji = {
 		country_modifiers = {
 			yearly_karma_decay = 0.1  #(buddhist)
 			prestige = 0.5
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -3664,7 +3664,7 @@ tenochtitlan = {
 		
 		country_modifiers = {
 			yearly_doom_reduction = 0.5
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -3697,7 +3697,7 @@ tenochtitlan = {
 		
 		country_modifiers = {
 			yearly_doom_reduction = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -3731,7 +3731,7 @@ tenochtitlan = {
 		
 		country_modifiers = {
 			yearly_doom_reduction = 2
-			great_project_upgrade_cost = 0.5
+
 		}
 		
 		conditional_modifier = {
@@ -3889,7 +3889,7 @@ notre_dame_cathedral = {
 			monthly_fervor_increase = 0.25
 			church_power_modifier = 0.05
 			tolerance_own = 0.5
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -3922,7 +3922,7 @@ notre_dame_cathedral = {
 			monthly_fervor_increase = 0.5
 			church_power_modifier = 0.1
 			tolerance_own = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -3956,7 +3956,7 @@ notre_dame_cathedral = {
 			church_power_modifier = 0.15
 			tolerance_own = 2
 			religious_unity = 0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -4073,7 +4073,7 @@ shwedagon_pagoda = {
 		
 		country_modifiers = {
 			church_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -4106,7 +4106,7 @@ shwedagon_pagoda = {
 		country_modifiers = {
 			church_loyalty_modifier = 0.1
 			yearly_karma_decay = 0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -4139,7 +4139,7 @@ shwedagon_pagoda = {
 		country_modifiers = {
 			yearly_karma_decay = 0.1
 			church_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -4292,7 +4292,7 @@ the_great_wall_of_china = {
 
 		
 		country_modifiers = {
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -4325,7 +4325,7 @@ the_great_wall_of_china = {
 		country_modifiers = {
 			hostile_attrition = 1
 			garrison_size = 0.15
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -4358,7 +4358,7 @@ the_great_wall_of_china = {
 		country_modifiers = {
 			hostile_attrition = 2
 			garrison_size = 0.25
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -4476,7 +4476,7 @@ ambras_castle = {
 		country_modifiers = {
 			prestige = 0.1
 			drill_gain_modifier = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -4515,7 +4515,7 @@ ambras_castle = {
 		country_modifiers = {
 			prestige = 0.25
 			drill_gain_modifier = 0.3
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -4554,7 +4554,7 @@ ambras_castle = {
 		country_modifiers = {
 			prestige = 0.5
 			drill_gain_modifier = 0.5
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -4683,7 +4683,7 @@ mesa_verde = {
 		
 		country_modifiers = {
 			technology_cost = -0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -4715,7 +4715,7 @@ mesa_verde = {
 		country_modifiers = {	
 			idea_cost = -0.05
 			technology_cost = -0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -4747,7 +4747,7 @@ mesa_verde = {
 		country_modifiers = {
 			idea_cost = -0.1
 			technology_cost = -0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -4871,7 +4871,7 @@ taj_mahal = {
 		country_modifiers = {
 			monthly_piety_accelerator = 0.001
 			prestige_decay = -0.005
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -4904,7 +4904,7 @@ taj_mahal = {
 			monthly_piety_accelerator = 0.002
 			prestige_decay = -0.005
 			monthly_splendor = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -4938,7 +4938,7 @@ taj_mahal = {
 			prestige_decay = -0.01
 			monthly_splendor = 2
 			power_projection_from_insults = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		conditional_modifier = {
 			trigger = { 
@@ -5060,7 +5060,7 @@ alhambra = {
 		country_modifiers = {
 			vassal_income = 0.1
 			reduced_liberty_desire = 5
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -5092,7 +5092,7 @@ alhambra = {
 			vassal_income = 0.1
 			reduced_liberty_desire = 5
 			diplomatic_reputation = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -5125,7 +5125,7 @@ alhambra = {
 			vassal_income = 0.1
 			reduced_liberty_desire = 10
 			diplomatic_reputation = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		
 		conditional_modifier = {
@@ -5253,7 +5253,7 @@ the_grand_palace = {
 		country_modifiers = {
 			yearly_absolutism = 0.25
 			governing_capacity_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -5285,7 +5285,7 @@ the_grand_palace = {
 			yearly_absolutism = 0.5
 			governing_capacity_modifier = 0.1
 			vassal_forcelimit_bonus = 0.3
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -5318,7 +5318,7 @@ the_grand_palace = {
 			governing_capacity_modifier = 0.15
 			vassal_forcelimit_bonus = 0.5
 			ae_impact = -0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -5436,7 +5436,7 @@ bagan_temples = {
 		country_modifiers = {
 			yearly_karma_decay = 0.05
 			global_missionary_strength = 0.01
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -5469,7 +5469,7 @@ bagan_temples = {
 			yearly_karma_decay = 0.1
 			global_missionary_strength = 0.01
 			missionaries = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -5502,7 +5502,7 @@ bagan_temples = {
 			yearly_karma_decay = 0.15
 			global_missionary_strength = 0.02
 			missionaries = 2
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -5619,7 +5619,7 @@ ait_benhaddou = {
 		
 		country_modifiers = {
 			caravan_power = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -5651,7 +5651,7 @@ ait_benhaddou = {
 		country_modifiers = {
 			caravan_power = 0.2
 			trade_efficiency = 0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -5684,7 +5684,7 @@ ait_benhaddou = {
 			caravan_power = 0.33
 			trade_efficiency = 0.10
 			global_trade_power = 0.05
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -5808,7 +5808,7 @@ registan_square = {
 			monthly_piety_accelerator = 0.001
 			stability_cost_modifier = -0.1
 			enforce_religion_cost = -0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -5840,7 +5840,7 @@ registan_square = {
 			monthly_piety_accelerator = 0.002
 			stability_cost_modifier = -0.15
 			enforce_religion_cost = -0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -5872,7 +5872,7 @@ registan_square = {
 			monthly_piety_accelerator = 0.003
 			stability_cost_modifier = -0.25
 			enforce_religion_cost = -0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -5995,7 +5995,7 @@ golden_temple = {
 		
 		country_modifiers = {
 			global_autonomy = -0.025
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -6027,7 +6027,7 @@ golden_temple = {
 		country_modifiers = {
 			global_autonomy = -0.05
 			min_autonomy_in_territories = -0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -6059,7 +6059,7 @@ golden_temple = {
 		country_modifiers = {
 			global_autonomy = -0.1
 			min_autonomy_in_territories = -0.15
-			great_project_upgrade_cost = 0.5
+
 			
 		}
 
@@ -6178,7 +6178,7 @@ jokhang_temple = {
 			religious_unity = 0.05
 			missionary_maintenance_cost = -0.1
 			yearly_karma_decay = 0.01
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -6211,7 +6211,7 @@ jokhang_temple = {
 			global_missionary_strength = 0.01
 			missionary_maintenance_cost = -0.2
 			yearly_karma_decay = 0.025
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -6244,7 +6244,7 @@ jokhang_temple = {
 			global_missionary_strength = 0.02
 			missionary_maintenance_cost = -0.3
 			yearly_karma_decay = 0.05
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -6379,7 +6379,7 @@ borobudur_temple = {
 		
 		country_modifiers = {
 			culture_conversion_cost = -0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -6411,7 +6411,7 @@ borobudur_temple = {
 		country_modifiers = {
 			culture_conversion_cost = -0.1
 			global_unrest = -1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -6444,7 +6444,7 @@ borobudur_temple = {
 			global_unrest = -2
 			num_accepted_cultures = 1
 			global_autonomy = -0.05
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -6576,7 +6576,7 @@ temple_of_confucius = {
 		country_modifiers = {
 			yearly_harmony = 0.25
 			prestige = 0.25
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -6614,7 +6614,7 @@ temple_of_confucius = {
 			yearly_harmony = 0.33
 			religious_unity = 0.25
 			prestige = 0.5
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -6652,7 +6652,7 @@ temple_of_confucius = {
 			yearly_harmony = 0.5
 			religious_unity = 0.5
 			prestige = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -6775,7 +6775,7 @@ murud_janjira = {
 		country_modifiers = {
 			naval_forcelimit_modifier = 0.1
 			naval_maintenance_modifier = -0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -6807,7 +6807,7 @@ murud_janjira = {
 			naval_forcelimit_modifier = 0.2
 			naval_maintenance_modifier = -0.15
 			navy_tradition = 0.5
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -6840,7 +6840,7 @@ murud_janjira = {
 			naval_maintenance_modifier = -0.2
 			navy_tradition = 1
 			admiral_cost = -0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -6963,7 +6963,7 @@ pura_besakih = {
 		country_modifiers = {
 			brahmins_hindu_loyalty_modifier = 0.05
 			stability_cost_modifier = -0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -6995,7 +6995,7 @@ pura_besakih = {
 			brahmins_hindu_loyalty_modifier = 0.1
 			stability_cost_modifier = -0.1
 			war_exhaustion = -0.02
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -7028,7 +7028,7 @@ pura_besakih = {
 			stability_cost_modifier = -0.15
 			war_exhaustion = -0.05
 			global_unrest = -1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -7145,7 +7145,7 @@ kanbawzathadi_palace = {
 		country_modifiers = {
 			diplomatic_reputation = 1
 			dip_advisor_cost = -0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -7177,7 +7177,7 @@ kanbawzathadi_palace = {
 			diplomatic_reputation = 1
 			diplomatic_upkeep = 1
 			dip_advisor_cost = -0.2
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -7209,7 +7209,7 @@ kanbawzathadi_palace = {
 			diplomatic_reputation = 1
 			diplomatic_upkeep = 2
 			advisor_cost = -0.2
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -7363,7 +7363,7 @@ pyramid_of_cheops = {
 			yearly_government_power = 0.5
 			prestige_decay = -0.005
 			all_estate_loyalty_equilibrium = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -7395,7 +7395,7 @@ pyramid_of_cheops = {
 			prestige_decay = -0.01
 			yearly_government_power = 0.5
 			all_estate_loyalty_equilibrium = 0.05	
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -7428,7 +7428,7 @@ pyramid_of_cheops = {
 			all_estate_loyalty_equilibrium = 0.05
 			prestige_decay = -0.01
 			no_stability_loss_on_monarch_death = yes
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -7544,7 +7544,7 @@ khami_ruins = {
 		
 		country_modifiers = {
 			fabricate_claims_cost = -0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -7577,7 +7577,7 @@ khami_ruins = {
 		country_modifiers = {
 			technology_cost = -0.05
 			fabricate_claims_cost = -0.2
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -7610,7 +7610,7 @@ khami_ruins = {
 		country_modifiers = {
 			technology_cost = -0.05
 			fabricate_claims_cost = -0.35
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -7733,7 +7733,7 @@ prambanan_temple = {
 		country_modifiers = {
 			development_cost = -0.02
 			global_missionary_strength =  0.005
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -7764,7 +7764,7 @@ prambanan_temple = {
 		country_modifiers = {
 			development_cost = -0.05
 			global_missionary_strength = 0.01
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -7796,7 +7796,7 @@ prambanan_temple = {
 			development_cost = -0.10
 			global_missionary_strength = 0.02
 			missionaries = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -7909,7 +7909,7 @@ inukshuk = {
 		
 		country_modifiers = {
 			num_accepted_cultures = 1
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -7940,7 +7940,7 @@ inukshuk = {
 		country_modifiers = {
 			num_accepted_cultures = 1
 			same_culture_advisor_cost = -0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -7972,7 +7972,7 @@ inukshuk = {
 			num_accepted_cultures = 2
 			same_culture_advisor_cost = -0.15
 			promote_culture_cost = -0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -8095,7 +8095,7 @@ fire_temple_of_ateshgah = {
 		country_modifiers = {
 			discipline = 0.025
 			culture_conversion_cost = -0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -8127,7 +8127,7 @@ fire_temple_of_ateshgah = {
 			discipline = 0.025
 			fire_damage = 0.05
 			culture_conversion_cost = -0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -8159,7 +8159,7 @@ fire_temple_of_ateshgah = {
 			discipline = 0.05
 			fire_damage = 0.1		
 			culture_conversion_cost = -0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -8281,7 +8281,7 @@ kiev_pechersk_lavra = {
 		
 		country_modifiers = {
 			yearly_patriarch_authority = 0.001
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -8312,7 +8312,7 @@ kiev_pechersk_lavra = {
 		country_modifiers = {
 			yearly_patriarch_authority = 0.002
 			tolerance_own = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -8344,7 +8344,7 @@ kiev_pechersk_lavra = {
 		country_modifiers = {
 			yearly_patriarch_authority = 0.005
 			tolerance_own = 2
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -8677,7 +8677,7 @@ belem_tower = {
 		
 		country_modifiers = {
 			global_trade_power = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -8710,7 +8710,7 @@ belem_tower = {
 		country_modifiers = {
 			global_trade_power = 0.1
 			global_sailors_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -8743,7 +8743,7 @@ belem_tower = {
 		country_modifiers = {
 			global_trade_power = 0.15
 			global_sailors_modifier = 0.25
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -8864,7 +8864,7 @@ sankin_kotai_palaces = {
 		country_modifiers = {
 			war_taxes_cost_modifier = -0.5
 			prestige_from_land = 0.5
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -8896,7 +8896,7 @@ sankin_kotai_palaces = {
 			war_taxes_cost_modifier = -0.5
 			prestige_from_land = 1
 			general_cost = -0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -8929,7 +8929,7 @@ sankin_kotai_palaces = {
 			war_taxes_cost_modifier = -1
 			prestige_from_land = 1
 			general_cost = -0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -9048,7 +9048,7 @@ mausoleum_at_halicarnassus = {
 			prestige = 0.25
 			monthly_splendor = 0.5	
 			monarch_lifespan = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -9080,7 +9080,7 @@ mausoleum_at_halicarnassus = {
 			prestige = 0.5
 			monthly_splendor = 1
 			monarch_lifespan = 0.15
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -9112,7 +9112,7 @@ mausoleum_at_halicarnassus = {
 			prestige = 1
 			monthly_splendor = 1
 			monarch_lifespan = 0.25
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -9236,7 +9236,7 @@ heddal_stave_church = {
 		
 		country_modifiers = {
 			stability_cost_modifier = -0.025
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -9269,7 +9269,7 @@ heddal_stave_church = {
 			stability_cost_modifier = -0.05
 			missionary_maintenance_cost = -0.1
 			missionaries = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -9302,7 +9302,7 @@ heddal_stave_church = {
 			stability_cost_modifier = -0.1
 			missionary_maintenance_cost = -0.2
 			missionaries = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -9461,7 +9461,7 @@ versailles = {
 			improve_relation_modifier = 0.1
 			nobles_loyalty_modifier = 0.05
 			nobles_influence_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -9495,7 +9495,7 @@ versailles = {
 			vassal_income = 0.1
 			nobles_loyalty_modifier = 0.1
 			nobles_influence_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -9529,7 +9529,7 @@ versailles = {
 			vassal_income = 0.2
 			nobles_loyalty_modifier = 0.15
 			nobles_influence_modifier = 0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 		conditional_modifier = {
 			trigger = {
@@ -9692,7 +9692,7 @@ el_escorial = {
 			global_autonomy = -0.01	
 			global_tariffs = 0.025
 			treasure_fleet_income = 0.05			
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -9725,7 +9725,7 @@ el_escorial = {
 			governing_capacity_modifier = 0.05
 			global_tariffs = 0.05
 			treasure_fleet_income = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -9758,7 +9758,7 @@ el_escorial = {
 			governing_capacity_modifier = 0.1
 			global_tariffs = 0.1
 			treasure_fleet_income = 0.2
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -9876,7 +9876,7 @@ potosi = {
 
 		
 		country_modifiers = {
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -9939,7 +9939,7 @@ potosi = {
 		
 		country_modifiers = {
 			interest = -0.25
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -10002,7 +10002,7 @@ potosi = {
 		
 		country_modifiers = {
 			interest = -0.5
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -10184,7 +10184,7 @@ kaaba = {
 		country_modifiers = {
 			prestige = 0.1
 			religious_unity = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		conditional_modifier = {
 			tooltip_potential = {
@@ -10256,7 +10256,7 @@ kaaba = {
 			prestige = 0.25
 			religious_unity = 0.15
 			warscore_cost_vs_other_religion = -0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		conditional_modifier = {
@@ -10329,7 +10329,7 @@ kaaba = {
 			prestige = 0.5
 			religious_unity = 0.2
 			warscore_cost_vs_other_religion = -0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		conditional_modifier = {
@@ -10523,7 +10523,7 @@ holy_city_jerusalem = {
 			monthly_fervor_increase = 0.25
 			church_power_modifier = 0.05
 			papal_influence = 0.25
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -10558,7 +10558,7 @@ holy_city_jerusalem = {
 			monthly_fervor_increase = 0.5
 			church_power_modifier = 0.1
 			papal_influence = 0.5
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -10594,7 +10594,7 @@ holy_city_jerusalem = {
 			monthly_fervor_increase = 1
 			church_power_modifier = 0.15
 			papal_influence = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -10718,7 +10718,7 @@ great_mosque_djenne = {
 		country_modifiers = {
 			monthly_piety_accelerator = 0.001
 			global_heathen_missionary_strength = 0.01
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -10750,7 +10750,7 @@ great_mosque_djenne = {
 			monthly_piety_accelerator = 0.002
 			global_heathen_missionary_strength = 0.02
 			missionaries = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -10782,7 +10782,7 @@ great_mosque_djenne = {
 			monthly_piety_accelerator = 0.003
 			global_heathen_missionary_strength = 0.03
 			missionaries = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -10901,7 +10901,7 @@ imperial_city_hue = {
 			yearly_harmony = 0.25
 			legitimacy = 0.5
 			state_maintenance_modifier = -0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		
@@ -10935,7 +10935,7 @@ imperial_city_hue = {
 			legitimacy = 1
 			state_maintenance_modifier = -0.2
 			min_autonomy_in_territories = -0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		
@@ -10969,7 +10969,7 @@ imperial_city_hue = {
 			legitimacy = 1
 			state_maintenance_modifier = -0.25
 			min_autonomy_in_territories = -0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 
 		
@@ -11048,7 +11048,7 @@ baiturrahman_grand_mosque = {
 		country_modifiers = {
 			global_missionary_strength = 0.005
 			church_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -11070,7 +11070,7 @@ baiturrahman_grand_mosque = {
 			global_missionary_strength = 0.01
 			tolerance_own = 1
 			church_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -11092,7 +11092,7 @@ baiturrahman_grand_mosque = {
 			global_missionary_strength = 0.02
 			tolerance_own = 2
 			church_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -11158,7 +11158,7 @@ bam_citadel = {
 		}
 		country_modifiers = {
 			caravan_power = 0.1		
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -11179,7 +11179,7 @@ bam_citadel = {
 		country_modifiers = {
 			caravan_power = 0.2
 			merchants = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -11200,7 +11200,7 @@ bam_citadel = {
 		country_modifiers = {
 			caravan_power = 0.4
 			merchants = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -11283,7 +11283,7 @@ bara_katra = {
 			global_ship_trade_power = 0.1
 			burghers_loyalty_modifier = 0.05
 			jains_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -11305,7 +11305,7 @@ bara_katra = {
 			global_ship_trade_power = 0.1
 			burghers_loyalty_modifier = 0.1
 			jains_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -11328,7 +11328,7 @@ bara_katra = {
 			merchants = 1
 			burghers_loyalty_modifier = 0.15
 			jains_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -11446,7 +11446,7 @@ bran_castle = {
 		country_modifiers = {
 			rival_border_fort_maintenance = -0.15
 			global_garrison_growth = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -11467,7 +11467,7 @@ bran_castle = {
 		country_modifiers = {
 			rival_border_fort_maintenance = -0.2
 			global_garrison_growth = 0.2
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -11488,7 +11488,7 @@ bran_castle = {
 		country_modifiers = {
 			rival_border_fort_maintenance = -0.3
 			global_garrison_growth = 0.3
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -11557,7 +11557,7 @@ brandenburg_gate = {
 			monthly_prussian_militarized_society_2 = 0.01
 			monthly_prussian_militarized_society_3 = 0.01
 			prestige_from_land = 0.5			
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -11581,7 +11581,7 @@ brandenburg_gate = {
 			monthly_prussian_militarized_society_1 = 0.02
 			monthly_prussian_militarized_society_2 = 0.02
 			monthly_prussian_militarized_society_3 = 0.02
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -11605,7 +11605,7 @@ brandenburg_gate = {
 			monthly_prussian_militarized_society_1 = 0.05
 			monthly_prussian_militarized_society_2 = 0.05
 			monthly_prussian_militarized_society_3 = 0.05
-			great_project_upgrade_cost = 0.5
+
 		}
 		conditional_modifier = {
 			trigger = { owner = { mission_completed = emp_brapru_the_balance_of_power } }
@@ -11676,7 +11676,7 @@ buda_castle = {
 		}
 		country_modifiers = {
 			global_institution_spread = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -11696,7 +11696,7 @@ buda_castle = {
 		country_modifiers = {
 			global_institution_spread = 0.2
 			embracement_cost = -0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -11717,7 +11717,7 @@ buda_castle = {
 			global_institution_spread = 0.3
 			embracement_cost = -0.1
 			idea_cost = -0.05
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -11792,7 +11792,7 @@ cahokia = {
 		}
 		country_modifiers = {
 			tribal_development_growth = 0.01
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -11813,7 +11813,7 @@ cahokia = {
 		country_modifiers = {
 			tribal_development_growth = 0.02
 			global_manpower_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -11834,7 +11834,7 @@ cahokia = {
 		country_modifiers = {
 			tribal_development_growth = 0.03
 			global_manpower_modifier = 0.2
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -11901,7 +11901,7 @@ cartagena_de_indias = {
 		}
 		country_modifiers = {
 			global_ship_trade_power = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -11925,7 +11925,7 @@ cartagena_de_indias = {
 		country_modifiers = {		
 			global_ship_trade_power = 0.2
 			prestige_from_naval = 0.5
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -11949,7 +11949,7 @@ cartagena_de_indias = {
 		country_modifiers = {
 			global_ship_trade_power = 0.3
 			prestige_from_naval = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -12018,7 +12018,7 @@ chan_chan_citadel = {
 			diplomatic_upkeep = 1
 			yearly_authority = 0.1
 			monthly_divine_authority = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -12043,7 +12043,7 @@ chan_chan_citadel = {
 			diplomatic_upkeep = 1
 			yearly_authority = 0.2
 			monthly_divine_authority = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -12068,7 +12068,7 @@ chan_chan_citadel = {
 			diplomatic_upkeep = 2
 			yearly_authority = 0.3
 			monthly_divine_authority = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -12134,7 +12134,7 @@ doges_palace = {
 		country_modifiers = {
 			reform_progress_growth = 0.1
 			republican_tradition = 0.1 
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -12155,7 +12155,7 @@ doges_palace = {
 			reform_progress_growth = 0.2
 			republican_tradition = 0.25 
 			monthly_authority_power = -0.03
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -12176,7 +12176,7 @@ doges_palace = {
 			reform_progress_growth = 0.3
 			republican_tradition = 0.5 
 			monthly_authority_power = -0.05
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -12256,7 +12256,7 @@ duomo_milano = {
 			church_power_modifier = 0.05
 			global_religious_conversion_resistance = 0.15
 			church_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -12281,7 +12281,7 @@ duomo_milano = {
 			church_power_modifier = 0.1
 			global_religious_conversion_resistance = 0.30
 			church_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {			
 		}
@@ -12306,7 +12306,7 @@ duomo_milano = {
 			church_power_modifier = 0.15
 			global_religious_conversion_resistance = 0.5
 			church_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {			
 		}
@@ -12395,7 +12395,7 @@ dutch_polders = {
 		country_modifiers = {
 			global_trade_goods_size_modifier = 0.05
 			burghers_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -12417,7 +12417,7 @@ dutch_polders = {
 		country_modifiers = {
 			global_trade_goods_size_modifier = 0.05
 			burghers_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -12439,7 +12439,7 @@ dutch_polders = {
 		country_modifiers = {
 			global_trade_goods_size_modifier = 0.1
 			burghers_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -12543,7 +12543,7 @@ ellora_caves = {
 			tolerance_heretic = 0.25
 			tolerance_heathen = 0.25
 			brahmins_hindu_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -12565,7 +12565,7 @@ ellora_caves = {
 			tolerance_heretic = 0.5
 			tolerance_heathen = 0.5
 			brahmins_hindu_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -12587,7 +12587,7 @@ ellora_caves = {
 			tolerance_heretic = 1
 			tolerance_heathen = 1
 			brahmins_hindu_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -12676,7 +12676,7 @@ erdene_zuu = {
 			religious_unity = 0.1
 			church_loyalty_modifier = 0.05
 			yearly_karma_decay = 0.01
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -12699,7 +12699,7 @@ erdene_zuu = {
 			religious_unity = 0.2
 			church_loyalty_modifier = 0.1
 			yearly_karma_decay = 0.025
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -12722,7 +12722,7 @@ erdene_zuu = {
 			religious_unity = 0.3
 			church_loyalty_modifier = 0.15
 			yearly_karma_decay = 0.05
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -12799,7 +12799,7 @@ etchimiadzin_cathedral = {
 			tolerance_own = 0.5
 			global_missionary_strength = 0.005
 			prestige_per_development_from_conversion = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -12821,7 +12821,7 @@ etchimiadzin_cathedral = {
 			tolerance_own = 1
 			global_missionary_strength = 0.01
 			prestige_per_development_from_conversion = 0.2
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -12843,7 +12843,7 @@ etchimiadzin_cathedral = {
 			tolerance_own = 2
 			global_missionary_strength = 0.02
 			prestige_per_development_from_conversion = 0.3
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -12910,7 +12910,7 @@ fuerte_del_morro = {
 		country_modifiers = {
 			naval_forcelimit_modifier = 0.1
 			overlord_naval_forcelimit_modifier = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -12932,7 +12932,7 @@ fuerte_del_morro = {
 		country_modifiers = {			
 			naval_forcelimit_modifier = 0.2
 			overlord_naval_forcelimit_modifier = 0.2
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -12954,7 +12954,7 @@ fuerte_del_morro = {
 		country_modifiers = {			
 			naval_forcelimit_modifier = 0.3
 			overlord_naval_forcelimit_modifier = 0.3
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -13085,7 +13085,7 @@ gomateshwara_statue = {
 			tolerance_of_heretics_capacity = 0.25
 			tolerance_of_heathens_capacity = 0.25
 			diplomatic_reputation = 1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -13110,7 +13110,7 @@ gomateshwara_statue = {
 			tolerance_of_heretics_capacity = 0.5
 			tolerance_of_heathens_capacity = 0.5
 			diplomatic_reputation = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -13135,7 +13135,7 @@ gomateshwara_statue = {
 			tolerance_of_heretics_capacity = 1
 			tolerance_of_heathens_capacity = 1
 			diplomatic_reputation = 2
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -13210,7 +13210,7 @@ chola_temples = {
 		country_modifiers = {
 			global_missionary_strength = 0.005
 			brahmins_hindu_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -13231,7 +13231,7 @@ chola_temples = {
 			global_missionary_strength = 0.01
 			culture_conversion_cost = -0.05
 			brahmins_hindu_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -13252,7 +13252,7 @@ chola_temples = {
 			global_missionary_strength = 0.02
 			culture_conversion_cost = -0.1
 			brahmins_hindu_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -13382,7 +13382,7 @@ gyeongbok_palace = {
 		country_modifiers = {
 			advisor_cost = -0.05
 			global_autonomy = -0.025
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -13405,7 +13405,7 @@ gyeongbok_palace = {
 			advisor_cost = -0.1
 			monarch_admin_power = 1
 			global_autonomy = -0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -13428,7 +13428,7 @@ gyeongbok_palace = {
 			advisor_cost = -0.15
 			monarch_admin_power = 2
 			global_autonomy = -0.1	
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -13517,7 +13517,7 @@ hampi = {
 			prestige = 0.25
 			religious_unity = 0.1
 			all_estate_loyalty_equilibrium = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -13539,7 +13539,7 @@ hampi = {
 			prestige = 0.5
 			religious_unity = 0.25
 			all_estate_loyalty_equilibrium = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -13561,7 +13561,7 @@ hampi = {
 			prestige = 1
 			religious_unity = 0.25
 			all_estate_loyalty_equilibrium = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -13637,7 +13637,7 @@ prague = {
 			imperial_authority_value = 0.05
 			tolerance_own = 0.25
 			tolerance_heretic = 0.25
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -13661,7 +13661,7 @@ prague = {
 			papal_influence = 0.5
 			monthly_fervor_increase = 0.25
 			church_power_modifier = 0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -13685,7 +13685,7 @@ prague = {
 			papal_influence = 1
 			monthly_fervor_increase = 0.5
 			church_power_modifier = 0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -13760,7 +13760,7 @@ holy_city_kairouan = {
 		country_modifiers = {
 			monthly_piety_accelerator = 0.001
 			institution_spread_from_true_faith = 0.2
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -13781,7 +13781,7 @@ holy_city_kairouan = {
 			monthly_piety_accelerator = 0.002
 			tolerance_own = 0.5
 			institution_spread_from_true_faith = 0.33
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -13802,7 +13802,7 @@ holy_city_kairouan = {
 			monthly_piety_accelerator = 0.003
 			tolerance_own = 1
 			institution_spread_from_true_faith = 0.5
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -13889,7 +13889,7 @@ imam_hussein_al-abbas = {
 			monthly_piety_accelerator = 0.001
 			global_heretic_missionary_strength = 0.01
 			church_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -13910,7 +13910,7 @@ imam_hussein_al-abbas = {
 			monthly_piety_accelerator = 0.002
 			global_heretic_missionary_strength = 0.02
 			church_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -13931,7 +13931,7 @@ imam_hussein_al-abbas = {
 			monthly_piety_accelerator = 0.003
 			global_heretic_missionary_strength = 0.03
 			church_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -14016,7 +14016,7 @@ kashi_vishwanath = {
 		country_modifiers = {
 			core_creation = -0.05
 			brahmins_hindu_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -14037,7 +14037,7 @@ kashi_vishwanath = {
 			core_creation = -0.075
 			ae_impact = -0.05
 			brahmins_hindu_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {			
 		}
@@ -14058,7 +14058,7 @@ kashi_vishwanath = {
 			core_creation = -0.1
 			ae_impact = -0.1
 			brahmins_hindu_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {			
 		}
@@ -14133,7 +14133,7 @@ khajuraho = {
 		}
 		country_modifiers = {
 			monthly_heir_claim_increase = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -14154,7 +14154,7 @@ khajuraho = {
 		country_modifiers = {
 			monthly_heir_claim_increase = 0.2
 			heir_chance = 0.33
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -14175,7 +14175,7 @@ khajuraho = {
 		country_modifiers = {
 			monthly_heir_claim_increase = 0.3
 			heir_chance = 0.5
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -14250,7 +14250,7 @@ kilwa_city = {
 		country_modifiers = {
 			prestige = 0.25
 			global_ship_trade_power = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -14271,7 +14271,7 @@ kilwa_city = {
 			prestige = 0.5
 			global_ship_trade_power = 0.2
 			placed_merchant_power = 2
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -14292,7 +14292,7 @@ kilwa_city = {
 			prestige = 1
 			global_ship_trade_power = 0.3
 			placed_merchant_power = 4
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -14371,7 +14371,7 @@ krakow_cloth_hall = {
 		}
 		country_modifiers = {
 			merchants = 1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -14392,7 +14392,7 @@ krakow_cloth_hall = {
 		country_modifiers = {
 			merchants = 1
 			global_trade_power = 0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -14413,7 +14413,7 @@ krakow_cloth_hall = {
 		country_modifiers = {
 			merchants = 2
 			global_trade_power = 0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -14489,7 +14489,7 @@ maidan-e_naqsh-e_jahan = {
 			legitimacy = 0.25
 			monthly_splendor = 0.5
 			prestige_per_development_from_conversion = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -14510,7 +14510,7 @@ maidan-e_naqsh-e_jahan = {
 			legitimacy = 0.5
 			monthly_splendor = 1
 			prestige_per_development_from_conversion = 0.2
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -14531,7 +14531,7 @@ maidan-e_naqsh-e_jahan = {
 			legitimacy = 1
 			monthly_splendor = 1.5
 			prestige_per_development_from_conversion = 0.3
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -14601,7 +14601,7 @@ malbork_castle = {
 			devotion = 0.25
 			mercenary_cost = -0.05
 			garrison_size = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -14625,7 +14625,7 @@ malbork_castle = {
 			devotion = 0.5
 			mercenary_cost = -0.05
 			garrison_size = 0.15
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -14649,7 +14649,7 @@ malbork_castle = {
 			devotion = 1
 			mercenary_cost = -0.1
 			garrison_size = 0.25
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -14716,7 +14716,7 @@ malta_forts = {
 		}
 		country_modifiers = {
 			warscore_cost_vs_other_religion = -0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -14738,7 +14738,7 @@ malta_forts = {
 		}
 		country_modifiers = {
 			warscore_cost_vs_other_religion = -0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -14760,7 +14760,7 @@ malta_forts = {
 		}
 		country_modifiers = {
 			warscore_cost_vs_other_religion = -0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -14827,7 +14827,7 @@ mehrangarh_fort = {
 		}
 		country_modifiers = {
 			prestige = 0.25
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -14849,7 +14849,7 @@ mehrangarh_fort = {
 		country_modifiers = {
 			prestige = 0.5
 			advisor_cost = -0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -14872,7 +14872,7 @@ mehrangarh_fort = {
 			prestige = 1
 			advisor_cost = -0.15
 			special_unit_forcelimit = 0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -14937,7 +14937,7 @@ nan_madoll = {
 		}
 		country_modifiers = {
 			global_colonial_growth = 10
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -14957,7 +14957,7 @@ nan_madoll = {
 		country_modifiers = {
 			global_colonial_growth = 15
 			navy_tradition = 0.5
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -14978,7 +14978,7 @@ nan_madoll = {
 			global_colonial_growth = 25
 			navy_tradition = 1
 			colonist_placement_chance = 0.05
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -15051,7 +15051,7 @@ porcelain_tower_nanjing = {
 		country_modifiers = {
 			meritocracy = 0.1
 			global_institution_spread = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -15073,7 +15073,7 @@ porcelain_tower_nanjing = {
 			meritocracy = 0.25
 			global_institution_spread = 0.2
 			embracement_cost = -0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -15095,7 +15095,7 @@ porcelain_tower_nanjing = {
 			meritocracy = 0.5
 			global_institution_spread = 0.3
 			embracement_cost = -0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -15183,7 +15183,7 @@ qhapaq_nam = {
 			monthly_divine_authority = 0.05
 			reinforce_speed = 0.1
 			trade_efficiency = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -15207,7 +15207,7 @@ qhapaq_nam = {
 			monthly_divine_authority = 0.1
 			reinforce_speed = 0.2
 			trade_efficiency = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -15231,7 +15231,7 @@ qhapaq_nam = {
 			monthly_divine_authority = 0.15
 			reinforce_speed = 0.33
 			trade_efficiency = 0.2
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -15318,7 +15318,7 @@ rila_monasteries = {
 			stability_cost_modifier = -0.1
 			religious_unity = 0.1
 			church_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -15339,7 +15339,7 @@ rila_monasteries = {
 			stability_cost_modifier = -0.2
 			religious_unity = 0.1
 			church_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -15360,7 +15360,7 @@ rila_monasteries = {
 			stability_cost_modifier = -0.3
 			religious_unity = 0.25
 			church_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -15435,7 +15435,7 @@ churches_lalibela = {
 		country_modifiers = {
 			global_missionary_strength = 0.005
 			prestige = 0.25
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -15456,7 +15456,7 @@ churches_lalibela = {
 			global_missionary_strength = 0.01
 			missionary_maintenance_cost = -0.05
 			prestige = 0.5
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -15477,7 +15477,7 @@ churches_lalibela = {
 			global_missionary_strength = 0.02
 			missionary_maintenance_cost = -0.1
 			prestige = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -15543,7 +15543,7 @@ royal_palace_caserta = {
 		country_modifiers = {
 			prestige = 0.25
 			reform_progress_growth = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -15564,7 +15564,7 @@ royal_palace_caserta = {
 			prestige = 0.5
 			reform_progress_growth = 0.1
 			governing_capacity = 50
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -15585,7 +15585,7 @@ royal_palace_caserta = {
 			prestige = 1
 			reform_progress_growth = 0.15
 			governing_capacity = 100
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -15662,7 +15662,7 @@ san_antonio_missions = {
 		country_modifiers = {
 			global_heathen_missionary_strength = 0.01
 			institution_spread_from_true_faith = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -15685,7 +15685,7 @@ san_antonio_missions = {
 		country_modifiers = {
 			global_heathen_missionary_strength = 0.02
 			institution_spread_from_true_faith = 0.2
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -15709,7 +15709,7 @@ san_antonio_missions = {
 			global_heathen_missionary_strength = 0.03
 			institution_spread_from_true_faith = 0.3
 			missionaries = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -15775,7 +15775,7 @@ sankore_madrasah = {
 		country_modifiers = {
 			global_institution_spread = 0.15
 			church_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -15796,7 +15796,7 @@ sankore_madrasah = {
 			global_institution_spread = 0.3
 			technology_cost = -0.05
 			church_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -15817,7 +15817,7 @@ sankore_madrasah = {
 			global_institution_spread = 0.5
 			technology_cost = -0.1
 			church_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -15893,7 +15893,7 @@ santa_maria_del_fiore = {
 			monthly_splendor = 0.5
 			prestige_decay = -0.005
 			advisor_cost = -0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -15914,7 +15914,7 @@ santa_maria_del_fiore = {
 			advisor_cost = -0.1
 			monthly_splendor = 1
 			prestige_decay = -0.01
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -15935,7 +15935,7 @@ santa_maria_del_fiore = {
 			advisor_cost = -0.15
 			monthly_splendor = 2
 			prestige_decay = -0.01
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -16011,7 +16011,7 @@ spiral_minaret_samarra = {
 			global_missionary_strength = 0.01
 			prestige = 0.25
 			church_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -16032,7 +16032,7 @@ spiral_minaret_samarra = {
 			global_missionary_strength = 0.02
 			prestige = 0.5
 			church_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -16053,7 +16053,7 @@ spiral_minaret_samarra = {
 			global_missionary_strength = 0.03
 			prestige = 1
 			church_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -16129,7 +16129,7 @@ sultan_ahmed_mosque = {
 		country_modifiers = {
 			prestige_per_development_from_conversion = 0.1
 			tolerance_own = 0.25
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -16150,7 +16150,7 @@ sultan_ahmed_mosque = {
 		country_modifiers = {
 			prestige_per_development_from_conversion = 0.2
 			tolerance_own = 0.5
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -16171,7 +16171,7 @@ sultan_ahmed_mosque = {
 		country_modifiers = {
 			prestige_per_development_from_conversion = 0.3
 			tolerance_own = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -16297,7 +16297,7 @@ sun_temple_konarak = {
 		}
 		country_modifiers = {
 			religious_unity = 0.1		
-			great_project_upgrade_cost = 0.2			
+			
 		}
 		on_upgraded = {
 		}
@@ -16318,7 +16318,7 @@ sun_temple_konarak = {
 		country_modifiers = {
 			prestige_decay = -0.005
 			religious_unity = 0.15
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -16339,7 +16339,7 @@ sun_temple_konarak = {
 		country_modifiers = {
 			prestige_decay = -0.01
 			religious_unity = 0.25
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -16409,7 +16409,7 @@ swayambhunath = {
 		country_modifiers = {
 			church_loyalty_modifier = 0.05
 			brahmins_hindu_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -16432,7 +16432,7 @@ swayambhunath = {
 			church_loyalty_modifier = 0.1
 			brahmins_hindu_loyalty_modifier = 0.1
 			global_heretic_missionary_strength = 0.01
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -16455,7 +16455,7 @@ swayambhunath = {
 			church_loyalty_modifier = 0.15
 			brahmins_hindu_loyalty_modifier = 0.15
 			global_heretic_missionary_strength = 0.02
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -16568,7 +16568,7 @@ white_house = {
 			reform_progress_growth = 0.05
 			state_governing_cost = -0.05
 			reelection_cost = -0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -16589,7 +16589,7 @@ white_house = {
 			reform_progress_growth = 0.1
 			state_governing_cost = -0.15
 			reelection_cost = -0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -16610,7 +16610,7 @@ white_house = {
 			reform_progress_growth = 0.2
 			state_governing_cost = -0.25
 			reelection_cost = -0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -16683,7 +16683,7 @@ tikal = {
 		}
 		country_modifiers = {
 			stability_cost_modifier = -0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -16704,7 +16704,7 @@ tikal = {
 		}
 		country_modifiers = {
 			stability_cost_modifier = -0.2
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -16725,7 +16725,7 @@ tikal = {
 		country_modifiers = {
 			stability_cost_modifier = -0.3
 			global_unrest = -2
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -16801,7 +16801,7 @@ tiwanaku = {
 			yearly_authority = 0.1
 			monthly_divine_authority = 0.05
 			global_missionary_strength = 0.005
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -16823,7 +16823,7 @@ tiwanaku = {
 			monthly_divine_authority = 0.1
 			global_missionary_strength = 0.01
 			religious_unity = 0.15
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -16845,7 +16845,7 @@ tiwanaku = {
 			monthly_divine_authority = 0.15
 			global_missionary_strength = 0.02
 			religious_unity = 0.3
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -16912,7 +16912,7 @@ tortuga_island = {
 		}
 		country_modifiers = {
 			capture_ship_chance = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -16934,7 +16934,7 @@ tortuga_island = {
 		country_modifiers = {
 			power_projection_from_insults = 0.5
 			capture_ship_chance = 0.2
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -16956,7 +16956,7 @@ tortuga_island = {
 		country_modifiers = {
 			power_projection_from_insults = 1
 			capture_ship_chance = 0.3
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -17044,7 +17044,7 @@ ulm_minster_great_project = {
 		country_modifiers = {
 			prestige = 0.25
 			church_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -17066,7 +17066,7 @@ ulm_minster_great_project = {
 			prestige = 0.5
 			tolerance_own = 0.5
 			church_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -17088,7 +17088,7 @@ ulm_minster_great_project = {
 			prestige = 1
 			tolerance_own = 1
 			church_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -17164,7 +17164,7 @@ walls_benin = {
 		country_modifiers = {
 			prestige_from_land = 0.5
 			nobles_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -17186,7 +17186,7 @@ walls_benin = {
 			prestige_from_land = 1
 			global_prov_trade_power_modifier = 0.1
 			nobles_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -17208,7 +17208,7 @@ walls_benin = {
 			prestige_from_land = 1
 			global_prov_trade_power_modifier = 0.2
 			nobles_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -17293,7 +17293,7 @@ winter_palace = {
 		country_modifiers = {
 			yearly_absolutism = 0.25
 			reform_progress_growth = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -17315,7 +17315,7 @@ winter_palace = {
 		country_modifiers = {
 			yearly_absolutism = 0.5
 			reform_progress_growth = 0.15
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -17337,7 +17337,7 @@ winter_palace = {
 		country_modifiers = {
 			yearly_absolutism = 0.5
 			reform_progress_growth = 0.2
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -17403,7 +17403,7 @@ zacatecas_mine_city = {
 			trade_goods_size_modifier = 0.05
 		}
 		country_modifiers = {			
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 			if = {
@@ -17431,7 +17431,7 @@ zacatecas_mine_city = {
 		}
 		country_modifiers = {
 			interest = -0.25
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 			if = {
@@ -17459,7 +17459,7 @@ zacatecas_mine_city = {
 		}
 		country_modifiers = {
 			interest = -0.5
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			if = {
@@ -17533,7 +17533,7 @@ falun_copper_mine = {
 			local_build_time = -0.05
 		}
 		country_modifiers = {	
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -17555,7 +17555,7 @@ falun_copper_mine = {
 		}
 		country_modifiers = {
 			artillery_cost = -0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -17577,7 +17577,7 @@ falun_copper_mine = {
 		}
 		country_modifiers = {
 			artillery_cost = -0.2
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -17643,7 +17643,7 @@ kronborg = {
 		}
 		country_modifiers = {
 			naval_tradition_from_trade = 0.25
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 			owner = {
@@ -17667,7 +17667,7 @@ kronborg = {
 		}
 		country_modifiers = {
 			naval_tradition_from_trade = 0.5
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 			owner = {
@@ -17691,7 +17691,7 @@ kronborg = {
 		}
 		country_modifiers = {
 			naval_tradition_from_trade = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			owner = {
@@ -17760,7 +17760,7 @@ visby_city = {
 		area_modifier = {
 		}
 		country_modifiers = {		
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -17781,7 +17781,7 @@ visby_city = {
 		}
 		country_modifiers = {		
 			global_own_trade_power = 0.15
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -17802,7 +17802,7 @@ visby_city = {
 		}
 		country_modifiers = {		
 			global_own_trade_power = 0.25
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -17870,7 +17870,7 @@ trakai_castle = {
 			prestige = 0.25
 			monthly_splendor = 0.5
 			reform_progress_growth = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -17890,7 +17890,7 @@ trakai_castle = {
 			monthly_splendor = 1
 			reform_progress_growth = 0.1
 			advisor_pool = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -17910,7 +17910,7 @@ trakai_castle = {
 			monthly_splendor = 2
 			reform_progress_growth = 0.2
 			advisor_pool = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -17977,7 +17977,7 @@ salvador_da_bahia = {
 		country_modifiers = {
 			global_trade_power = 0.1
 			global_colonial_growth = 10
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -18001,7 +18001,7 @@ salvador_da_bahia = {
 		country_modifiers = {
 			global_trade_power = 0.15
 			global_colonial_growth = 15
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -18025,7 +18025,7 @@ salvador_da_bahia = {
 		country_modifiers = {
 			global_trade_power = 0.2
 			global_colonial_growth = 20
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -18097,7 +18097,7 @@ mbanza_kongo = {
 		country_modifiers = {
 			institution_spread_from_true_faith = 0.2
 			reform_progress_growth = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -18118,7 +18118,7 @@ mbanza_kongo = {
 			institution_spread_from_true_faith = 0.33
 			reform_progress_growth = 0.15
 			legitimacy = 0.5
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -18140,7 +18140,7 @@ mbanza_kongo = {
 			reform_progress_growth = 0.2
 			legitimacy = 1
 			allow_free_estate_privilege_revocation = yes
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -18215,7 +18215,7 @@ harar_jugol = {
 		}
 		country_modifiers = {			
 			prestige_per_development_from_conversion = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -18236,7 +18236,7 @@ harar_jugol = {
 		country_modifiers = {
 			stability_cost_modifier = -0.1
 			prestige_per_development_from_conversion = 0.2
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -18257,7 +18257,7 @@ harar_jugol = {
 		country_modifiers = {
 			stability_cost_modifier = -0.25
 			prestige_per_development_from_conversion = 0.3
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			custom_tooltip = mechanic_allow_piety_switch_decision_yes
@@ -18325,7 +18325,7 @@ dujiangyan = {
 			local_monthly_devastation = -0.05
 		}
 		country_modifiers = {
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -18347,7 +18347,7 @@ dujiangyan = {
 		}
 		region_modifier = { 
 			local_monthly_devastation = -0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -18369,7 +18369,7 @@ dujiangyan = {
 		}
 		country_modifiers = {
 			global_monthly_devastation = -0.05
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -18467,7 +18467,7 @@ palace_of_the_popes = {
 		}
 		country_modifiers = {
 			church_privilege_slots = 1 
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 			if = {
@@ -18504,7 +18504,7 @@ palace_of_the_popes = {
 			papal_influence = 1
 			church_power_modifier = 0.25
 			monthly_fervor_increase = 0.3
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 			if = {
@@ -18544,7 +18544,7 @@ palace_of_the_popes = {
 			papal_influence = 2
 			church_power_modifier = 0.33
 			monthly_fervor_increase = 0.5
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			if = {
@@ -18701,7 +18701,7 @@ edinburgh_castle = {
 			
 		}
 		country_modifiers = {
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -18725,7 +18725,7 @@ edinburgh_castle = {
 		}
 		country_modifiers = { 
 			nobles_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -18750,7 +18750,7 @@ edinburgh_castle = {
 		country_modifiers = { 
 			nobles_loyalty_modifier = 0.15
 			free_mil_policy = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 		}
@@ -18818,7 +18818,7 @@ aljaferia_palace = {
 		country_modifiers = {
 			harsh_treatment_cost = -0.1
 			global_missionary_strength = 0.01
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 			owner = {
@@ -18853,7 +18853,7 @@ aljaferia_palace = {
 			harsh_treatment_cost = -0.25
 			global_missionary_strength = 0.01
 			global_religious_conversion_resistance = 0.25
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 			owner = {
@@ -18887,7 +18887,7 @@ aljaferia_palace = {
 			harsh_treatment_cost = -0.33
 			global_missionary_strength = 0.02
 			global_religious_conversion_resistance = 0.5
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			owner = {
@@ -18970,7 +18970,7 @@ divrigi_hospital_mosque = {
 		}
 		country_modifiers = {
 			reinforce_speed = 0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -18996,7 +18996,7 @@ divrigi_hospital_mosque = {
 			monthly_piety_accelerator = 0.001
 			innovativeness_gain = 0.2
 			reinforce_speed = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -19018,7 +19018,7 @@ divrigi_hospital_mosque = {
 			monthly_piety_accelerator = 0.001
 			innovativeness_gain = 0.33
 			reinforce_speed = 0.25
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			custom_tooltip = fewer_plagues_tt
@@ -19097,7 +19097,7 @@ st_basil_cathedral = {
 		country_modifiers = {
 			tolerance_own = 2
 			same_religion_advisor_cost = -0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -19122,7 +19122,7 @@ st_basil_cathedral = {
 			same_religion_advisor_cost = -0.1
 			tolerance_own = 2 
 			all_estate_loyalty_equilibrium = 0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 		}
@@ -19147,7 +19147,7 @@ st_basil_cathedral = {
 			same_religion_advisor_cost = -0.15
 			tolerance_own = 2 
 			all_estate_loyalty_equilibrium = 0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			if = {
@@ -19669,7 +19669,7 @@ imperial_city_kyoto = {
 		country_modifiers = {
 			reduced_liberty_desire = 5
 			legitimacy = 0.25
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -19695,7 +19695,7 @@ imperial_city_kyoto = {
 			all_estate_loyalty_equilibrium = 0.05
 			reduced_liberty_desire = 10 
 			legitimacy = 0.5
-			great_project_upgrade_cost = 0.35
+
 		}	
 		on_upgraded = {
 			center_of_trade = 1
@@ -19719,7 +19719,7 @@ imperial_city_kyoto = {
 			reduced_liberty_desire = 10
 			max_absolutism = 10
 			legitimacy = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			owner = { 
@@ -19796,7 +19796,7 @@ kazan_kremlin = {
 			global_autonomy = -0.025
 			garrison_damage = 0.15
 			garrison_size = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -19822,7 +19822,7 @@ kazan_kremlin = {
 			global_autonomy = -0.025
 			garrison_damage = 0.2
 			garrison_size = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}	
 		on_upgraded = {
 		}
@@ -19848,7 +19848,7 @@ kazan_kremlin = {
 			global_autonomy = -0.05
 			garrison_damage = 0.25
 			garrison_size = 0.2
-			great_project_upgrade_cost = 0.5
+
 		}	
 		on_upgraded = {
 		}
@@ -19912,7 +19912,7 @@ narikala_fortress = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -19937,7 +19937,7 @@ narikala_fortress = {
 			
 		}
 		country_modifiers = {
-			great_project_upgrade_cost = 0.35
+
 		}	
 		on_upgraded = {
 		}
@@ -19961,7 +19961,7 @@ narikala_fortress = {
 			local_defensiveness = 0.25
 		}
 		country_modifiers = {
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			
@@ -20033,7 +20033,7 @@ golestan_palace = {
 		country_modifiers = {
 			monthly_persian_influence = 0.03
 			monthly_splendor = 1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -20059,7 +20059,7 @@ golestan_palace = {
 			diplomatic_reputation = 1
 			monthly_persian_influence = 0.05
 			monthly_splendor = 1
-			great_project_upgrade_cost = 0.35
+
 		}	
 		on_upgraded = {
 		}
@@ -20081,7 +20081,7 @@ golestan_palace = {
 			diplomatic_reputation = 2
 			monthly_persian_influence = 0.1
 			monthly_splendor = 2
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			
@@ -20144,7 +20144,7 @@ itchan_kala = {
 		country_modifiers = {
 			placed_merchant_power_modifier = 1
 			center_of_trade_upgrade_cost = -0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -20170,7 +20170,7 @@ itchan_kala = {
 			placed_merchant_power_modifier = 1
 			center_of_trade_upgrade_cost = -0.2
 			reduced_trade_penalty_on_non_main_tradenode = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}	
 		on_upgraded = {
 		}
@@ -20192,7 +20192,7 @@ itchan_kala = {
 			placed_merchant_power_modifier = 1
 			center_of_trade_upgrade_cost = -0.2
 			reduced_trade_penalty_on_non_main_tradenode = 0.25 
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			
@@ -20262,7 +20262,7 @@ shah_rukn_e_alam_tomb = {
 		country_modifiers = {
 			tolerance_own = 1
 			relation_with_heretics = 10
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -20287,7 +20287,7 @@ shah_rukn_e_alam_tomb = {
 		country_modifiers = {
 			tolerance_own = 1
 			relation_with_heretics = 20
-			great_project_upgrade_cost = 0.35
+
 		}	
 		on_upgraded = {
 		}
@@ -20308,7 +20308,7 @@ shah_rukn_e_alam_tomb = {
 		country_modifiers = {
 			tolerance_own = 2
 			relation_with_heretics = 20
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			custom_tooltip = enable_baseline_invite_scholar_tt
@@ -20377,7 +20377,7 @@ nizwa_fort = {
 		}
 		country_modifiers = {
 			autonomy_change_time = -0.15
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 			add_base_manpower = 1
@@ -20417,7 +20417,7 @@ nizwa_fort = {
 		country_modifiers = {
 			autonomy_change_time = -0.25
 			max_absolutism = 5
-			great_project_upgrade_cost = 0.35
+
 		}	
 		on_upgraded = {
 			add_base_manpower = 2
@@ -20455,7 +20455,7 @@ nizwa_fort = {
 			autonomy_change_time = -0.25
 			all_estate_possible_privileges = 1
 			max_absolutism = 10
-			great_project_upgrade_cost = 0.5
+
 		}
 		conditional_modifier = {
 			trigger = { 
@@ -20542,7 +20542,7 @@ city_of_sanaa = {
 		}
 		country_modifiers = {
 			mercantilism_cost = -0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -20590,7 +20590,7 @@ city_of_sanaa = {
 		}
 		country_modifiers = {
 			mercantilism_cost = -0.2
-			great_project_upgrade_cost = 0.35
+
 		}	
 		on_upgraded = {
 		}
@@ -20636,7 +20636,7 @@ city_of_sanaa = {
 		country_modifiers = {
 			mercantilism_cost = -0.33
 			merchants = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			center_of_trade = 1
@@ -20723,7 +20723,7 @@ al_azhar_university = {
 		country_modifiers = {
 			advisor_pool = 1
 			yearly_government_power = 0.25
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 			if = {
@@ -20767,7 +20767,7 @@ al_azhar_university = {
 			advisor_pool = 1
 			idea_cost = -0.05
 			yearly_government_power = 0.5
-			great_project_upgrade_cost = 0.35
+
 		}	
 		on_upgraded = {
 			if = {
@@ -20807,7 +20807,7 @@ al_azhar_university = {
 			advisor_pool = 2
 			idea_cost = -0.05
 			yearly_government_power = 1
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			if = {
@@ -20885,7 +20885,7 @@ venetian_arsenal_gp = {
 			
 		}
 		country_modifiers = {
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 		}
@@ -20909,7 +20909,7 @@ venetian_arsenal_gp = {
 			
 		}
 		country_modifiers = {
-			great_project_upgrade_cost = 0.35
+
 		}	
 		on_upgraded = {
 		}
@@ -20932,7 +20932,7 @@ venetian_arsenal_gp = {
 		country_modifiers = {
 			allowed_galleass_fraction = 0.25
 			has_galleass = yes
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = { }
 	}
@@ -21007,7 +21007,7 @@ amsterdam_bourse = {
 		}
 
 		country_modifiers = {
-			great_project_upgrade_cost = 0.2
+
 		}
 
 		on_upgraded = {
@@ -21034,7 +21034,7 @@ amsterdam_bourse = {
 
 		country_modifiers = {
 			trade_company_investment_cost = -0.05
-			great_project_upgrade_cost = 0.35
+
 		}
 
 		on_upgraded = {
@@ -21064,7 +21064,7 @@ amsterdam_bourse = {
 
 		country_modifiers = {
 			trade_company_investment_cost = -0.1
-			great_project_upgrade_cost = 0.5
+
 		}
 		
 		on_upgraded = {
@@ -21133,7 +21133,7 @@ golden_kremnica = {
 		country_modifiers = {
 			monthly_gold_inflation_modifier = -0.1
 			gold_depletion_chance_modifier = -0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {
 			154 = {
@@ -21157,7 +21157,7 @@ golden_kremnica = {
 			monthly_gold_inflation_modifier = -0.2
 			gold_depletion_chance_modifier = -0.2
 			interest = -0.25
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {
 			154 = {
@@ -21182,7 +21182,7 @@ golden_kremnica = {
 			monthly_gold_inflation_modifier = -0.33
 			gold_depletion_chance_modifier = -0.33
 			interest = -0.5
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {
 			154 = {
@@ -21235,7 +21235,7 @@ schonbrunn_palace = {
 		area_modifier = {}
 		country_modifiers = {
 			diplomats = 1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {}
 	}
@@ -21248,7 +21248,7 @@ schonbrunn_palace = {
 			monthly_splendor = 1
 			chance_to_inherit = 0.05
 			diplomats = 1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {}
 	}
@@ -21262,7 +21262,7 @@ schonbrunn_palace = {
 			chance_to_inherit = 0.1 
 			diplomats = 1
 			years_to_integrate_personal_union = -5
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {}
 	}
@@ -21316,7 +21316,7 @@ tzintzuntzan = {
 		country_modifiers = {
 			diplomatic_reputation = 1
 			culture_conversion_time = -0.1
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {}
 	}
@@ -21329,7 +21329,7 @@ tzintzuntzan = {
 			blood_gain_modifier = 0.1
 			diplomatic_reputation = 1
 			culture_conversion_time = -0.2
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {}
 	}
@@ -21343,7 +21343,7 @@ tzintzuntzan = {
 			diplomatic_reputation = 2
 			culture_conversion_time = -0.3
 			ignore_coring_distance = yes
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {}
 	}
@@ -21412,7 +21412,7 @@ city_of_sarai = {
 		country_modifiers = {
 			horde_unity = 0.5
 			envoy_travel_time = -0.15
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {}
 	}
@@ -21428,7 +21428,7 @@ city_of_sarai = {
 		country_modifiers = {
 			horde_unity = 0.5
 			envoy_travel_time = -0.15
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {}
 	}
@@ -21444,7 +21444,7 @@ city_of_sarai = {
 		country_modifiers = {
 			horde_unity = 1 
 			envoy_travel_time = -0.25
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {}
 	}
@@ -21481,7 +21481,7 @@ afaq_khoja_mausoleum = {
 			monthly_piety_accelerator = 0.001
 			religious_unity = 0.25
 			church_loyalty_modifier = 0.05
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {}
 	}
@@ -21494,7 +21494,7 @@ afaq_khoja_mausoleum = {
 			monthly_piety_accelerator = 0.002
 			religious_unity = 0.33
 			church_loyalty_modifier = 0.1
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {}
 	}
@@ -21507,7 +21507,7 @@ afaq_khoja_mausoleum = {
 			monthly_piety_accelerator = 0.003
 			religious_unity = 0.5
 			church_loyalty_modifier = 0.15
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {}
 	}
@@ -21544,7 +21544,7 @@ citadel_of_aleppo = {
 			local_manpower_modifier = 0.25
 		}
 		country_modifiers = {
-			great_project_upgrade_cost = 0.2
+
 		}
 		on_upgraded = {}
 	}
@@ -21557,7 +21557,7 @@ citadel_of_aleppo = {
 			local_manpower_modifier = 0.33
 		}
 		country_modifiers = {
-			great_project_upgrade_cost = 0.35
+
 		}
 		on_upgraded = {}
 	}
@@ -21571,7 +21571,7 @@ citadel_of_aleppo = {
 			local_defender_dice_roll_bonus = 1 
 		}
 		country_modifiers = {
-			great_project_upgrade_cost = 0.5
+
 		}
 		on_upgraded = {}
 	}

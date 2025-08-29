@@ -2548,4 +2548,4 @@
  build_manufactories_mission_tooltip:0 " provinces owned by §Y[Root.GetName]§! have a Manufactory."
  hin_industrial_tt:0 " owned provinces in the §YBengal§! region have a §YManufactory§!."
  peasants_means_of_production_tt:0 " owned provinces have a Mill, Textile Manufactory, Weapons Manufactory, Naval Equipment Manufactory or Furnace."
- mechanic_unlock_special_state_edicts_yes:2 "Has access to Age-unique §YState Edicts§!\n§YAge of Discovery§!: §G+35.0%§! Local Tax Modifier\n§YAge of Reformation§!: §G-20.0%§! Local Culture Conversion Cost\n§YAge of Absolutism§!: §G+25.0%§! Local Production Efficiency\n§YAge of Revolutions§!: §G+33.0%§! Local Goods Produced Modifier"
+ mechanic_unlock_special_state_edicts_yes:2 "Has access to Age-unique §YState Edicts§!\n§YAge of Discovery§!: §G+35.0%§! Local Tax Modifier\n§YAge of Reformation§!: §G-20.0%§! Culture Conversion Cost\n§YAge of Absolutism§!: §G-25%§! Production Efficiency\n§YAge of Revolutions§!: §G+33.0%§! Local Goods Produced Modifier"

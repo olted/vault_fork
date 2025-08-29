@@ -149,7 +149,7 @@ kanhe_certificate_decision = {
 	empire = celestial_empire 
 	trigger = {
 		OR = { 
-			full_idea_group = free_trade_ideas 
+			full_idea_group = free_trade_ideas
 			full_idea_group = mercantilism_ideas
 			any_subject_country = { is_colonial_nation = yes } 
 			num_of_merchants = 4 

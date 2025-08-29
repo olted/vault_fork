@@ -1237,10 +1237,7 @@ ming_missions_2 = {
 					num_of_light_ship = 25
 				}
 				AND = {
-					OR= {
-						has_idea_group = free_trade_ideas
-						has_idea_group = mercantilism_ideas
-					}
+					has_idea_group = free_trade_ideas 
 					OR = {
                         north_america = { has_discovered = ROOT }
                         south_america = { has_discovered = ROOT }
@@ -6473,7 +6470,7 @@ ming_missions_5_b = {
 			}
 			else = {
 				OR = { 
-					full_idea_group = free_trade_ideas 
+					full_idea_group = free_trade_ideas
 					full_idea_group = mercantilism_ideas
 					dip = 6 
 					monthly_dip = 10 
@@ -6621,10 +6618,7 @@ DOM_Qing_Missions_5_dynamic_b = {
 				has_reform = mercantilistic_approach_reform
 			}
 			OR = {
-				OR= {
-					has_idea_group = free_trade_ideas
-					has_idea_group = mercantilism_ideas
-				}
+				full_idea_group = free_trade_ideas 
 				dip = 6 
 				if = {
 					limit = { has_estate = estate_burghers }

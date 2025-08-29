@@ -13,8 +13,8 @@ innovative_adm = {
 		}
 	}
 	
-	yearly_innovativeness = 0.15
-	global_institution_spread = 0.25
+	idea_cost = -0.05
+	centralize_state_cost = -0.15
 
 	effect = {}
 	removed_effect = {}
@@ -63,8 +63,8 @@ decentralisation_adm = {
 		}
 	}
 	
-	inflation_reduction = 0.1
-	production_efficiency = 0.15
+	governing_capacity_modifier = 0.1
+	global_missionary_strength = 0.01
 
 	effect = {}
 	removed_effect = {}
@@ -87,8 +87,8 @@ decentralisationex_adm = {
 		}
 	}
 	
-	inflation_reduction = 0.1
-	production_efficiency = 0.15
+	governing_capacity_modifier = 0.1
+	global_missionary_strength = 0.01
 
 	effect = {}
 	removed_effect = {}
@@ -138,6 +138,7 @@ administrative_adm = {
 	}
 	
 	governing_capacity = 250
+	national_tax_modifier = 0.1
 
 	effect = {}
 	removed_effect = {}
@@ -187,7 +188,7 @@ centralisation_adm = {
 	}
 	
 	land_maintenance_modifier = -0.1
-	advisor_cost = -0.15
+	advisor_cost = -0.1
 
 	effect = {}
 	removed_effect = {}
@@ -212,7 +213,7 @@ centralisationex_adm = {
 	}
 	
 	land_maintenance_modifier = -0.1
-	advisor_cost = -0.15
+	advisor_cost = -0.1
 
 	effect = {}
 	removed_effect = {}
@@ -270,7 +271,7 @@ diplomatic_adm = {
 	}
 }
 
-trade_adm = { 
+free_trade_adm = { 
 	monarch_power = ADM
 	
 	potential = {
@@ -287,6 +288,30 @@ trade_adm = {
 	
 	center_of_trade_upgrade_cost = -0.15
 	prestige_decay = -0.005
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 0.5				
+	}
+}
+
+mercantilism_adm = { 
+	monarch_power = ADM
+	
+	potential = {
+		has_idea_group = mercantilism_ideas
+	}
+	
+	allow = {
+		full_idea_group = mercantilism_ideas
+		OR = {
+			full_idea_group = mercantilism_ideas
+			full_idea_group = indigenous_ideas
+		}
+	}
+	
+	great_project_upgrade_cost = -0.25
 
 	effect = {}
 	removed_effect = {}

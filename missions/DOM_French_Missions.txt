@@ -3414,7 +3414,7 @@ french_missions_3_normal_continued = {
 			if = { 
 				limit = { has_dlc = "Mare Nostrum" }
 				OR = {
-					full_idea_group = free_trade_ideas
+					full_idea_group = free_trade_ideas 
 					full_idea_group = mercantilism_ideas
 					mercantilism = 50 
 				}
@@ -4844,7 +4844,7 @@ french_missions_4_normal_contiuation = {
 				value = 12
 			}
 			OR = { 
-				full_idea_group = free_trade_ideas
+				full_idea_group = free_trade_ideas 
 				full_idea_group = mercantilism_ideas
 				ruler_has_personality = entrepreneur_personality 
 				home_trade_node = { highest_value_trade_node = yes } 
@@ -4892,7 +4892,7 @@ french_missions_4_normal_contiuation = {
 			}
 			else = { mercantilism = 35 } 
 			OR = { 
-				full_idea_group = free_trade_ideas 
+				full_idea_group = free_trade_ideas
 				full_idea_group = mercantilism_ideas
 				home_trade_node = {
 					trade_share = {
@@ -6503,7 +6503,7 @@ french_rev_missions_5 = {
 			1269 = { #Channel
 				trade_node_value = 1000
 			}
-			full_idea_group = free_trade_ideas 
+			full_idea_group = free_trade_ideas
 			full_idea_group = mercantilism_ideas
 			num_of_light_ship = 200 
 		}
