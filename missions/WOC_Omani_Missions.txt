@@ -962,7 +962,8 @@ OMA_3 = {
 				trade_node_value = 90
 			}
 			OR = {
-				full_idea_group = trade_ideas
+				full_idea_group = free_trade_ideas
+				full_idea_group = mercantilism_ideas
 				dip = 5
 			}
 			if = {

@@ -296,13 +296,13 @@ trade_mil = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = trade_ideas
+		has_idea_group = free_trade_ideas
 	}
 	
 	allow = {
-		full_idea_group = trade_ideas
+		full_idea_group = free_trade_ideas
 		OR = {
-			full_idea_group = trade_ideas
+			full_idea_group = free_trade_ideas
 			full_idea_group = indigenous_ideas
 		}
 	}
@@ -532,7 +532,7 @@ offensive_mil = {
 		}
 	}
 	
-	siege_ability = 0.1
+	artillery_barrage_cost = -0.25
 	fire_damage = 0.1
 	
 	effect = {}

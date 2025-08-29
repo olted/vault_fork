@@ -878,7 +878,8 @@ mam_missions_2 = {
 			OR = {
 				exploration_ideas = 1
 				mercantilism = 30
-				full_idea_group = trade_ideas
+				full_idea_group = free_trade_ideas
+				full_idea_group = mercantilism_ideas
 			}
 			OR = {
 				custom_trigger_tooltip = {

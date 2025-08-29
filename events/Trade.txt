@@ -22,15 +22,15 @@ country_event = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			trade_ideas = 1
+			free_trade_ideas = 1
 		}
 		modifier = {
 			factor = 3
-			trade_ideas = 3
+			free_trade_ideas = 3
 		}
 		modifier = {
 			factor = 5
-			trade_ideas = 7
+			free_trade_ideas = 7
 		}
 	}
 	
@@ -87,15 +87,15 @@ country_event = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			trade_ideas = 1
+			free_trade_ideas = 1
 		}
 		modifier = {
 			factor = 3
-			trade_ideas = 3
+			free_trade_ideas = 3
 		}
 		modifier = {
 			factor = 5
-			trade_ideas = 7
+			free_trade_ideas = 7
 		}
 	}
 	
@@ -260,11 +260,11 @@ country_event = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			NOT = { trade_ideas = 3 }
+			NOT = { free_trade_ideas = 3 }
 		}
 		modifier = {
 			factor = 1.5
-			NOT = { trade_ideas = 7 }
+			NOT = { free_trade_ideas = 7 }
 		}		
 	}
 	

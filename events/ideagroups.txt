@@ -3786,7 +3786,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR= {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = business_booming }
 	}
 
@@ -3813,7 +3816,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR= {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "out_of_date_commerce" }
 	}
 	
@@ -3844,7 +3850,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = trade_ideas
+		OR= {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "adventuring_merchants" }
 		NOT = { has_country_modifier = "poor_merchants" }
 	}
@@ -3872,7 +3881,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = trade_ideas
+		OR= {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "adventuring_merchants" }
 		NOT = { has_country_modifier = "poor_merchants" }
 	}
@@ -3905,7 +3917,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR= {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "trade_policy_working" }
 		NOT = { has_country_modifier = "trade_policy_failing" }
 	}
@@ -3933,7 +3948,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR= {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "trade_policy_working" }
 		NOT = { has_country_modifier = "trade_policy_failing" }
 	}
@@ -3965,7 +3983,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR= {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		any_active_trade_node = {
 			NOT = {
 				has_trade_modifier = {
@@ -4011,7 +4032,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR= {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "competitive_advantage" }
 	}
 	
@@ -4039,7 +4063,8 @@ country_event = {
 
 	trigger = {
 		OR = {
-			has_idea_group = trade_ideas
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
 			has_idea_group = imperial_ideas
 		}
 		NOT = { has_country_modifier = "cooperation_with_merchant_class" }
@@ -4070,7 +4095,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR= {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { mercantilism = 95 }
 	}
 	
@@ -4094,7 +4122,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = trade_ideas
+		OR= {
+			has_idea_group = free_trade_ideas
+			has_idea_group = mercantilism_ideas
+		}
 		NOT = { has_country_modifier = "cooperation_with_merchant_class" }
 		NOT = { has_country_modifier = "trade_collapse" }
 	}
