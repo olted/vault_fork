@@ -316,7 +316,6 @@ free_trade_dip = {
 	}
 	
 	trade_efficiency = 0.15
-	merchants = 1
 
 	effect = {}
 	removed_effect = {}

@@ -306,7 +306,7 @@ mercantilism_ideas = {
 	}
 
 	mercantilism_idea_6 = {
-		build_cost = -0.1
+		burghers_loyalty_modifier = 0.1
 	}
 
 	mercantilism_idea_7 = {
@@ -340,7 +340,7 @@ free_trade_ideas = {
 	}
 
 	free_trade_idea_5 = {
-		global_trade_goods_size_modifier = 0.15
+		global_trade_goods_size_modifier = 0.1
 	}
 
 	free_trade_idea_6 = {
@@ -365,7 +365,7 @@ religious_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	church_attendance_duty = { 
-		development_cost_in_primary_culture = -0.2
+		development_cost_in_primary_culture = -0.15
 	}
 	divine_supremacy = {
 		missionaries = 2
@@ -901,7 +901,7 @@ administrative_ideas = {
 		adm_tech_cost_modifier = -0.1
 	}
 	civil_servants = {
-		global_allowed_num_of_manufactories = 1
+		global_unrest = -2
 	}
 
 	ai_will_do = {

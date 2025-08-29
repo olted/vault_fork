@@ -1013,7 +1013,7 @@ take_capital_imperial_ideas = {
 	attacker = {
 		badboy_factor = 1
 		prestige_factor = 1.5
-		peace_cost_factor = 0.85
+		peace_cost_factor = 1
 		
 		
 		allowed_provinces = {

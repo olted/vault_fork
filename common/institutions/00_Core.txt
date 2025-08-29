@@ -645,17 +645,17 @@ new_world_i = {
 				continent = europe
 			}
 		}
-		modifier = {
-			factor = 0.5
-			scale = yes
-			potential = {
-				development = 30
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_global_30
-				development = 30
-			}
-		}
+		# modifier = {
+		# 	factor = 0.5
+		# 	scale = yes
+		# 	potential = {
+		# 		development = 30
+		# 	}
+		# 	custom_trigger_tooltip = {
+		# 		tooltip = tooltip_development_global_30
+		# 		development = 30
+		# 	}
+		# }
 		
 		modifier = {
 			factor = 0.5
@@ -932,17 +932,17 @@ printing_press = {
 				}
 			}
 		}
-		modifier = {
-			factor = 0.33
-			scale = yes
-			potential = {
-				development = 30
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_global_30
-				development = 30
-			}
-		}
+		# modifier = {
+		# 	factor = 0.33
+		# 	scale = yes
+		# 	potential = {
+		# 		development = 30
+		# 	}
+		# 	custom_trigger_tooltip = {
+		# 		tooltip = tooltip_development_global_30
+		# 		development = 30
+		# 	}
+		# }
 		modifier = {
 			factor = 0.1
 			scale = yes
