@@ -13,6 +13,7 @@ country_decisions = {
                 tag = HSA
                 tag = KOL
                 tag = BOH
+				culture_group = germanic
             }
 			culture_group = germanic
 		}
@@ -95,6 +96,7 @@ country_decisions = {
 				tag = SWA
 				tag = FKN
                 tag = BOH
+				culture_group = germanic
             }
 			culture_group = germanic
 		}

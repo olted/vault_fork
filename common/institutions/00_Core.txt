@@ -142,17 +142,6 @@ feudalism = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1
-			scale = yes
-			potential = {
-				development = 30
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_global_30
-				development = 30
-			}
-		}
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
@@ -336,24 +325,7 @@ renaissance = {
 			}
 		}
 		modifier = {
-			factor = 0.25
-			scale = yes
-			potential = {
-				development = 20
-				NOT = {
-					continent = new_world
-					continent = north_america
-					continent = south_america
-					continent = oceania
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_global_20
-				development = 20
-			}
-		}
-		modifier = {
-			factor = 0.25
+			factor = 0.1
 			scale = yes
 			potential = {
 				continent = europe
@@ -633,7 +605,7 @@ new_world_i = {
 		}
 		
 		modifier = {
-			factor = 0.2
+			factor = 0.05
 			scale = yes
 			potential = {
 				continent = europe
@@ -645,17 +617,7 @@ new_world_i = {
 				continent = europe
 			}
 		}
-		modifier = {
-			factor = 0.5
-			scale = yes
-			potential = {
-				development = 30
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_global_30
-				development = 30
-			}
-		}
+
 		
 		modifier = {
 			factor = 0.5
@@ -930,17 +892,6 @@ printing_press = {
 					NOT = { owned_by = ROOT }
 					printing_press = 100
 				}
-			}
-		}
-		modifier = {
-			factor = 0.33
-			scale = yes
-			potential = {
-				development = 30
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_global_30
-				development = 30
 			}
 		}
 		modifier = {

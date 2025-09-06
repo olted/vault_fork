@@ -17,6 +17,7 @@ country_decisions = {
 				tag = SAV
 				tag = TUS
 				tag = ITA
+				culture_group = italian
 			}
 			OR = {
 				is_free_or_tributary_trigger = yes

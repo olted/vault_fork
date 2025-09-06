@@ -75,7 +75,8 @@ technology = { #Temples
 
 	# Temple
 	temple = yes
-	allowed_idea_groups = 1
+	gravel_road = yes
+	
 	
 }
 
@@ -87,8 +88,8 @@ technology = { #National Ideas
 		renaissance = 0.15
 	}
 	production_efficiency	 =	0.02
-	gravel_road = yes
 	ramparts = yes
+	allowed_idea_groups = 1
 	
 }
 
@@ -100,7 +101,6 @@ technology = { #Workshop
 		renaissance = 0.3
 	}
 
-	allowed_idea_groups = 2
 	workshop = yes
 }
 
@@ -114,6 +114,7 @@ technology = { #Renaissance Thought
 	
 	#Noble Republic
 	farm_estate = yes
+	allowed_idea_groups = 2
 }
 
 technology = { #Courthouse
@@ -124,7 +125,6 @@ technology = { #Courthouse
 		renaissance = 0.5
 	}
 	royal_road = yes
-	allowed_idea_groups = 3
 
 }
 
@@ -154,7 +154,7 @@ technology = { #Modern Theocracy
 	}
 	
 	
-	allowed_idea_groups	= 4
+	allowed_idea_groups = 3
 	theocratic_government = yes
 }
 
@@ -200,7 +200,6 @@ technology = { #Improved Drainage
 	}
 	
 	#Improved Drainage
-	allowed_idea_groups	= 5
 	plantations = yes
 
 }
@@ -216,6 +215,7 @@ technology = { #Scientific Experimentation
 	}
 	
 	production_efficiency 	=	0.02
+	allowed_idea_groups	= 4
 	
 }
 
@@ -246,7 +246,6 @@ technology = { #Metallurgy
 	
 	town_hall = yes
 	mills = yes
-	allowed_idea_groups = 6
 
 }
 
@@ -280,6 +279,7 @@ technology = { #National Sovereignty
 	
 	cathedral = yes
 	production_efficiency	=	0.02
+	allowed_idea_groups = 5
 }
 
 technology = { #Cathedral
@@ -294,7 +294,6 @@ technology = { #Cathedral
 	}
 	
 	counting_house = yes
-	allowed_idea_groups = 7
 }
 
 technology = { #Absolute Rulership
@@ -307,7 +306,7 @@ technology = { #Absolute Rulership
 		printing_press = 0.5
 		global_trade = 0.5
 	}
-	
+	allowed_idea_groups = 6
 	republican_dictatorship = yes
 	governing_capacity = 250
 }
@@ -341,7 +340,7 @@ technology = { #The Constitution
 		manufactories = 0.3
 	}
 	
-	allowed_idea_groups = 8
+	allowed_idea_groups = 7
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
 
@@ -377,6 +376,7 @@ technology = { #Bonds and Tontines
 	}
 	furnace = yes  
 	governing_capacity = 250
+	allowed_idea_groups = 7
 }
 
 technology = { #Improved Production
@@ -409,7 +409,7 @@ technology = { #Separation of Powers
 		enlightenment = 0.5
 	}
 	
-	
+	allowed_idea_groups = 8
 }
 
 technology = { #Modern Bureaucracy
