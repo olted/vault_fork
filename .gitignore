@@ -1,4 +1,2 @@
-descriptor.mod
-descriptor.mod
-descriptor.mod
-.gitignore
+build/
+CLAUDE.md

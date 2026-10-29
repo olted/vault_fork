@@ -376,7 +376,7 @@ technology = { #Bonds and Tontines
 	}
 	furnace = yes  
 	governing_capacity = 250
-	allowed_idea_groups = 7
+	allowed_idea_groups = 8
 }
 
 technology = { #Improved Production
@@ -409,7 +409,6 @@ technology = { #Separation of Powers
 		enlightenment = 0.5
 	}
 	
-	allowed_idea_groups = 8
 }
 
 technology = { #Modern Bureaucracy
