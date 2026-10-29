@@ -481,8 +481,7 @@ plutocracy_mil = {
 		}
 	}
 	
-	artillery_power = 0.1
-	artillery_cost = -0.1
+	reinforce_speed = 0.33
 	
 	effect = {}
 	removed_effect = {}
@@ -531,8 +530,7 @@ theocracy_mil = {
 		}
 	}
 	
-	land_morale = 0.05
-	manpower_in_true_faith_provinces= 0.1
+	morale_damage_received = -0.1
 	
 	effect = {}
 	removed_effect = {}
@@ -606,8 +604,8 @@ quality_mil = {
 		}
 	}
 	
-	infantry_power = 0.1
-	drill_gain_modifier = 0.2
+	fire_damage_received = -0.1
+	reinforce_speed = 0.15
 	
 	effect = {}
 	removed_effect = {}

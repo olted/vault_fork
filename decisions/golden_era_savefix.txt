@@ -1,0 +1,17 @@
+country_decisions = {
+	golden_era_savefix = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			has_had_golden_age = yes
+			in_golden_age = no
+		}
+		effect = {
+			reset_golden_age = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
